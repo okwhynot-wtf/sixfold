@@ -1,0 +1,101 @@
+﻿id,aspect,palette_label,view,phase,image,master
+S001,landscape,Original copper & teal,Sculpture orbit,0.04,landscape/stills/001-original-sculpture-orbit.jpg,landscape/masters/001-original-sculpture-orbit.png
+S002,landscape,Orchid & jade,Endless descent,0.10999999999999999,landscape/stills/002-orchid-endless-descent.jpg,landscape/masters/002-orchid-endless-descent.png
+S003,landscape,Rose gold,Tunnel interior,0.7351781200000002,landscape/stills/003-rose-tunnel-interior.jpg,landscape/masters/003-rose-tunnel-interior.png
+S004,landscape,Violet & amber,Winding light,0.25599999999999995,landscape/stills/004-violet-winding-light.jpg,landscape/masters/004-violet-winding-light.png
+S005,landscape,Ember,Sculpture orbit,0.5678640000000001,landscape/stills/005-ember-sculpture-orbit.jpg,landscape/masters/005-ember-sculpture-orbit.png
+S006,landscape,Moonstone,Endless descent,0.40199999999999997,landscape/stills/006-moonstone-endless-descent.jpg,landscape/masters/006-moonstone-endless-descent.png
+S007,landscape,Verdigris & brass,Twin passages,0.4749999999999999,landscape/stills/007-verdigris-twin-passages.jpg,landscape/masters/007-verdigris-twin-passages.png
+S008,landscape,Glacier,Endless descent,0.548,landscape/stills/008-glacier-endless-descent.jpg,landscape/masters/008-glacier-endless-descent.png
+S009,landscape,Graphite & silver,Sculpture orbit,0.09572800000000026,landscape/stills/009-silver-sculpture-orbit.jpg,landscape/masters/009-silver-sculpture-orbit.png
+S010,landscape,Deep cobalt,Endless descent,0.694,landscape/stills/010-cobalt-endless-descent.jpg,landscape/masters/010-cobalt-endless-descent.png
+S011,landscape,Glacier,Tunnel interior,0.7858906000000003,landscape/stills/011-glacier-tunnel-interior.jpg,landscape/masters/011-glacier-tunnel-interior.png
+S012,landscape,Graphite & silver,Winding light,0.84,landscape/stills/012-silver-winding-light.jpg,landscape/masters/012-silver-winding-light.png
+S013,landscape,Deep cobalt,Sculpture orbit,0.6235920000000004,landscape/stills/013-cobalt-sculpture-orbit.jpg,landscape/masters/013-cobalt-sculpture-orbit.png
+S014,landscape,Original copper & teal,Endless descent,0.986,landscape/stills/014-original-endless-descent.jpg,landscape/masters/014-original-endless-descent.png
+S015,landscape,Orchid & jade,Twin passages,0.05899999999999994,landscape/stills/015-orchid-twin-passages.jpg,landscape/masters/015-orchid-twin-passages.png
+S016,landscape,Rose gold,Endless descent,0.1319999999999999,landscape/stills/016-rose-endless-descent.jpg,landscape/masters/016-rose-endless-descent.png
+S017,landscape,Violet & amber,Sculpture orbit,0.15145600000000048,landscape/stills/017-violet-sculpture-orbit.jpg,landscape/masters/017-violet-sculpture-orbit.png
+S018,landscape,Ember,Endless descent,0.2779999999999998,landscape/stills/018-ember-endless-descent.jpg,landscape/masters/018-ember-endless-descent.png
+S019,landscape,Moonstone,Tunnel interior,0.8366030800000009,landscape/stills/019-moonstone-tunnel-interior.jpg,landscape/masters/019-moonstone-tunnel-interior.png
+S020,landscape,Verdigris & brass,Winding light,0.42399999999999993,landscape/stills/020-verdigris-winding-light.jpg,landscape/masters/020-verdigris-winding-light.png
+S021,landscape,Ember,Sculpture orbit,0.6793200000000006,landscape/stills/021-ember-sculpture-orbit.jpg,landscape/masters/021-ember-sculpture-orbit.png
+S022,landscape,Moonstone,Endless descent,0.5699999999999998,landscape/stills/022-moonstone-endless-descent.jpg,landscape/masters/022-moonstone-endless-descent.png
+S023,landscape,Verdigris & brass,Twin passages,0.6429999999999998,landscape/stills/023-verdigris-twin-passages.jpg,landscape/masters/023-verdigris-twin-passages.png
+S024,landscape,Glacier,Endless descent,0.7159999999999997,landscape/stills/024-glacier-endless-descent.jpg,landscape/masters/024-glacier-endless-descent.png
+S025,landscape,Graphite & silver,Sculpture orbit,0.2071839999999998,landscape/stills/025-silver-sculpture-orbit.jpg,landscape/masters/025-silver-sculpture-orbit.png
+S026,landscape,Deep cobalt,Endless descent,0.8619999999999999,landscape/stills/026-cobalt-endless-descent.jpg,landscape/masters/026-cobalt-endless-descent.png
+S027,landscape,Original copper & teal,Tunnel interior,0.8873155600000011,landscape/stills/027-original-tunnel-interior.jpg,landscape/masters/027-original-tunnel-interior.png
+S028,landscape,Orchid & jade,Winding light,0.008000000000000007,landscape/stills/028-orchid-winding-light.jpg,landscape/masters/028-orchid-winding-light.png
+S029,landscape,Rose gold,Sculpture orbit,0.735047999999999,landscape/stills/029-rose-sculpture-orbit.jpg,landscape/masters/029-rose-sculpture-orbit.png
+S030,landscape,Violet & amber,Endless descent,0.15399999999999991,landscape/stills/030-violet-endless-descent.jpg,landscape/masters/030-violet-endless-descent.png
+S031,landscape,Orchid & jade,Twin passages,0.22699999999999987,landscape/stills/031-orchid-twin-passages.jpg,landscape/masters/031-orchid-twin-passages.png
+S032,landscape,Rose gold,Endless descent,0.2999999999999998,landscape/stills/032-rose-endless-descent.jpg,landscape/masters/032-rose-endless-descent.png
+S033,landscape,Violet & amber,Sculpture orbit,0.26291200000000003,landscape/stills/033-violet-sculpture-orbit.jpg,landscape/masters/033-violet-sculpture-orbit.png
+S034,landscape,Ember,Endless descent,0.44599999999999973,landscape/stills/034-ember-endless-descent.jpg,landscape/masters/034-ember-endless-descent.png
+S035,square,Ember,Sculpture orbit,0.23,square/stills/035-ember-sculpture-orbit.jpg,square/masters/035-ember-sculpture-orbit.png
+S036,square,Moonstone,Endless descent,0.22299999999999998,square/stills/036-moonstone-endless-descent.jpg,square/masters/036-moonstone-endless-descent.png
+S037,square,Verdigris & brass,Tunnel interior,0.8898781200000001,square/stills/037-verdigris-tunnel-interior.jpg,square/masters/037-verdigris-tunnel-interior.png
+S038,square,Glacier,Winding light,0.36899999999999994,square/stills/038-glacier-winding-light.jpg,square/masters/038-glacier-winding-light.png
+S039,square,Graphite & silver,Sculpture orbit,0.7578640000000001,square/stills/039-silver-sculpture-orbit.jpg,square/masters/039-silver-sculpture-orbit.png
+S040,square,Deep cobalt,Endless descent,0.515,square/stills/040-cobalt-endless-descent.jpg,square/masters/040-cobalt-endless-descent.png
+S041,square,Original copper & teal,Twin passages,0.588,square/stills/041-original-twin-passages.jpg,square/masters/041-original-twin-passages.png
+S042,square,Orchid & jade,Endless descent,0.661,square/stills/042-orchid-endless-descent.jpg,square/masters/042-orchid-endless-descent.png
+S043,square,Rose gold,Sculpture orbit,0.2857280000000002,square/stills/043-rose-sculpture-orbit.jpg,square/masters/043-rose-sculpture-orbit.png
+S044,square,Violet & amber,Endless descent,0.8069999999999999,square/stills/044-violet-endless-descent.jpg,square/masters/044-violet-endless-descent.png
+S045,square,Orchid & jade,Tunnel interior,0.9405906000000003,square/stills/045-orchid-tunnel-interior.jpg,square/masters/045-orchid-tunnel-interior.png
+S046,square,Rose gold,Winding light,0.953,square/stills/046-rose-winding-light.jpg,square/masters/046-rose-winding-light.png
+S047,square,Violet & amber,Sculpture orbit,0.8135920000000008,square/stills/047-violet-sculpture-orbit.jpg,square/masters/047-violet-sculpture-orbit.png
+S048,square,Ember,Endless descent,0.09899999999999998,square/stills/048-ember-endless-descent.jpg,square/masters/048-ember-endless-descent.png
+S049,square,Moonstone,Twin passages,0.17199999999999993,square/stills/049-moonstone-twin-passages.jpg,square/masters/049-moonstone-twin-passages.png
+S050,square,Verdigris & brass,Endless descent,0.24499999999999988,square/stills/050-verdigris-endless-descent.jpg,square/masters/050-verdigris-endless-descent.png
+S051,square,Glacier,Sculpture orbit,0.34145600000000087,square/stills/051-glacier-sculpture-orbit.jpg,square/masters/051-glacier-sculpture-orbit.png
+S052,square,Graphite & silver,Endless descent,0.3909999999999998,square/stills/052-silver-endless-descent.jpg,square/masters/052-silver-endless-descent.png
+S053,square,Deep cobalt,Tunnel interior,0.0813030800000008,square/stills/053-cobalt-tunnel-interior.jpg,square/masters/053-cobalt-tunnel-interior.png
+S054,square,Original copper & teal,Winding light,0.5369999999999999,square/stills/054-original-winding-light.jpg,square/masters/054-original-winding-light.png
+S055,square,Graphite & silver,Sculpture orbit,0.869320000000001,square/stills/055-silver-sculpture-orbit.jpg,square/masters/055-silver-sculpture-orbit.png
+S056,square,Deep cobalt,Endless descent,0.6829999999999998,square/stills/056-cobalt-endless-descent.jpg,square/masters/056-cobalt-endless-descent.png
+S057,square,Original copper & teal,Twin passages,0.7559999999999998,square/stills/057-original-twin-passages.jpg,square/masters/057-original-twin-passages.png
+S058,square,Orchid & jade,Endless descent,0.8289999999999997,square/stills/058-orchid-endless-descent.jpg,square/masters/058-orchid-endless-descent.png
+S059,square,Rose gold,Sculpture orbit,0.3971839999999993,square/stills/059-rose-sculpture-orbit.jpg,square/masters/059-rose-sculpture-orbit.png
+S060,square,Violet & amber,Endless descent,0.9749999999999999,square/stills/060-violet-endless-descent.jpg,square/masters/060-violet-endless-descent.png
+S061,square,Ember,Tunnel interior,0.132015560000001,square/stills/061-ember-tunnel-interior.jpg,square/masters/061-ember-tunnel-interior.png
+S062,square,Moonstone,Winding light,0.121,square/stills/062-moonstone-winding-light.jpg,square/masters/062-moonstone-winding-light.png
+S063,square,Verdigris & brass,Sculpture orbit,0.9250479999999985,square/stills/063-verdigris-sculpture-orbit.jpg,square/masters/063-verdigris-sculpture-orbit.png
+S064,square,Glacier,Endless descent,0.2669999999999999,square/stills/064-glacier-endless-descent.jpg,square/masters/064-glacier-endless-descent.png
+S065,square,Moonstone,Twin passages,0.33999999999999986,square/stills/065-moonstone-twin-passages.jpg,square/masters/065-moonstone-twin-passages.png
+S066,square,Verdigris & brass,Endless descent,0.4129999999999998,square/stills/066-verdigris-endless-descent.jpg,square/masters/066-verdigris-endless-descent.png
+S067,square,Glacier,Sculpture orbit,0.45291199999999954,square/stills/067-glacier-sculpture-orbit.jpg,square/masters/067-glacier-sculpture-orbit.png
+S068,portrait,Graphite & silver,Sculpture orbit,0.42,portrait/stills/068-silver-sculpture-orbit.jpg,portrait/masters/068-silver-sculpture-orbit.png
+S069,portrait,Deep cobalt,Endless descent,0.33599999999999997,portrait/stills/069-cobalt-endless-descent.jpg,portrait/masters/069-cobalt-endless-descent.png
+S070,portrait,Original copper & teal,Tunnel interior,0.13457812000000013,portrait/stills/070-original-tunnel-interior.jpg,portrait/masters/070-original-tunnel-interior.png
+S071,portrait,Orchid & jade,Winding light,0.482,portrait/stills/071-orchid-winding-light.jpg,portrait/masters/071-orchid-winding-light.png
+S072,portrait,Rose gold,Sculpture orbit,0.947864,portrait/stills/072-rose-sculpture-orbit.jpg,portrait/masters/072-rose-sculpture-orbit.png
+S073,portrait,Violet & amber,Endless descent,0.628,portrait/stills/073-violet-endless-descent.jpg,portrait/masters/073-violet-endless-descent.png
+S074,portrait,Ember,Twin passages,0.701,portrait/stills/074-ember-twin-passages.jpg,portrait/masters/074-ember-twin-passages.png
+S075,portrait,Moonstone,Endless descent,0.774,portrait/stills/075-moonstone-endless-descent.jpg,portrait/masters/075-moonstone-endless-descent.png
+S076,portrait,Verdigris & brass,Sculpture orbit,0.47572800000000015,portrait/stills/076-verdigris-sculpture-orbit.jpg,portrait/masters/076-verdigris-sculpture-orbit.png
+S077,portrait,Glacier,Endless descent,0.9199999999999999,portrait/stills/077-glacier-endless-descent.jpg,portrait/masters/077-glacier-endless-descent.png
+S078,portrait,Moonstone,Tunnel interior,0.18529060000000053,portrait/stills/078-moonstone-tunnel-interior.jpg,portrait/masters/078-moonstone-tunnel-interior.png
+S079,portrait,Verdigris & brass,Winding light,0.06600000000000006,portrait/stills/079-verdigris-winding-light.jpg,portrait/masters/079-verdigris-winding-light.png
+S080,portrait,Glacier,Sculpture orbit,0.0035920000000002617,portrait/stills/080-glacier-sculpture-orbit.jpg,portrait/masters/080-glacier-sculpture-orbit.png
+S081,portrait,Graphite & silver,Endless descent,0.21199999999999997,portrait/stills/081-silver-endless-descent.jpg,portrait/masters/081-silver-endless-descent.png
+S082,portrait,Deep cobalt,Twin passages,0.2849999999999999,portrait/stills/082-cobalt-twin-passages.jpg,portrait/masters/082-cobalt-twin-passages.png
+S083,portrait,Original copper & teal,Endless descent,0.3579999999999999,portrait/stills/083-original-endless-descent.jpg,portrait/masters/083-original-endless-descent.png
+S084,portrait,Orchid & jade,Sculpture orbit,0.5314560000000004,portrait/stills/084-orchid-sculpture-orbit.jpg,portrait/masters/084-orchid-sculpture-orbit.png
+S085,portrait,Rose gold,Endless descent,0.5039999999999998,portrait/stills/085-rose-endless-descent.jpg,portrait/masters/085-rose-endless-descent.png
+S086,portrait,Violet & amber,Tunnel interior,0.23600308000000075,portrait/stills/086-violet-tunnel-interior.jpg,portrait/masters/086-violet-tunnel-interior.png
+S087,portrait,Ember,Winding light,0.6499999999999999,portrait/stills/087-ember-winding-light.jpg,portrait/masters/087-ember-winding-light.png
+S088,portrait,Rose gold,Sculpture orbit,0.05932000000000137,portrait/stills/088-rose-sculpture-orbit.jpg,portrait/masters/088-rose-sculpture-orbit.png
+S089,portrait,Violet & amber,Endless descent,0.7959999999999998,portrait/stills/089-violet-endless-descent.jpg,portrait/masters/089-violet-endless-descent.png
+S090,portrait,Ember,Twin passages,0.8689999999999998,portrait/stills/090-ember-twin-passages.jpg,portrait/masters/090-ember-twin-passages.png
+S091,portrait,Moonstone,Endless descent,0.9419999999999997,portrait/stills/091-moonstone-endless-descent.jpg,portrait/masters/091-moonstone-endless-descent.png
+S092,portrait,Verdigris & brass,Sculpture orbit,0.5871840000000006,portrait/stills/092-verdigris-sculpture-orbit.jpg,portrait/masters/092-verdigris-sculpture-orbit.png
+S093,portrait,Glacier,Endless descent,0.08800000000000008,portrait/stills/093-glacier-endless-descent.jpg,portrait/masters/093-glacier-endless-descent.png
+S094,portrait,Graphite & silver,Tunnel interior,0.2867155600000009,portrait/stills/094-silver-tunnel-interior.jpg,portrait/masters/094-silver-tunnel-interior.png
+S095,portrait,Deep cobalt,Winding light,0.23399999999999999,portrait/stills/095-cobalt-winding-light.jpg,portrait/masters/095-cobalt-winding-light.png
+S096,portrait,Original copper & teal,Sculpture orbit,0.11504799999999982,portrait/stills/096-original-sculpture-orbit.jpg,portrait/masters/096-original-sculpture-orbit.png
+S097,portrait,Orchid & jade,Endless descent,0.3799999999999999,portrait/stills/097-orchid-endless-descent.jpg,portrait/masters/097-orchid-endless-descent.png
+S098,portrait,Deep cobalt,Twin passages,0.45299999999999985,portrait/stills/098-cobalt-twin-passages.jpg,portrait/masters/098-cobalt-twin-passages.png
+S099,portrait,Original copper & teal,Endless descent,0.5259999999999998,portrait/stills/099-original-endless-descent.jpg,portrait/masters/099-original-endless-descent.png
+S100,portrait,Orchid & jade,Sculpture orbit,0.6429120000000008,portrait/stills/100-orchid-sculpture-orbit.jpg,portrait/masters/100-orchid-sculpture-orbit.png

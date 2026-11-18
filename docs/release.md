@@ -12,13 +12,21 @@ while these items are completed.
 - [x] Prior art and unresolved novelty question.
 - [x] Credit to okwhynot-wtf and disclosure of substantial GPT assistance.
 - [x] MIT for code and CC BY 4.0 for writing and images.
-- [ ] Select the first public film and final caption.
-- [ ] Record the film's source and rendering settings.
+- [x] Publish six films, 100 stills and a featured homepage film.
+- [x] Record the films' source, settings and checksums.
+- [x] Package the current TouchDesigner project and supporting files.
+- [x] Check rendering from a fresh folder and decode all six films.
 - [ ] Review the public technical text and resolve corrections.
 - [ ] Prepare a standalone technical note from the repository sources.
 - [ ] Record mathematical review status and reviewer contributions.
 
 ## Zenodo archive and DOI
+
+The [visualisation edition of 18 November 2026](https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18)
+distributes the completed media. It has no Zenodo DOI. The first citable
+research archive below remains pending. Include the six MP4 release
+attachments explicitly and check that they are present in the Zenodo record;
+they are distributed separately from the Git source archive.
 
 - [ ] Connect the public repository to the owner's Zenodo account.
 - [ ] Verify author, title, description, licences and citation metadata.

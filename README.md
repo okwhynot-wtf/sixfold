@@ -9,6 +9,9 @@ A family of self-similar spatial fractals, explored through mathematics and movi
 **[Current results](docs/results.md)** ·
 **[Reproduce the work](docs/reproduce.md)**
 
+**[Six films and 100 stills](https://okwhynot-wtf.github.io/sixfold/gallery/index.html)** ·
+**[Download the visualisation edition](https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18)**
+
 Six contracting similarities arrange smaller copies around a central passage.
 Their height, scale and tilt are coupled by an exact periodic contact condition.
 This repository documents the construction and the investigations of its
@@ -56,12 +59,15 @@ then rebuild or push to the main branch for GitHub Pages deployment.
     uv run --isolated --python 3.12 --with-requirements site-requirements.txt python scripts/build_site.py
     python -m http.server 8765 --directory _site
 
-The homepage uses an existing rendered still. The media configuration accepts
-the finished film when it is selected. See [media instructions](docs/media.md).
+The homepage features Chromatic descent. The gallery includes all 100 JPEGs,
+lossless PNG masters and six films. Film binaries are GitHub Release attachments;
+the current TouchDesigner project, rendering source and still library are in
+the repository. See [media instructions](docs/media.md) for the tested environment,
+checksums and commands to download the films into the offline gallery.
 
 ## Credit and reuse
 
 Code and original certificate data use the [MIT licence](LICENSE).
-Writing and images use [CC BY 4.0](CONTENT-LICENSE.md).
+Writing, images and films use [CC BY 4.0](CONTENT-LICENSE.md).
 [CITATION.cff](CITATION.cff) supplies citation metadata. A Zenodo DOI is pending
 the first archived release.

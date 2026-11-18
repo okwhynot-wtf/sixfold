@@ -5,5 +5,6 @@ __pycache__/
 _site/
 *.mp4
 *.mov
+*.partial
 .DS_Store
 Thumbs.db

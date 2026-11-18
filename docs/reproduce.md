@@ -63,5 +63,8 @@ colour settings, textures and TouchDesigner project. Its OpenGL renderer
 needs a compatible GPU and additional dependencies. Follow its instructions
 from **research**, so the original sibling paths resolve.
 
-Film exports are being organised in the working visualisation folder.
-[Media instructions](media.md) explain how to attach the selected public film.
+The completed visualisation edition includes six films and 100 stills.
+[Media instructions](media.md) cover downloads, checksums, the tested
+environment and the TouchDesigner project. The pinned render environment is:
+
+    uv run --isolated --python 3.12 --with-requirements render-requirements.txt python research/sixfold/render_film.py .build/example.png --mode 2 --phase 0.75 --settings research/sixfold/montage_colours.json

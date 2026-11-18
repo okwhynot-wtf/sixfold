@@ -43,10 +43,28 @@ This example uses the montage palette. The movie panel snapshots your current cu
 | Twin passages | A fixed orthographic sight line along the two phase-09 axes. Amber and teal distinguish the two opposite lobes. |
 | Endless descent | A logarithmic zoom follows the repeated address 0. One cycle spans four generations. The renderer blends adjacent coordinate frames to maintain detail at the same apparent scale. |
 | Winding light | The same descent carries an illuminated contact path. Four generations take one highlighted loop to the next. **Winding-light.mp4** plays this study in 32 seconds. |
+| Tunnel flight | A perspective flight along the upper lobe's phase-09 clear passage, followed by a turn back toward the sculpture. Two additional geometric levels preserve nearby wall detail. |
+| Sculpture orbit | A full orbit around the whole assembly, useful for individual compositions and silhouettes. |
+
+## Website and social asset library
+
+Open **assets/2026-11-18-library/index.html** to review 100 numbered still compositions and the six videos. There are 34 landscape, 33 square and 33 portrait stills, spanning ten palettes. The gallery filters by aspect ratio and can save a list of favourite IDs. Contact sheets and a CSV catalogue are included.
+
+Each aspect folder contains **stills** (enlarged JPEGs), **masters** (native lossless PNGs), **videos**, and **posters**. The JPEG and PNG with the same number are the same composition. All images and movies use native dimensions within 1280 × 1280, followed by FFmpeg's 1.5× Lanczos enlargement. Stills average four subpixel samples at the native resolution; films average two.
+
+The two films in each format are **Chromatic descent**, a 48-second loop with slowly evolving colours, and **Through the passage**, a 36-second tunnel journey with a colour progression and short opening/closing fades. Both are silent H.264 MP4s at 30 fps. The original montage exports remain separate.
+
+The render recipes and palettes are in the library's **source** folder. To build another collection, use a new output folder:
+
+```powershell
+uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_assets.py sixfold/assets/collection-02
+```
 
 ## Research and rendering
 
 The six similarities come from the handover’s phase-07 `geometry.maps()` at the reference height. The field samples all 1,679,616 depth-eight word centres. The shader applies four outer maps and lights a thin finite-resolution envelope of that field. Surface thickness, material, exposure and view-dependent lighting are artistic choices.
+
+The close-up grain is visible in uncompressed renders: shading on the sampled surface creates much of the fine mottling, while the larger colour patches follow the recursive branch addresses. The revised montage preserves the original metal finish and lighting.
 
 The earlier glass experiment is preserved in **Sixfold-glass.mp4** and **Metal-and-glass.mp4**.
 
@@ -66,7 +84,9 @@ uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python 
 uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_film.py sixfold/Sixfold-glass.mp4 --material glass --fps 24 --seconds 48 --supersample 2
 uv run --python 3.12 --with pillow --with imageio-ffmpeg python sixfold/compare_films.py
 uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_film.py sixfold/Winding-light.mp4 --mode 3 --fps 24 --seconds 32
-uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_montage.py sixfold/exports/Sixfold-Endless-Descent-1080p.mp4 --settings sixfold/montage_colours.json
+uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_montage.py sixfold/exports/Sixfold-Endless-Descent-1080p-revised.mp4 --settings sixfold/montage_colours.json
+uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_montage.py sixfold/exports/Sixfold-Endless-Descent-square.mp4 --settings sixfold/montage_colours.json --aspect square
+uv run --python 3.12 --with pillow --with moderngl --with imageio-ffmpeg python sixfold/render_montage.py sixfold/exports/Sixfold-Endless-Descent-portrait.mp4 --settings sixfold/montage_colours.json --aspect portrait
 ```
 
 To refresh the component in the open Sixfold project, run this in the TouchDesigner textport or through its MCP Python tool. Save after checking the output. The installer preserves existing camera settings.

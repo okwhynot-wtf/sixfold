@@ -5,3 +5,4 @@ research/** -text
 *.ply binary
 *.png binary
 *.toe binary
+*.jpg binary

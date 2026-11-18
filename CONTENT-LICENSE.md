@@ -1,6 +1,7 @@
-# Writing and images
+# Writing, images and films
 
-The original writing and images in this repository are licensed under
+The original writing, images and films in this repository and its visualisation
+release downloads are licensed under
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 Attribute them to **okwhynot-wtf**, link to the project and licence, and identify
 changes. The full terms are in the [legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en).
