@@ -1,4 +1,18 @@
-# Sources for a future paper
+# Paper draft and source map
+
+The first working manuscript is **Sixfold: a contact-defined family of spatial
+self-similar sets**, by **okwhynot-wtf**, dated 18 November 2026.
+
+**[Read draft 0.1 (PDF)](../output/pdf/sixfold-draft.pdf)** ·
+**[Editable source and build instructions](../paper/README.md)** ·
+**[Claims and review priorities](../paper/claims.md)**
+
+The draft gives the exact family definition, the computer-assisted dimension
+and linking arguments, a bounded originality assessment, and explicit open
+problems. All six verification groups passed on a fresh run recorded in the
+[draft receipt](../paper/verification.json). The analytic deductions still await
+independent mathematical review. The [literature check notes](../paper/literature-check.md)
+record the additional common-fixed-point precedent found while drafting.
 
 The repository is the working record from which the paper can be developed.
 The paper should identify one archived version and refer to its definitions,
@@ -10,6 +24,10 @@ The first source snapshot is archived as version **zenodo**, DOI
 **1c660bedf8cd3e52bad8e5d033535dcde6e06b6e**. It includes the research evidence
 and stills; the six MP4 films are separate GitHub downloads. See
 [archive scope and citation](release.md).
+
+**The new manuscript is not contained in that earlier deposit.** Its DOI cites
+the underlying evidence archive. Archive the reviewed manuscript and the exact
+evidence version it uses together in a subsequent release.
 
 | Proposed part | Repository source |
 | --- | --- |

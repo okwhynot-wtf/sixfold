@@ -33,7 +33,7 @@ originality open. See [provenance and AI use](docs/provenance.md).
 | Run the computational checks or generate a point cloud | [Reproduction](docs/reproduce.md) |
 | Compare published constructions | [Related work](docs/related.md) |
 | Understand the rendering and add the films later | [Images and films](docs/media.md) |
-| Prepare the paper and its supporting references | [Paper source map](docs/paper.md) |
+| Read the paper draft, evidence map and open problems | [Working paper](docs/paper.md) |
 | Cite the archived release and check its contents | [Archive and citation](docs/release.md) |
 
 ## Generate and verify

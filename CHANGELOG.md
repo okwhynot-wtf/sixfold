@@ -1,5 +1,17 @@
 # Changelog
 
+## Paper draft 0.1 — 18 November 2026
+
+- Drafted an editable LaTeX manuscript and PDF with the exact definition,
+  computer-assisted arguments, three existing figures, related work and open problems.
+- Added a claim register distinguishing parameter scope, finite evidence and
+  analytic review requirements, and a fresh passing six-group verification receipt.
+- Rechecked the cited dimension theorems and added the Bárány–Verma
+  common-fixed-point precedent to the manuscript's literature comparison.
+- Kept historical priority and topological classification open, disclosed
+  substantial GPT assistance, and distinguished the new draft from the earlier
+  DOI evidence archive.
+
 ## Homepage films and archive metadata — 18 November 2026
 
 - Featured the revised 1:54 Endless descent montage at the top of the homepage

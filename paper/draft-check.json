@@ -1,0 +1,15 @@
+{
+  "draft": "0.1",
+  "date": "2026-11-18",
+  "pdf_pages": 16,
+  "pdf_sha256": "3c52bd7cdf80379404d2122fbd6e193fba1ea13a6645cc4e0f8e59bdeb2889c5",
+  "science_checks_passed": 6,
+  "science_scope": "Reproduces symbolic, integer and interval checks. Analytic deductions and theorem applications await independent mathematical review.",
+  "latex_reference_and_overflow_check": "passed",
+  "pdf_page_text_and_link_check": "passed",
+  "visual_review": "All 16 pages inspected; changed pages 6 and 14-16 re-rendered and inspected after final edits.",
+  "archived_evidence_links_checked": 19,
+  "bibliography_entries": 17,
+  "documentation_build": "passed",
+  "independent_mathematical_review": "pending"
+}
