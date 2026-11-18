@@ -1,0 +1,70 @@
+{
+  "unique_stills": 100,
+  "png_masters": 100,
+  "jpeg_deliveries": 100,
+  "gallery_cards": 100,
+  "gallery_videos": 6,
+  "all_gallery_links_exist": true,
+  "films": [
+    {
+      "file": "landscape/videos/01-chromatic-descent.mp4",
+      "width": 1920,
+      "height": 1080,
+      "seconds": 48,
+      "frames": 1440,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    },
+    {
+      "file": "landscape/videos/02-through-the-passage.mp4",
+      "width": 1920,
+      "height": 1080,
+      "seconds": 36,
+      "frames": 1080,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    },
+    {
+      "file": "portrait/videos/01-chromatic-descent.mp4",
+      "width": 1080,
+      "height": 1920,
+      "seconds": 48,
+      "frames": 1440,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    },
+    {
+      "file": "portrait/videos/02-through-the-passage.mp4",
+      "width": 1080,
+      "height": 1920,
+      "seconds": 36,
+      "frames": 1080,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    },
+    {
+      "file": "square/videos/01-chromatic-descent.mp4",
+      "width": 1920,
+      "height": 1920,
+      "seconds": 48,
+      "frames": 1440,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    },
+    {
+      "file": "square/videos/02-through-the-passage.mp4",
+      "width": 1920,
+      "height": 1920,
+      "seconds": 36,
+      "frames": 1080,
+      "fps": 30,
+      "decode": "passed",
+      "freeze_check": "no freeze of 2.5 seconds or longer"
+    }
+  ]
+}
