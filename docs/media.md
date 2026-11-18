@@ -76,7 +76,11 @@ From the repository root:
     python scripts/check_visuals.py
     python scripts/download_films.py
 
-The second command downloads approximately 592 MiB and verifies every MP4.
+After downloading the films, reproduce the GPU and full-decode checks with:
+
+    uv run --isolated --python 3.12 --with-requirements render-requirements.txt python scripts/check_render.py
+
+The download command retrieves approximately 592 MiB and verifies every MP4.
 It restores the film paths used by the original offline gallery. Existing
 files are checked before being reused.
 
