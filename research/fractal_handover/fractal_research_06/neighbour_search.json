@@ -1,0 +1,501 @@
+{
+  "results": [
+    {
+      "depth": 1,
+      "retained_states": 2,
+      "minimum_metric": 3.637399046039994,
+      "translation_norm": 3.637399046039994,
+      "rotation_operator_distance": 0.8728260506565974,
+      "rotation_angle_degrees": 51.75048201253835,
+      "left_word": [
+        0
+      ],
+      "right_word": [
+        1
+      ],
+      "normalized_translation": [
+        0.5737330778145872,
+        1.8186995230199967,
+        -3.097391518765572
+      ],
+      "relative_quaternion_xyzw": [
+        0.21627879604242933,
+        -0.37460586334531426,
+        0.05788141503062304,
+        0.89974644835298
+      ],
+      "elapsed_seconds": 1.1920928955078125e-06
+    },
+    {
+      "depth": 2,
+      "retained_states": 2,
+      "minimum_metric": 2.979679214776865,
+      "translation_norm": 2.979679214776865,
+      "rotation_operator_distance": 0.23113749936869074,
+      "rotation_angle_degrees": 13.272861473373263,
+      "left_word": [
+        0,
+        1
+      ],
+      "right_word": [
+        1,
+        0
+      ],
+      "normalized_translation": [
+        -0.061840903210449605,
+        -0.06127421375915023,
+        -2.978407191166377
+      ],
+      "relative_quaternion_xyzw": [
+        -0.014455144966130014,
+        0.025037045512110764,
+        0.1118942851071293,
+        0.9932994835881056
+      ],
+      "elapsed_seconds": 0.012401580810546875
+    },
+    {
+      "depth": 3,
+      "retained_states": 10,
+      "minimum_metric": 2.677830028041049,
+      "translation_norm": 2.677830028041049,
+      "rotation_operator_distance": 1.9357846901924967,
+      "rotation_angle_degrees": 150.88338826945522,
+      "left_word": [
+        0,
+        3,
+        3
+      ],
+      "right_word": [
+        2,
+        5,
+        5
+      ],
+      "normalized_translation": [
+        -0.004220982536394463,
+        1.338915014020524,
+        -2.319064989950729
+      ],
+      "relative_quaternion_xyzw": [
+        -0.4330119846417637,
+        -0.749998757685769,
+        -0.4322245670046061,
+        0.25136508966856397
+      ],
+      "elapsed_seconds": 0.020378589630126953
+    },
+    {
+      "depth": 4,
+      "retained_states": 22,
+      "minimum_metric": 1.9357846901924964,
+      "translation_norm": 1.236171293022929,
+      "rotation_operator_distance": 1.9357846901924964,
+      "rotation_angle_degrees": 150.8833882694552,
+      "left_word": [
+        0,
+        3,
+        3,
+        1
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1
+      ],
+      "normalized_translation": [
+        -0.30501629137733854,
+        0.09315690203103798,
+        -1.194322535704813
+      ],
+      "relative_quaternion_xyzw": [
+        -0.48307323687489157,
+        -0.8367073900440671,
+        0.05810837251872562,
+        0.2513650896685639
+      ],
+      "elapsed_seconds": 0.027248382568359375
+    },
+    {
+      "depth": 5,
+      "retained_states": 60,
+      "minimum_metric": 1.524229056165902,
+      "translation_norm": 0.5189285944607047,
+      "rotation_operator_distance": 1.524229056165902,
+      "rotation_angle_degrees": 99.30193259682996,
+      "left_word": [
+        0,
+        3,
+        3,
+        1,
+        5
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1,
+        3
+      ],
+      "normalized_translation": [
+        -0.2467079868986533,
+        0.2446418088006926,
+        -0.38545095762768816
+      ],
+      "relative_quaternion_xyzw": [
+        -0.37139113332949336,
+        -0.6432683124072691,
+        -0.17056687325514758,
+        0.6474422337822124
+      ],
+      "elapsed_seconds": 0.033333539962768555
+    },
+    {
+      "depth": 6,
+      "retained_states": 231,
+      "minimum_metric": 0.8963042633063993,
+      "translation_norm": 0.5825792198685207,
+      "rotation_operator_distance": 0.8963042633063993,
+      "rotation_angle_degrees": 53.250376614242796,
+      "left_word": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        2
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1,
+        3,
+        0
+      ],
+      "normalized_translation": [
+        -0.35988454334505476,
+        0.41826358718494505,
+        -0.1869150462619783
+      ],
+      "relative_quaternion_xyzw": [
+        -0.1604202826734454,
+        -0.2778560801549683,
+        -0.3128924171871132,
+        0.8939573070872531
+      ],
+      "elapsed_seconds": 0.04003167152404785
+    },
+    {
+      "depth": 7,
+      "retained_states": 1139,
+      "minimum_metric": 0.7599036376330429,
+      "translation_norm": 0.39783704017346194,
+      "rotation_operator_distance": 0.7599036376330429,
+      "rotation_angle_degrees": 44.6613964739655,
+      "left_word": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        5,
+        2
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1,
+        3,
+        3,
+        0
+      ],
+      "normalized_translation": [
+        -0.2528929365722599,
+        0.29798010499103744,
+        0.07434601667453314
+      ],
+      "relative_quaternion_xyzw": [
+        0.09343777623388738,
+        0.1618389757833449,
+        -0.3308185492257752,
+        0.9250062785614038
+      ],
+      "elapsed_seconds": 0.04707670211791992
+    },
+    {
+      "depth": 8,
+      "retained_states": 5361,
+      "minimum_metric": 0.2975901227419758,
+      "translation_norm": 0.2975901227419758,
+      "rotation_operator_distance": 0.2222176283214347,
+      "rotation_angle_degrees": 12.75847556583262,
+      "left_word": [
+        0,
+        1,
+        1,
+        5,
+        3,
+        5,
+        1,
+        3
+      ],
+      "right_word": [
+        1,
+        0,
+        0,
+        2,
+        4,
+        2,
+        0,
+        4
+      ],
+      "normalized_translation": [
+        0.1764773227080055,
+        -0.23953791802631857,
+        0.006100946731074463
+      ],
+      "relative_quaternion_xyzw": [
+        -0.001146026449874026,
+        0.001984976037999466,
+        0.11108517037708311,
+        0.99380824680408
+      ],
+      "elapsed_seconds": 0.05550408363342285
+    },
+    {
+      "depth": 9,
+      "retained_states": 22651,
+      "minimum_metric": 0.3261906746642902,
+      "translation_norm": 0.3261906746642902,
+      "rotation_operator_distance": 0.22221762832143474,
+      "rotation_angle_degrees": 12.758475565832622,
+      "left_word": [
+        0,
+        1,
+        1,
+        5,
+        3,
+        5,
+        1,
+        3,
+        1
+      ],
+      "right_word": [
+        1,
+        0,
+        0,
+        2,
+        4,
+        2,
+        0,
+        4,
+        1
+      ],
+      "normalized_translation": [
+        -0.04047744553265698,
+        -0.28223404321857487,
+        0.15844834328446353
+      ],
+      "relative_quaternion_xyzw": [
+        0.026519482171517495,
+        0.04990304258748437,
+        0.09566384891936512,
+        0.99380824680408
+      ],
+      "elapsed_seconds": 0.08210611343383789
+    },
+    {
+      "depth": 10,
+      "retained_states": 91793,
+      "minimum_metric": 0.17882955930566768,
+      "translation_norm": 0.12293150598364337,
+      "rotation_operator_distance": 0.17882955930566768,
+      "rotation_angle_degrees": 10.25988139400878,
+      "left_word": [
+        0,
+        3,
+        3,
+        1,
+        3,
+        4,
+        3,
+        0,
+        4,
+        3
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1,
+        5,
+        4,
+        5,
+        2,
+        4,
+        5
+      ],
+      "normalized_translation": [
+        0.10093330039521595,
+        -0.07005659743015132,
+        -0.004086219676591283
+      ],
+      "relative_quaternion_xyzw": [
+        -0.016619904084511666,
+        -0.028786518291295273,
+        0.08300673450540856,
+        -0.9959944764804849
+      ],
+      "elapsed_seconds": 0.15014863014221191
+    },
+    {
+      "depth": 11,
+      "retained_states": 372137,
+      "minimum_metric": 0.15010715123889684,
+      "translation_norm": 0.15010715123889684,
+      "rotation_operator_distance": 0.11091725138843932,
+      "rotation_angle_degrees": 6.358352578798651,
+      "left_word": [
+        0,
+        3,
+        1,
+        3,
+        1,
+        5,
+        3,
+        5,
+        4,
+        2,
+        5
+      ],
+      "right_word": [
+        2,
+        5,
+        1,
+        5,
+        1,
+        3,
+        5,
+        3,
+        4,
+        0,
+        3
+      ],
+      "normalized_translation": [
+        -0.1257907375143673,
+        0.08187632000772492,
+        -0.0022617317792395105
+      ],
+      "relative_quaternion_xyzw": [
+        -0.007533724276108157,
+        -0.01304879321643366,
+        -0.053372569340606926,
+        0.9984609861362178
+      ],
+      "elapsed_seconds": 0.3886854648590088
+    },
+    {
+      "depth": 12,
+      "retained_states": 1480016,
+      "minimum_metric": 0.11091725138843932,
+      "translation_norm": 0.0463133630288271,
+      "rotation_operator_distance": 0.11091725138843932,
+      "rotation_angle_degrees": 6.358352578798651,
+      "left_word": [
+        0,
+        3,
+        1,
+        3,
+        1,
+        5,
+        3,
+        5,
+        4,
+        2,
+        5,
+        1
+      ],
+      "right_word": [
+        2,
+        5,
+        1,
+        5,
+        1,
+        3,
+        5,
+        3,
+        4,
+        0,
+        3,
+        1
+      ],
+      "normalized_translation": [
+        -0.0391503711190064,
+        0.024673740328787615,
+        -0.001839177661771034
+      ],
+      "relative_quaternion_xyzw": [
+        -0.019855799066226386,
+        -0.03439125280758203,
+        -0.03871237706029152,
+        0.9984609861362178
+      ],
+      "elapsed_seconds": 1.342388391494751
+    },
+    {
+      "depth": 13,
+      "retained_states": 5867593,
+      "minimum_metric": 0.1043801285212127,
+      "translation_norm": 0.024572409622427502,
+      "rotation_operator_distance": 0.1043801285212127,
+      "rotation_angle_degrees": 5.983259131455592,
+      "left_word": [
+        0,
+        3,
+        3,
+        1,
+        5,
+        2,
+        1,
+        4,
+        5,
+        4,
+        2,
+        1,
+        3
+      ],
+      "right_word": [
+        2,
+        5,
+        5,
+        1,
+        3,
+        0,
+        1,
+        4,
+        3,
+        4,
+        0,
+        1,
+        5
+      ],
+      "normalized_translation": [
+        -0.020637694793014548,
+        0.013332307275693903,
+        0.00037209002839010054
+      ],
+      "relative_quaternion_xyzw": [
+        0.0075712971294350255,
+        0.013113871307382069,
+        -0.04994501623422952,
+        0.9986371699433553
+      ],
+      "elapsed_seconds": 4.782771348953247
+    }
+  ],
+  "pruning_translation_norm": 5,
+  "metric": "max(||R-I||_operator, ||t||_2)",
+  "scope": "Numerical finite-depth diagnostic. No all-scale OSC conclusion."
+}

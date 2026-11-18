@@ -1,0 +1,9 @@
+{
+  "candidate_count": 19,
+  "disconnected_certificates": 10,
+  "strong_separation_certificates": 1,
+  "unresolved": 9,
+  "maximum_depth": 8,
+  "coefficient_precision_decimal_digits": 70,
+  "status": "Computer-assisted outer-cover certificates; no positive connectedness or novelty claim."
+}

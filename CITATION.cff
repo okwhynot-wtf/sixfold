@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite Sixfold and the commit or archived version used. A Zenodo DOI is planned for the first archived release."
+type: software
+title: "Sixfold: a family of self-similar spatial fractals"
+authors:
+  - name: "okwhynot-wtf"
+repository-code: "https://github.com/okwhynot-wtf/sixfold"
+url: "https://okwhynot-wtf.github.io/sixfold/"
+abstract: "An exactly specified six-map spatial fractal family, with computer-assisted investigations of contact, dimension and independent loops, reproducible verification code, and visualisation source."
+keywords:
+  - fractal
+  - iterated function system
+  - self-similarity
+  - mathematical art

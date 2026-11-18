@@ -1,0 +1,15 @@
+{
+  "points": 1679616,
+  "depth": 8,
+  "image_size": [
+    1400,
+    1780
+  ],
+  "view_yaw_pitch_degrees": [
+    -28,
+    28
+  ],
+  "colour_rule": "First-level map, indices 0 through 5.",
+  "geometry": "Finite word centres at approximate reference parameters.",
+  "proof_scope": "Image pixels do not establish separation or connectedness."
+}

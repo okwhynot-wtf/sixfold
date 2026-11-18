@@ -1,0 +1,58 @@
+{
+  "prepared_date": "2026-11-17",
+  "timezone": "Australia/Sydney",
+  "latest_report": "fractal_research_07/RESEARCH_07.md",
+  "proof_status": "Computer-assisted parameter premises and analytic deductions; independent mathematical review and proof-assistant formalization not completed.",
+  "reference": {
+    "h": "1/sqrt(2)",
+    "r_centre": "0.476178386161547669525964558546828831852499529292214482",
+    "u_centre": "0.2676240856235760042362757034639861560899940849527665828",
+    "exact_definition": "Unique root of certified contact equations; centres are not exact roots.",
+    "Hausdorff_dimension_safe_bounds": [
+      "2.1984",
+      "2.4149"
+    ],
+    "Assouad_dimension_claim": 3
+  },
+  "curve": {
+    "height_interval": [
+      "0.7070",
+      "0.7072"
+    ],
+    "Hausdorff_dimension_safe_bounds": [
+      "2.1970",
+      "2.4150"
+    ],
+    "Assouad_dimension_claim": 3,
+    "connected_claim": true,
+    "noncoplanar_claim": true
+  },
+  "OSC_claim": false,
+  "WSP_claim": false,
+  "alternative_finite_similarity_WSP_or_OSC_presentation_claim": false,
+  "first_level_pairs": {
+    "adjacent": {
+      "count": 6,
+      "intersect": true
+    },
+    "two_apart": {
+      "count": 6,
+      "intersect": true
+    },
+    "opposite": {
+      "count": 3,
+      "intersect": false
+    }
+  },
+  "open_questions": [
+    "Independent audit of latest deductions",
+    "Finite exact word-map relations",
+    "Exact Hausdorff dimension",
+    "Dimensions and topology of actual intersections",
+    "Historical originality"
+  ],
+  "next_task": "Audit phases 06/07, then pursue the reference exact-Hausdorff problem via finite exact word-map relations and the conditional Hochman route.",
+  "excluded_diversion": "Face assembly/polyhedron investigation is sidelined.",
+  "verification_entry_point": "python verify_handover.py",
+  "platform_note": "Top-level checks use a portable Python integer checker; Linux tested, Windows not observed."
+}

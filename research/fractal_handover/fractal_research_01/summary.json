@@ -1,0 +1,109 @@
+{
+  "definition": "f_i(z) = r exp(i (-1)^i theta) z + exp(i pi i/3), i=0,...,5",
+  "scan_count": 1023,
+  "screen_disconnected_count": 352,
+  "screen_unresolved_count": 671,
+  "special_angle_30_first_contact": 0.35682208977309,
+  "refined": [
+    {
+      "r": 0.3333333333333333,
+      "theta_degrees": 0.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -3.3393426912553537e-16,
+      "tail_disc_radius": 0.0020576131687242787,
+      "similarity_dimension": 1.6309297535714573
+    },
+    {
+      "r": 0.35,
+      "theta_degrees": 10.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.005186747918510272,
+      "tail_disc_radius": 0.0028281009615384605,
+      "similarity_dimension": 1.7067267181892125
+    },
+    {
+      "r": 0.35,
+      "theta_degrees": 20.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.004270961155769236,
+      "tail_disc_radius": 0.0028281009615384605,
+      "similarity_dimension": 1.7067267181892125
+    },
+    {
+      "r": 0.35,
+      "theta_degrees": 30.0,
+      "depth": 5,
+      "outer_graph_components": 6,
+      "outer_graph_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.029754781452421844,
+      "tail_disc_radius": 0.0028281009615384605,
+      "similarity_dimension": 1.7067267181892125
+    },
+    {
+      "r": 0.35632208977309,
+      "theta_degrees": 30.0,
+      "depth": 5,
+      "outer_graph_components": 6,
+      "outer_graph_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.0019934256141318184,
+      "tail_disc_radius": 0.0031797126551475,
+      "similarity_dimension": 1.736335281352587
+    },
+    {
+      "r": 0.35682208977309,
+      "theta_degrees": 30.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.00022613123437934153,
+      "tail_disc_radius": 0.0032090706172360948,
+      "similarity_dimension": 1.7386979387485113
+    },
+    {
+      "r": 0.35732208977309,
+      "theta_degrees": 30.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.0024492422349094,
+      "tail_disc_radius": 0.003238663440198553,
+      "similarity_dimension": 1.741063712805418
+    },
+    {
+      "r": 0.375,
+      "theta_degrees": 10.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.008670172389538117,
+      "tail_disc_radius": 0.004449462890625,
+      "similarity_dimension": 1.826780210445695
+    },
+    {
+      "r": 0.375,
+      "theta_degrees": 20.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.008878188177176519,
+      "tail_disc_radius": 0.004449462890625,
+      "similarity_dimension": 1.826780210445695
+    },
+    {
+      "r": 0.375,
+      "theta_degrees": 30.0,
+      "depth": 5,
+      "outer_graph_components": 1,
+      "outer_graph_edges": 6,
+      "minimum_pair_gap_lower_estimate": -0.006989326536899619,
+      "tail_disc_radius": 0.004449462890625,
+      "similarity_dimension": 1.826780210445695
+    }
+  ]
+}

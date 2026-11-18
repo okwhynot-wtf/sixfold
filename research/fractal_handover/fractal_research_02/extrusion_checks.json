@@ -1,0 +1,24 @@
+{
+  "construction": "K_30_degree_first_contact x [-0.32,0.32]",
+  "scale": 0.35682208977309,
+  "similarity_maps": 18,
+  "dimension": 2.738697938748511,
+  "height_half_extent": 0.32,
+  "render_points": 1959552,
+  "export_points": 233280,
+  "vertical_intervals_at_unit_height": [
+    [
+      -1.0,
+      -0.28635582045381996
+    ],
+    [
+      -0.35682208977309,
+      0.35682208977309
+    ],
+    [
+      0.28635582045381996,
+      1.0
+    ]
+  ],
+  "status": "Product construction: exact self-similarity and dimension from planar OSC case; not a novelty claim."
+}

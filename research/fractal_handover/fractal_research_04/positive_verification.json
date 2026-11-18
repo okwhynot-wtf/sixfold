@@ -1,0 +1,26 @@
+{
+  "symbolic_matrix_and_translation_identities": 24,
+  "symbolic_proper_rotation_checks": 6,
+  "independent_periodic_point_difference": "3.2777400832000392080897684322810918e-57",
+  "independent_derivative_difference": "9.1677093215371789924254023977622612e-46",
+  "rechecked_interval_decimal_digits": 90,
+  "rechecked_family_derivative_norm_upper": "0.35721394157508100689848975595361015",
+  "height_samples": [
+    {
+      "height": "0.7070",
+      "r": "0.47617204008239493750085156474959733777788280934028",
+      "tilt_degrees": "29.97145165886842681917371681378515495619"
+    },
+    {
+      "height": "0.7071",
+      "r": "0.47617798320806368886626148388725493596507355076442",
+      "tilt_degrees": "29.96563275679135481786221715431040188391"
+    },
+    {
+      "height": "0.7072",
+      "r": "0.47618392465023402812933751596104448410650833028145",
+      "tilt_degrees": "29.95981638577051009552529737000328442499"
+    }
+  ],
+  "status": "All checks passed; mathematical derivation and interval certificate remain subject to independent review."
+}

@@ -1,0 +1,37 @@
+{
+  "packing_checker_tests": {
+    "brute_force_comparisons": 164,
+    "valid_examples": 103,
+    "invalid_examples": 61,
+    "truncation_rejected": true
+  },
+  "subsystem_checks": [
+    {
+      "name": "reference",
+      "all_selected_word_centres_recomputed": 464873,
+      "scalar_arbitrary_precision_integer_checks": 300,
+      "complete_pair_verification_reproduced": true
+    },
+    {
+      "name": "whole_family",
+      "all_selected_word_centres_recomputed": 461042,
+      "scalar_arbitrary_precision_integer_checks": 300,
+      "complete_pair_verification_reproduced": true
+    }
+  ],
+  "full_radial_enclosure_reproduced": true,
+  "family_interval_certificate_at_90_digits": true,
+  "family_derivative_norm_upper_90_digits": "0.0144669141396733541010334053241428663353091692",
+  "independent_exponential_height_affinity_residual": "1.534773108411257910690139041913909979733e-101",
+  "error_bounds_rechecked": {
+    "grid_error": "1/1000000",
+    "family_error": "11/20000",
+    "parameter_difference_bounds": {
+      "r": "71/10000000",
+      "u": "601/10000000",
+      "h": "107/1000000"
+    },
+    "derived_trajectory_perturbation_bound": "18133/34000000"
+  },
+  "passed": true
+}

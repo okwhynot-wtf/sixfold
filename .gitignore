@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.build/
+_site/
+*.mp4
+*.mov
+.DS_Store
+Thumbs.db

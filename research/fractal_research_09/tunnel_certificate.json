@@ -1,0 +1,62 @@
+{
+  "scope": "Entire certified height curve",
+  "depth": 8,
+  "centres": 1679616,
+  "grid": 536870912,
+  "proxy_height_grid_units": 379621421,
+  "total_distance_error_upper": "0.00631",
+  "axes": {
+    "A": {
+      "minimum_twice_squared_by_first_piece": [
+        7184857710224937,
+        253220582799590739,
+        165075451397908484,
+        1461448180724287718,
+        165075452516460825,
+        253220584887748563
+      ],
+      "signed_minima_in_own_six_subpieces": [
+        53211480,
+        112507300,
+        112514577,
+        53204201,
+        112514579,
+        112507304
+      ]
+    },
+    "B": {
+      "minimum_twice_squared_by_first_piece": [
+        1461448174054188267,
+        165075449139713403,
+        253220579379678674,
+        7184857647272897,
+        253220582151818907,
+        165075450258265746
+      ],
+      "signed_minima_in_own_six_subpieces": [
+        53204198,
+        112514582,
+        112507295,
+        53211483,
+        112507297,
+        112514586
+      ]
+    }
+  },
+  "clearance_strict_lower": "0.105",
+  "clearance_strict_upper": "0.118",
+  "projected_half_plane_margin_lower": "0.06",
+  "opposite_enclosing_ball_clearance_lower": "1.39",
+  "inherited_route_neighbour_centres_checked": 6480,
+  "inherited_route_radius_lower": "0.0058",
+  "winding_matrix_by_argument_in_report": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ]
+}

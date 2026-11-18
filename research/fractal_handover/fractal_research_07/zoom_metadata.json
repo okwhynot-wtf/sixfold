@@ -1,0 +1,22 @@
+{
+  "base_K_points": 46656,
+  "base_address_prefix_length": 6,
+  "block_counts": [
+    1,
+    5
+  ],
+  "word_choices": [
+    2,
+    32
+  ],
+  "linear_zoom_factors": [
+    378.3054253377484,
+    7748414552520.509
+  ],
+  "point_counts": [
+    93312,
+    1492992
+  ],
+  "coordinate_formula": "A^(-m) (G_blockword(x)-p) / r^(8m)",
+  "scope": "Selected word-copy subsets, not the full zoomed attractor or a numerical dimension estimator."
+}

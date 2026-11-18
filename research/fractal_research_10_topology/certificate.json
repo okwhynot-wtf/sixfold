@@ -1,0 +1,462 @@
+{
+  "reference_witnesses": [
+    {
+      "prefix": "140442500212512530314114215341210010305433504500541430100240241222221404343444122114552142304351123052323",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          284204,
+          284207
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -534427,
+          -534424
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "1e-33",
+      "certified_positive_lower_for_this_point": "1e-35"
+    },
+    {
+      "prefix": "144045453454235014141554530325230420152515423100150433103103514250534430312333453503140105310011304410453",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          143484,
+          143487
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -778503,
+          -778500
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "1e-33",
+      "certified_positive_lower_for_this_point": "1e-35"
+    },
+    {
+      "prefix": "144404420221320555233013532524033001010032413031025221030501325335324423520150153340114013010013302315303",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          62576,
+          62579
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -918835,
+          -918832
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "1e-33",
+      "certified_positive_lower_for_this_point": "1e-35"
+    }
+  ],
+  "family_witnesses": [
+    {
+      "prefix": "140442500212512530314114215341210010305433504500541430100240241222221404343444122114552142304351123052323",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          283936,
+          284477
+        ],
+        [
+          -365,
+          371
+        ],
+        [
+          -534946,
+          -533899
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "0.001",
+      "certified_positive_lower_for_this_point": null
+    },
+    {
+      "prefix": "144045453454235014141554530325230420152515423100150433103103514250534430312333453503140105310011304410453",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          143235,
+          143738
+        ],
+        [
+          -360,
+          366
+        ],
+        [
+          -779028,
+          -777969
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "0.001",
+      "certified_positive_lower_for_this_point": null
+    },
+    {
+      "prefix": "144404420221320555233013532524033001010032413031025221030501325335324423520150153340114013010013302315303",
+      "tail": "0 repeated forever",
+      "coordinate_box_in_millionths": [
+        [
+          62272,
+          62887
+        ],
+        [
+          -419,
+          426
+        ],
+        [
+          -919440,
+          -918219
+        ]
+      ],
+      "first_lobe": 1,
+      "distance_upper": "0.001",
+      "certified_positive_lower_for_this_point": null
+    }
+  ],
+  "reference_first_intrusion": {
+    "straight_bore_radius": "0.0058",
+    "travel_from_upper_centre": [
+      "1.325115",
+      "1.325120"
+    ],
+    "first_section_axis_point_in_millionths": [
+      [
+        338135,
+        338140
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -440884,
+        -440877
+      ]
+    ],
+    "witness_prefix": "1404022400020420424",
+    "witness_tail": "0 repeated forever",
+    "interior_witness_coordinate_box_in_millionths": [
+      [
+        340915,
+        340918
+      ],
+      [
+        4591,
+        4594
+      ],
+      [
+        -442485,
+        -442482
+      ]
+    ],
+    "interior_witness_normal_plane_in_billionths": [
+      [
+        3208383,
+        3208386
+      ],
+      [
+        4592252,
+        4592255
+      ]
+    ],
+    "exclusion_nodes_checked": 197,
+    "maximum_depth": 16
+  },
+  "family_first_intrusion": {
+    "straight_bore_radius": "0.0058",
+    "travel_from_upper_centre": [
+      "1.320",
+      "1.330"
+    ],
+    "first_section_axis_point_in_millionths": [
+      [
+        335529,
+        340864
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -445293,
+        -436278
+      ]
+    ],
+    "witness_prefix": "140402240202042042",
+    "witness_tail": "0 repeated forever",
+    "interior_witness_coordinate_box_in_millionths": [
+      [
+        337833,
+        338415
+      ],
+      [
+        4018,
+        4767
+      ],
+      [
+        -442440,
+        -441379
+      ]
+    ],
+    "interior_witness_normal_plane_in_billionths": [
+      [
+        -249542,
+        1247138
+      ],
+      [
+        4019864,
+        4765107
+      ]
+    ],
+    "exclusion_nodes_checked": 89,
+    "maximum_depth": 8
+  },
+  "reference_localization": {
+    "depth": 14,
+    "remaining_prefix_counts": [
+      3,
+      8,
+      10,
+      12,
+      16,
+      16,
+      22,
+      34,
+      46,
+      70,
+      102,
+      132,
+      202,
+      296
+    ],
+    "possible_lobes": [
+      1,
+      5
+    ],
+    "possible_z_bands_in_ten_thousandths": [
+      [
+        -9196,
+        -9183
+      ],
+      [
+        -9101,
+        -9094
+      ],
+      [
+        -9051,
+        -9036
+      ],
+      [
+        -8997,
+        -8989
+      ],
+      [
+        -8981,
+        -8969
+      ],
+      [
+        -8967,
+        -8960
+      ],
+      [
+        -8752,
+        -8730
+      ],
+      [
+        -8727,
+        -8720
+      ],
+      [
+        -7795,
+        -7790
+      ],
+      [
+        -7789,
+        -7783
+      ],
+      [
+        -7782,
+        -7776
+      ],
+      [
+        -7764,
+        -7754
+      ],
+      [
+        -7734,
+        -7727
+      ],
+      [
+        -7645,
+        -7626
+      ],
+      [
+        -7161,
+        -7154
+      ],
+      [
+        -7057,
+        -7050
+      ],
+      [
+        -7039,
+        -7034
+      ],
+      [
+        -7032,
+        -7025
+      ],
+      [
+        -6884,
+        -6873
+      ],
+      [
+        -6865,
+        -6860
+      ],
+      [
+        -6851,
+        -6837
+      ],
+      [
+        -6805,
+        -6800
+      ],
+      [
+        -6718,
+        -6712
+      ],
+      [
+        -6672,
+        -6665
+      ],
+      [
+        -6664,
+        -6659
+      ],
+      [
+        -5401,
+        -5393
+      ],
+      [
+        -5391,
+        -5384
+      ],
+      [
+        -5350,
+        -5342
+      ]
+    ]
+  },
+  "family_localization": {
+    "depth": 11,
+    "remaining_prefix_counts": [
+      3,
+      8,
+      10,
+      12,
+      16,
+      16,
+      28,
+      46,
+      82,
+      200,
+      542
+    ],
+    "possible_lobes": [
+      1,
+      5
+    ],
+    "possible_z_bands_in_ten_thousandths": [
+      [
+        -9215,
+        -9146
+      ],
+      [
+        -9126,
+        -9069
+      ],
+      [
+        -9063,
+        -8938
+      ],
+      [
+        -8764,
+        -8656
+      ],
+      [
+        -8604,
+        -8567
+      ],
+      [
+        -7804,
+        -7712
+      ],
+      [
+        -7678,
+        -7618
+      ],
+      [
+        -7179,
+        -7119
+      ],
+      [
+        -7087,
+        -7012
+      ],
+      [
+        -6924,
+        -6788
+      ],
+      [
+        -6727,
+        -6558
+      ],
+      [
+        -5689,
+        -5635
+      ],
+      [
+        -5417,
+        -5324
+      ]
+    ]
+  },
+  "repeated_loops_uniform_premises": {
+    "fixed_point_box_in_thousandths": [
+      [
+        1879,
+        1883
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        440,
+        444
+      ]
+    ],
+    "sibling_clearance_from_fixed_point_lower": ".96",
+    "radius_containing_first_image_of_rectangle": ".95",
+    "distance_from_fixed_point_to_rectangle_boundary_lower": ".19",
+    "radius_containing_fourth_image_of_entire_first_child": ".11",
+    "generation_stride": 4
+  }
+}

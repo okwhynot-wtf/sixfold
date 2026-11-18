@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rotation_interval_predicates_repeated_at_digits": 100,
+  "independent_matrix_exponential_entry_checks": 54,
+  "maximum_orthogonality_error": "4.28620271730853118330918830614502859794466248e-101",
+  "reference_block_rotation_angle_degrees": "30.8023334146351378813520799485490841154717457",
+  "reference_noncommutation_entry_maximum": "0.0961052083627134367458561556592753891999541256",
+  "noncommutative_cancellation_checks_passed": true,
+  "scope": "Finite implementation checks; infinite compactness and dimension arguments are stated separately in the report."
+}

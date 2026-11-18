@@ -1,0 +1,11 @@
+{
+  "critical_r_30_degrees": 0.35682208977309,
+  "critical_polynomial_residual": 0.0,
+  "contact_points_checked": 1000,
+  "largest_contact_point_residual": 8.473409486550036e-16,
+  "whole_dimension_at_critical_OSC": 1.7386979387485113,
+  "adjacent_contact_set_dimension": 0.33631008926888634,
+  "negative_angle_rotation_residual": 1.3600232051658168e-15,
+  "angle_periodicity_residual": 4.965068306494546e-16,
+  "status": "Checks passed. Analytic proof is in RESEARCH.md; no novelty established."
+}

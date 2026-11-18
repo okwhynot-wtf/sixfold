@@ -1,0 +1,561 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-11-17",
+  "excluded_metadata": [
+    "MANIFEST.json",
+    "VALIDATION.json"
+  ],
+  "note": "The manifest cannot hash itself. The validation receipt is written after the evidence check and is excluded to avoid a circular hash dependency.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 2833,
+      "sha256": "4545238d8ffabe3c2a8717c15046a55dc4558951d90698abc0776e91367f437a"
+    },
+    {
+      "path": "CODEX_PROMPT.md",
+      "bytes": 1643,
+      "sha256": "cc7b8bde5565ee5a4fdcf008d00767f6fd4bf5d295015d5bc58fe05bee1f9f8c"
+    },
+    {
+      "path": "HANDOVER.md",
+      "bytes": 14768,
+      "sha256": "71d2120586fae1b631526f783035809e089f1ef658da44919533e4af1f5d6ce3"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 1942,
+      "sha256": "9e4e4d0fea14c14b663232f9661770aaa0993abdec03be7cc50029bebfa1d2c6"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 4048,
+      "sha256": "b6c599a03d8561c9814b7d4b73966372a856635a6f4cad4cee34c34b9149d7cb"
+    },
+    {
+      "path": "fractal_research_01/RESEARCH.md",
+      "bytes": 10237,
+      "sha256": "2fae2b0daccc947c893e6b429db372791e93ffc508d6879b9d4ada0f4d18485e"
+    },
+    {
+      "path": "fractal_research_01/check_geometry.py",
+      "bytes": 2778,
+      "sha256": "7b34448cf6eed37c8a03cb339880f39bdeb53faebb96900b8445025dce16a28a"
+    },
+    {
+      "path": "fractal_research_01/explore.py",
+      "bytes": 4473,
+      "sha256": "eb6a569a5c12c2a863ede7f2c58bd9d92bbf8582b4f48fb7300c8cecafc693f4"
+    },
+    {
+      "path": "fractal_research_01/first_gallery.png",
+      "bytes": 520953,
+      "sha256": "e09759fe1d642a8061ea7fc46f5a115f44a9c0251d4cf281e5ef1dcff06d0cd6"
+    },
+    {
+      "path": "fractal_research_01/geometry_checks.json",
+      "bytes": 499,
+      "sha256": "08623a0e4ebb7feff861fce369abfbfdc85ed30fc100f2d5f292f1ba3c4e35fc"
+    },
+    {
+      "path": "fractal_research_01/parameter_scan.csv",
+      "bytes": 81521,
+      "sha256": "7ec8d0161aada656953a72de4f9279b1f3a63e427b209eefb27cef25cda7d845"
+    },
+    {
+      "path": "fractal_research_01/requirements.txt",
+      "bytes": 46,
+      "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+    },
+    {
+      "path": "fractal_research_01/summary.json",
+      "bytes": 3319,
+      "sha256": "724c2d4a28b3617c1cf842bb807407b75095fc760211c6d4d82548f8fdfd4e1f"
+    },
+    {
+      "path": "fractal_research_02/RESEARCH_02.md",
+      "bytes": 9913,
+      "sha256": "eef5fb990c49baea08d53d94e3dcf2d74336f3cdb3728a9a8f83742cb0338ceb"
+    },
+    {
+      "path": "fractal_research_02/base_ifs.py",
+      "bytes": 4473,
+      "sha256": "eb6a569a5c12c2a863ede7f2c58bd9d92bbf8582b4f48fb7300c8cecafc693f4"
+    },
+    {
+      "path": "fractal_research_02/continue_research.py",
+      "bytes": 9842,
+      "sha256": "e70f8fbb7136b9854fa29f7c7b56ebafafd82c52888dcf68cde982fa299433fc"
+    },
+    {
+      "path": "fractal_research_02/extrude_gear.py",
+      "bytes": 1994,
+      "sha256": "f1a1331e42bc2746f08032853a42bc3923a07da73811e67aa5bf4d8482134c46"
+    },
+    {
+      "path": "fractal_research_02/extruded_gear.ply",
+      "bytes": 8048434,
+      "sha256": "6ab1dfa2231c0bbb86f35d7e83a20d7835fa596b53058aff089d1eb809528027"
+    },
+    {
+      "path": "fractal_research_02/extruded_gear.png",
+      "bytes": 2276973,
+      "sha256": "ee50bd8362314488e6e40ef518d5b1ba339a2e6384b03c28dbadf8bcada89cf2"
+    },
+    {
+      "path": "fractal_research_02/extrusion_checks.json",
+      "bytes": 562,
+      "sha256": "58ed46ccb8d3b420d2bed06fd270731a16e36f1992a8e013162200430ebbf12b"
+    },
+    {
+      "path": "fractal_research_02/initial_planar_scan.csv",
+      "bytes": 81521,
+      "sha256": "7ec8d0161aada656953a72de4f9279b1f3a63e427b209eefb27cef25cda7d845"
+    },
+    {
+      "path": "fractal_research_02/planar_depth6.csv",
+      "bytes": 229,
+      "sha256": "d4c976d73992b61bfc58ebf9a9404ed9e25c6d53a97933d23b38b96b44d4cd7d"
+    },
+    {
+      "path": "fractal_research_02/planar_refinement.csv",
+      "bytes": 13842,
+      "sha256": "958007f1d29ba048275bfe6f6ab19261f27a664b78e6f8d049bf3c88f601bb46"
+    },
+    {
+      "path": "fractal_research_02/requirements.txt",
+      "bytes": 61,
+      "sha256": "1f896a7c5f8311069fe3b38425a79bb3c7cf455ef059b4eeefe2037cd612fd3a"
+    },
+    {
+      "path": "fractal_research_02/spatial_1.png",
+      "bytes": 460319,
+      "sha256": "4aad649dc1e8d9e297224aed1dc7fcf10060f94e3556775c5ccb579dc78ae62a"
+    },
+    {
+      "path": "fractal_research_02/spatial_2.png",
+      "bytes": 710447,
+      "sha256": "ce3a1d83be2c610239ca6425b9686a63e412ed31107608696e982d4382ce0497"
+    },
+    {
+      "path": "fractal_research_02/spatial_3.png",
+      "bytes": 1215885,
+      "sha256": "bcdb180e0d727fd1ed7ebeb79d1fb2d74f21461f7eb6f81042ee3e24c6ccc7bb"
+    },
+    {
+      "path": "fractal_research_02/spatial_gallery.png",
+      "bytes": 1931430,
+      "sha256": "adc66d5f2e634492762c638b7bdd6c1c7b68c658e1306689e0222d341fa47c81"
+    },
+    {
+      "path": "fractal_research_02/spatial_gear.ply",
+      "bytes": 1609782,
+      "sha256": "6083eddf0d54de7c0efa2f2c95d53198065fe2e186763cc16f0406c793603a2c"
+    },
+    {
+      "path": "fractal_research_02/spatial_scan.csv",
+      "bytes": 11177,
+      "sha256": "369e91d6d0928795d7441fc9779565f5b530ea6c970037f0764710aee327b330"
+    },
+    {
+      "path": "fractal_research_02/summary_02.json",
+      "bytes": 2399,
+      "sha256": "8245c8cf0e5b2697df4ba1cb1c45ceb7585e250afe77ae05bad941e3be292dfd"
+    },
+    {
+      "path": "fractal_research_03/RESEARCH_03.md",
+      "bytes": 10023,
+      "sha256": "ec4ae29797be187d3fbc779291ed1c40632d27b42adfbfa0e7967ee47216f6a6"
+    },
+    {
+      "path": "fractal_research_03/candidate_input.csv",
+      "bytes": 11177,
+      "sha256": "369e91d6d0928795d7441fc9779565f5b530ea6c970037f0764710aee327b330"
+    },
+    {
+      "path": "fractal_research_03/certificates.json",
+      "bytes": 180104,
+      "sha256": "bb1328692a9b60885d62113d7df955136e9fde77accc9e37bf30b65ce96c46ca"
+    },
+    {
+      "path": "fractal_research_03/certify_contacts.py",
+      "bytes": 6666,
+      "sha256": "a93b73e65c8384f0f7a6f29fd5fc7f84b1197c20787c8bd63bf625a242183da8"
+    },
+    {
+      "path": "fractal_research_03/requirements.txt",
+      "bytes": 27,
+      "sha256": "6101034016419219134f25d41dcb8dc57a629f64d138e53b7c71eaae90a4b08a"
+    },
+    {
+      "path": "fractal_research_03/summary_03.json",
+      "bytes": 292,
+      "sha256": "dbdffc3ad562aec701db427bae87cb5cfd7dd3912544ea1ecf1881eac3f0fa4a"
+    },
+    {
+      "path": "fractal_research_03/verification.json",
+      "bytes": 461,
+      "sha256": "72eeee947d5fb664a275a85b8ac8eb27725ba14e46b92dcdd43b09590869da71"
+    },
+    {
+      "path": "fractal_research_03/verify_results.py",
+      "bytes": 3242,
+      "sha256": "de12cb73b8d1f041541ffc2b039d6f6b38f33bacb48ba2017a6015eff7b77687"
+    },
+    {
+      "path": "fractal_research_04/RESEARCH_04.md",
+      "bytes": 11669,
+      "sha256": "03764071727f01ae36ac1e48b9dec05c1d618da8e6c8f2f7f3541c572553e62e"
+    },
+    {
+      "path": "fractal_research_04/base_ifs.py",
+      "bytes": 4473,
+      "sha256": "eb6a569a5c12c2a863ede7f2c58bd9d92bbf8582b4f48fb7300c8cecafc693f4"
+    },
+    {
+      "path": "fractal_research_04/certify_witness.py",
+      "bytes": 7853,
+      "sha256": "e7c7abde5b20e1384b6de9d55cf6ef1382fbc5936535673ace406257118768f6"
+    },
+    {
+      "path": "fractal_research_04/connected_contacts.png",
+      "bytes": 2382014,
+      "sha256": "95ee8861f38d1d1cf354335020f147805255c0d815659307c0f2c2ed51d50ebe"
+    },
+    {
+      "path": "fractal_research_04/connected_shape.png",
+      "bytes": 2358171,
+      "sha256": "46e3c3fd9cb0b0f9188f7a2c533b38fd64f41928ad79a059f00a73a3a8531292"
+    },
+    {
+      "path": "fractal_research_04/numerical_witnesses.json",
+      "bytes": 64808,
+      "sha256": "a54a3225d02569825db9376d1bff0ff5aa2e48fc1034a1545e5a2616cda7dfd1"
+    },
+    {
+      "path": "fractal_research_04/positive_contact_certificate.json",
+      "bytes": 11415,
+      "sha256": "1c65846d1ae7d23d861839e9b6066c69a78d7e8622358c5bff5ed61c3f8e44fe"
+    },
+    {
+      "path": "fractal_research_04/positive_verification.json",
+      "bytes": 1056,
+      "sha256": "8d16778c32674dc9736b8e12027c83d0f5bfdb17f5f9468aa56b08de3ae15437"
+    },
+    {
+      "path": "fractal_research_04/render_connected.py",
+      "bytes": 2532,
+      "sha256": "9d28b4aefcc5116e75088397d40e2557b170eb3a282319b244dbc063ab74711e"
+    },
+    {
+      "path": "fractal_research_04/render_metadata.json",
+      "bytes": 800,
+      "sha256": "055732b34bb5e0abdda602f32f44386a45f1d2bf781672f40c81645004a78a39"
+    },
+    {
+      "path": "fractal_research_04/requirements.txt",
+      "bytes": 89,
+      "sha256": "e356c2789594fc8d67697f7e2f2d0a21938aaa2880706af54c9c8289460e8abc"
+    },
+    {
+      "path": "fractal_research_04/search_witness.py",
+      "bytes": 2098,
+      "sha256": "bfe5564af23f9837eede458be0438673b7acf79e107a061c267fa1446f7a158d"
+    },
+    {
+      "path": "fractal_research_04/spatial_base.py",
+      "bytes": 9842,
+      "sha256": "e70f8fbb7136b9854fa29f7c7b56ebafafd82c52888dcf68cde982fa299433fc"
+    },
+    {
+      "path": "fractal_research_04/verify_positive_contact.py",
+      "bytes": 5237,
+      "sha256": "2a38bb4423ee27da589cd5836b229a404f245533d9504c34b6e35dc9b69f95b0"
+    },
+    {
+      "path": "fractal_research_05/RESEARCH_04.md",
+      "bytes": 11669,
+      "sha256": "03764071727f01ae36ac1e48b9dec05c1d618da8e6c8f2f7f3541c572553e62e"
+    },
+    {
+      "path": "fractal_research_05/RESEARCH_05.md",
+      "bytes": 15050,
+      "sha256": "e47c3655874c627581bd3e34e8f145fc917effbdbeda073cbd064543ff04367b"
+    },
+    {
+      "path": "fractal_research_05/a_grid.npy",
+      "bytes": 560,
+      "sha256": "db098ee1f3b07c549c3d36dc54d9ea7c80c2b1e739fe385fafa14f5bf61368e6"
+    },
+    {
+      "path": "fractal_research_05/b_grid.npy",
+      "bytes": 272,
+      "sha256": "1ff7da354b01afc4d8da7cd50ba99b03c38afb2da3ebef9ca6f0c214ea603fab"
+    },
+    {
+      "path": "fractal_research_05/certify_dimension.py",
+      "bytes": 11970,
+      "sha256": "e32b7e0fe237e331d21043a7c7d7ae8b4866644492b2be130ea4ec4006782466"
+    },
+    {
+      "path": "fractal_research_05/certify_witness.py",
+      "bytes": 7853,
+      "sha256": "e7c7abde5b20e1384b6de9d55cf6ef1382fbc5936535673ace406257118768f6"
+    },
+    {
+      "path": "fractal_research_05/dimension_certificate.json",
+      "bytes": 6684,
+      "sha256": "7025cc8e36a1a559f1d36f48909b36abea5fb8a0686d7304231711b09e0db467"
+    },
+    {
+      "path": "fractal_research_05/dimension_portrait.png",
+      "bytes": 1503550,
+      "sha256": "fb3e31b116145fa0a2e223c1caf160393a551d370027912f2636ca23f9c57c86"
+    },
+    {
+      "path": "fractal_research_05/dimension_verification.json",
+      "bytes": 1191,
+      "sha256": "0353c1ddf647fc491b3b9c22f41eb8b557f345446431928ba40ad2d6705794e3"
+    },
+    {
+      "path": "fractal_research_05/numerical_witnesses.json",
+      "bytes": 64808,
+      "sha256": "a54a3225d02569825db9376d1bff0ff5aa2e48fc1034a1545e5a2616cda7dfd1"
+    },
+    {
+      "path": "fractal_research_05/positive_contact_certificate.json",
+      "bytes": 11415,
+      "sha256": "1c65846d1ae7d23d861839e9b6066c69a78d7e8622358c5bff5ed61c3f8e44fe"
+    },
+    {
+      "path": "fractal_research_05/reference_centres.i64",
+      "bytes": 11156952,
+      "sha256": "f2a6a3401d03fb3a56681cbfbd2c5835669a6dda0674167c5d7e2cf98cd3386d"
+    },
+    {
+      "path": "fractal_research_05/reference_words.npy",
+      "bytes": 1859620,
+      "sha256": "36bfc7bc6e5bdc7fd3afd92f3a4e0139f7425db9662f06156ba7f0cce4170866"
+    },
+    {
+      "path": "fractal_research_05/render_dimension.py",
+      "bytes": 4217,
+      "sha256": "22e567af3e77b09d0aee865b7ed41aef7e3f8c28176e00e626aff6208c43ca92"
+    },
+    {
+      "path": "fractal_research_05/render_metadata.json",
+      "bytes": 342,
+      "sha256": "db31dc15672dcf4738192c889d292237fd734d84eb488712567f33b6c58ad9f8"
+    },
+    {
+      "path": "fractal_research_05/requirements.txt",
+      "bytes": 89,
+      "sha256": "e356c2789594fc8d67697f7e2f2d0a21938aaa2880706af54c9c8289460e8abc"
+    },
+    {
+      "path": "fractal_research_05/verify_dimension.py",
+      "bytes": 6321,
+      "sha256": "ba86d70c45876dbf7af5300fc1f36d836213aa8e425f25134b1e52a995b58ede"
+    },
+    {
+      "path": "fractal_research_05/verify_packing.cpp",
+      "bytes": 2931,
+      "sha256": "ea3f38c90706573ca3a058618a29a459e1669d64a9d34fb880bd660f571c17cb"
+    },
+    {
+      "path": "fractal_research_05/verify_positive_contact.py",
+      "bytes": 5237,
+      "sha256": "2a38bb4423ee27da589cd5836b229a404f245533d9504c34b6e35dc9b69f95b0"
+    },
+    {
+      "path": "fractal_research_05/whole_family_centres.i64",
+      "bytes": 11065008,
+      "sha256": "96011f2d67baf65aef936dfad5eaa7040935ffe1fc9368075ff46c153aa0b144"
+    },
+    {
+      "path": "fractal_research_05/whole_family_words.npy",
+      "bytes": 1844296,
+      "sha256": "703f92a1bcf039db12c3e11ff4267c3026494f83f26edd7a12fba0051bfae798"
+    },
+    {
+      "path": "fractal_research_06/RESEARCH_04.md",
+      "bytes": 11669,
+      "sha256": "03764071727f01ae36ac1e48b9dec05c1d618da8e6c8f2f7f3541c572553e62e"
+    },
+    {
+      "path": "fractal_research_06/RESEARCH_05.md",
+      "bytes": 15050,
+      "sha256": "e47c3655874c627581bd3e34e8f145fc917effbdbeda073cbd064543ff04367b"
+    },
+    {
+      "path": "fractal_research_06/RESEARCH_06.md",
+      "bytes": 13999,
+      "sha256": "451b655327f6f81eb13357197954bf05dd31d90d04892de6f8e4d5ce03ca3b01"
+    },
+    {
+      "path": "fractal_research_06/certify_witness.py",
+      "bytes": 7853,
+      "sha256": "e7c7abde5b20e1384b6de9d55cf6ef1382fbc5936535673ace406257118768f6"
+    },
+    {
+      "path": "fractal_research_06/family_box.py",
+      "bytes": 3268,
+      "sha256": "f0b3fce3df95541b47e6495551c4040fdea499a52a866613dbeff03ea24f9f50"
+    },
+    {
+      "path": "fractal_research_06/geometry.py",
+      "bytes": 1754,
+      "sha256": "128a2969fe0f18469d87eb336a3e93518a0a97dc6f22f3d46435f740076b555c"
+    },
+    {
+      "path": "fractal_research_06/neighbour_search.json",
+      "bytes": 10692,
+      "sha256": "92f056341fe94dfc12b72e68f90c4a2a499f02c2bf5fbe4e8943a89a95600067"
+    },
+    {
+      "path": "fractal_research_06/numerical_witnesses.json",
+      "bytes": 64808,
+      "sha256": "a54a3225d02569825db9376d1bff0ff5aa2e48fc1034a1545e5a2616cda7dfd1"
+    },
+    {
+      "path": "fractal_research_06/osc_obstruction_verification.json",
+      "bytes": 5551,
+      "sha256": "c1f5b97487ad65a7736246fffed22c3bc8a5e8d0bb1e68b020d1bf81cb42288d"
+    },
+    {
+      "path": "fractal_research_06/positive_contact_certificate.json",
+      "bytes": 11415,
+      "sha256": "1c65846d1ae7d23d861839e9b6066c69a78d7e8622358c5bff5ed61c3f8e44fe"
+    },
+    {
+      "path": "fractal_research_06/requirements.txt",
+      "bytes": 89,
+      "sha256": "e356c2789594fc8d67697f7e2f2d0a21938aaa2880706af54c9c8289460e8abc"
+    },
+    {
+      "path": "fractal_research_06/search_neighbours.py",
+      "bytes": 4155,
+      "sha256": "0b3479a722af215a6743fdf1fed2c34c15ede792798fe358cc028128e336b787"
+    },
+    {
+      "path": "fractal_research_06/verify_obstruction.py",
+      "bytes": 6492,
+      "sha256": "8c4d59d0a1334ea167e7e869094e804fd0f4518f686be1d3215c5f6b9ca18af7"
+    },
+    {
+      "path": "fractal_research_06/verify_positive_contact.py",
+      "bytes": 5237,
+      "sha256": "2a38bb4423ee27da589cd5836b229a404f245533d9504c34b6e35dc9b69f95b0"
+    },
+    {
+      "path": "fractal_research_07/RESEARCH_04.md",
+      "bytes": 11669,
+      "sha256": "03764071727f01ae36ac1e48b9dec05c1d618da8e6c8f2f7f3541c572553e62e"
+    },
+    {
+      "path": "fractal_research_07/RESEARCH_05.md",
+      "bytes": 15050,
+      "sha256": "e47c3655874c627581bd3e34e8f145fc917effbdbeda073cbd064543ff04367b"
+    },
+    {
+      "path": "fractal_research_07/RESEARCH_06.md",
+      "bytes": 13999,
+      "sha256": "451b655327f6f81eb13357197954bf05dd31d90d04892de6f8e4d5ce03ca3b01"
+    },
+    {
+      "path": "fractal_research_07/RESEARCH_07.md",
+      "bytes": 16477,
+      "sha256": "7f31e42ec1fb827293573428a9ff3daecaabb315103597ec1902bd51093695dc"
+    },
+    {
+      "path": "fractal_research_07/assouad_certificate.json",
+      "bytes": 17453,
+      "sha256": "e574acd476bb34b8315dbd58de9963a6c5ef87a9c9969fd5ed98f24c00714b33"
+    },
+    {
+      "path": "fractal_research_07/assouad_verification.json",
+      "bytes": 589,
+      "sha256": "0bfc8a9c2924cc764120a75953109f0342cfa7f433d83da61ee3d9066f2cb1e1"
+    },
+    {
+      "path": "fractal_research_07/certify_assouad.py",
+      "bytes": 5623,
+      "sha256": "4344d488f0508ad8054e1d829dc6633b93677ba4ed1e16dce046797fb845e0cb"
+    },
+    {
+      "path": "fractal_research_07/certify_witness.py",
+      "bytes": 7853,
+      "sha256": "e7c7abde5b20e1384b6de9d55cf6ef1382fbc5936535673ace406257118768f6"
+    },
+    {
+      "path": "fractal_research_07/family_box.py",
+      "bytes": 3268,
+      "sha256": "f0b3fce3df95541b47e6495551c4040fdea499a52a866613dbeff03ea24f9f50"
+    },
+    {
+      "path": "fractal_research_07/geometry.py",
+      "bytes": 1754,
+      "sha256": "128a2969fe0f18469d87eb336a3e93518a0a97dc6f22f3d46435f740076b555c"
+    },
+    {
+      "path": "fractal_research_07/numerical_witnesses.json",
+      "bytes": 64808,
+      "sha256": "a54a3225d02569825db9376d1bff0ff5aa2e48fc1034a1545e5a2616cda7dfd1"
+    },
+    {
+      "path": "fractal_research_07/positive_contact_certificate.json",
+      "bytes": 11415,
+      "sha256": "1c65846d1ae7d23d861839e9b6066c69a78d7e8622358c5bff5ed61c3f8e44fe"
+    },
+    {
+      "path": "fractal_research_07/render_shared_zoom.py",
+      "bytes": 4889,
+      "sha256": "0e31f23493f2ee186591d07ba117ef6a2aa0edf2a0a4cb8987c58af11d9e1f5b"
+    },
+    {
+      "path": "fractal_research_07/requirements.txt",
+      "bytes": 89,
+      "sha256": "e356c2789594fc8d67697f7e2f2d0a21938aaa2880706af54c9c8289460e8abc"
+    },
+    {
+      "path": "fractal_research_07/shared_point_zoom.png",
+      "bytes": 2263676,
+      "sha256": "53892740c507634e21476ec0ebaf8bc2ee6167a9ade469bb0cf9d028e4e60e80"
+    },
+    {
+      "path": "fractal_research_07/verify_assouad.py",
+      "bytes": 3662,
+      "sha256": "058182f65f02442af3492ba6eeda333c0ceacf6f5d89e1efde0c7da0b269f8dd"
+    },
+    {
+      "path": "fractal_research_07/verify_positive_contact.py",
+      "bytes": 5237,
+      "sha256": "2a38bb4423ee27da589cd5836b229a404f245533d9504c34b6e35dc9b69f95b0"
+    },
+    {
+      "path": "fractal_research_07/zoom_metadata.json",
+      "bytes": 436,
+      "sha256": "8b72ab87e56dab6e7090d97cd118ef4f1418e4ac8c08e24eea621c3fe058a5ea"
+    },
+    {
+      "path": "render_current.py",
+      "bytes": 1470,
+      "sha256": "38f57b9627be6504b09954c04a6c613c6460fa546889fe5f437451b14ccb17ce"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 89,
+      "sha256": "e356c2789594fc8d67697f7e2f2d0a21938aaa2880706af54c9c8289460e8abc"
+    },
+    {
+      "path": "verify_handover.py",
+      "bytes": 4580,
+      "sha256": "10c7b2368890d07a79b58af99f299abee76c1051baef0ec9bfab0df0e6002347"
+    },
+    {
+      "path": "verify_packings_portable.py",
+      "bytes": 5252,
+      "sha256": "f81a12e2832e2fe28355e6cbc86552ae50b4772c05847d8b3c4e2c5d58a9583b"
+    }
+  ]
+}

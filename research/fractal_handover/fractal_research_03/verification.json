@@ -1,0 +1,20 @@
+{
+  "brute_force_cell_cases": 250,
+  "scalar_integer_word_checks": 570,
+  "interval_coefficient_rechecks": 19,
+  "full_reproductions": [
+    {
+      "r": "47/100",
+      "theta_degrees": 10,
+      "tilt_degrees": 30,
+      "depth": 8
+    },
+    {
+      "r": "49/100",
+      "theta_degrees": 20,
+      "tilt_degrees": 0,
+      "depth": 6
+    }
+  ],
+  "status": "All checks passed. This is a computer-assisted certificate, not a proof-assistant formalization."
+}

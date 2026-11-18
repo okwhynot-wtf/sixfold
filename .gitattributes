@@ -1,0 +1,7 @@
+* text=auto eol=lf
+research/** -text
+*.i64 binary
+*.u32 binary
+*.ply binary
+*.png binary
+*.toe binary

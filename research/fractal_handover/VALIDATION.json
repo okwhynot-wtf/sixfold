@@ -1,0 +1,398 @@
+{
+  "passed": true,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "integrity": {
+    "passed": true,
+    "files_checked": 110,
+    "bytes_checked": 52313797
+  },
+  "checks": [
+    {
+      "label": "Contact symmetries and independent geometry",
+      "passed": true,
+      "seconds": 2.153,
+      "details": {
+        "symbolic_matrix_and_translation_identities": 24,
+        "symbolic_proper_rotation_checks": 6,
+        "independent_periodic_point_difference": "3.2777400832000392080897684322810918e-57",
+        "independent_derivative_difference": "9.1677093215371789924254023977622612e-46",
+        "rechecked_interval_decimal_digits": 90,
+        "rechecked_family_derivative_norm_upper": "0.35721394157508100689848975595361015",
+        "height_samples": [
+          {
+            "height": "0.7070",
+            "r": "0.47617204008239493750085156474959733777788280934028",
+            "tilt_degrees": "29.97145165886842681917371681378515495619"
+          },
+          {
+            "height": "0.7071",
+            "r": "0.47617798320806368886626148388725493596507355076442",
+            "tilt_degrees": "29.96563275679135481786221715431040188391"
+          },
+          {
+            "height": "0.7072",
+            "r": "0.47618392465023402812933751596104448410650833028145",
+            "tilt_degrees": "29.95981638577051009552529737000328442499"
+          }
+        ],
+        "status": "All checks passed; mathematical derivation and interval certificate remain subject to independent review."
+      }
+    },
+    {
+      "label": "Hausdorff lower bounds and both exact integer packings",
+      "passed": true,
+      "seconds": 12.894,
+      "details": {
+        "passed": true,
+        "implementation": "Portable Python integer cell-neighbour checker",
+        "brute_force_comparison_cases": 34,
+        "family_interval_proof_repeated": true,
+        "radial_enclosure_reproduced": true,
+        "error_bounds_rechecked": {
+          "grid_error": "1/1000000",
+          "family_error": "11/20000",
+          "parameter_difference_bounds": {
+            "r": "71/10000000",
+            "u": "601/10000000",
+            "h": "107/1000000"
+          },
+          "derived_trajectory_perturbation_bound": "18133/34000000"
+        },
+        "results": [
+          {
+            "name": "reference",
+            "word_centres_recomputed": 464873,
+            "exact_pair_checks": {
+              "passed": true,
+              "points": 464873,
+              "cell_width": 6075023,
+              "checked_pairs": 1157354,
+              "minimum_checked_distance_squared": 36931862827092,
+              "threshold_distance_squared": 36905904450529
+            },
+            "dimension_bounds": {
+              "lower": "2.198479608378964282469707000061345157797",
+              "upper": "2.414891458627540272030003013953279149368"
+            }
+          },
+          {
+            "name": "whole_family",
+            "word_centres_recomputed": 461042,
+            "exact_pair_checks": {
+              "passed": true,
+              "points": 461042,
+              "cell_width": 6665285,
+              "checked_pairs": 1482112,
+              "minimum_checked_distance_squared": 44437886217755,
+              "threshold_distance_squared": 44426024131225
+            },
+            "dimension_bounds": {
+              "lower": "2.197039553055690023466220827771043371755",
+              "upper": "2.414943500796543866131952836707624071427"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "OSC obstruction and complete first-level pair classification",
+      "passed": true,
+      "seconds": 2.611,
+      "details": {
+        "passed": true,
+        "word": [
+          0,
+          1,
+          1,
+          5,
+          3,
+          5,
+          1,
+          3
+        ],
+        "partner_word": [
+          1,
+          0,
+          0,
+          2,
+          4,
+          2,
+          0,
+          4
+        ],
+        "symbolic_local_conjugacy_identities": 24,
+        "reflection_plane_identity_checked": true,
+        "repeated_contact_certificates": [
+          {
+            "interval_decimal_digits": 70,
+            "tight_root_certificate": {
+              "passed": true,
+              "derivative_norm_upper": "3.5546384950914910321856697725370098e-23",
+              "strict_inclusion_margins": [
+                "9.9999999999999999999408214624770492e-26",
+                "9.999999999999999999839703589534824e-26"
+              ]
+            },
+            "connected_family_certificate": {
+              "passed": true,
+              "derivative_norm_upper": "0.35721394157508100689848975595361015",
+              "strict_inclusion_margins": [
+                "0.00087917521264765247141752118979169187",
+                "0.00047915594154935441150115400195045901"
+              ]
+            }
+          },
+          {
+            "interval_decimal_digits": 90,
+            "tight_root_certificate": {
+              "passed": true,
+              "derivative_norm_upper": "3.5546384950914910321856697725370098e-23",
+              "strict_inclusion_margins": [
+                "9.9999999999999999999408214624770492e-26",
+                "9.999999999999999999839703589534824e-26"
+              ]
+            },
+            "connected_family_certificate": {
+              "passed": true,
+              "derivative_norm_upper": "0.35721394157508100689848975595361015",
+              "strict_inclusion_margins": [
+                "0.00087917521264765247141752118979169187",
+                "0.00047915594154935441150115400195045901"
+              ]
+            }
+          }
+        ],
+        "sharper_family_certificate": {
+          "passed": true,
+          "centre": [
+            "0.476178386161547669525964558546828831852499529292214482",
+            "0.2676240856235760042362757034639861560899940849527665828"
+          ],
+          "radii": [
+            "0.000007",
+            "0.00006"
+          ],
+          "height_interval": [
+            ".7070",
+            ".7072"
+          ],
+          "parameter_box_diagnostic": [
+            [
+              "0.476171386161547669525964558546828831852499529",
+              "0.476185386161547669525964558546828831852499529"
+            ],
+            [
+              "0.267564085623576004236275703463986156089994085",
+              "0.267684085623576004236275703463986156089994085"
+            ]
+          ],
+          "image_diagnostic": [
+            [
+              "0.476171965348103244562115169231333205354908292",
+              "0.476184001075765558839420841320341893292662267"
+            ],
+            [
+              "0.267572920686347867272698539921608626115251486",
+              "0.267682628901324330006276729314488035485776004"
+            ]
+          ],
+          "derivative_norm_upper": "0.0144669141396733541010334053241428663353091692",
+          "strict_inclusion_margins": [
+            "0.00000057918655557503615061068450437350240876265363",
+            "0.00000145672225167422999897414949812060421808091722"
+          ],
+          "preconditioner": [
+            [
+              "0.05357951378945828169151048478066628392833420049946368718",
+              "-0.3235546501505353992684362625643688333650520382039780677"
+            ],
+            [
+              "1.237743479816429410132577789533153461363742005605790846",
+              "0.6620464417186271139979411467025495339906284020334217988"
+            ]
+          ],
+          "preconditioned_height_slope": [
+            [
+              "-0.0594216971386710338792162756595314950902100377",
+              "-0.0594216971386710338792162756595314950902100377"
+            ],
+            [
+              "0.544030197995541637286240688731000661643697374",
+              "0.544030197995541637286240688731000661643697374"
+            ]
+          ],
+          "outward_rational_r_bounds": [
+            "476171/1000000",
+            "238093/500000"
+          ]
+        },
+        "additional_crossing_contacts": {
+          "passed": true,
+          "negative_address_prefix": [
+            0,
+            3,
+            3,
+            1
+          ],
+          "negative_address_repeating_terminal": 3,
+          "positive_address_repeating_terminal": 0,
+          "negative_point_intervals": [
+            [
+              "0.0462479876696140220782285070785370415880797941",
+              "0.047113671564949442647632399513790563839204316"
+            ],
+            [
+              "0.10887039813255041474242229428864853860911756",
+              "0.108999356842500662899175105625922312161440339"
+            ],
+            [
+              "0.802156684365007877803244762452454820424244978",
+              "0.803327317638185205800226360079843634422096677"
+            ]
+          ],
+          "positive_point_intervals": [
+            [
+              "1.88015720884193430789783314741784950247876035",
+              "1.88217400528315815915116206487126711406918256"
+            ],
+            [
+              "0.0",
+              "0.0"
+            ],
+            [
+              "0.441361810807612774227595745556824499578167987",
+              "0.442715220783250136100282060837531996939499033"
+            ]
+          ],
+          "negative_signed_distance_interval": [
+            "-0.0144477462254551082617414338385427688704602603",
+            "-0.0136335626254724408611904668771777403317645194"
+          ],
+          "positive_signed_distance_interval": [
+            "1.62826390596555929890377283587837735698307427",
+            "1.63001050291792120356980059734044853416186645"
+          ],
+          "plane_normal": [
+            "sqrt(3)/2",
+            "-1/2",
+            "0"
+          ],
+          "scope": "Every member of the certified connected curve."
+        },
+        "opposite_pair_gap_lower": "0.0634745178887403883920640740425487068643796826",
+        "binary_block_fixed_points_checked": 30,
+        "maximum_independent_fixed_point_difference": "3.27774008320003920808976843228109176548215221e-57",
+        "symbolic_ball_volume_ratio": "2**m*epsilon**3/(D + epsilon)**3",
+        "analytic_consequence": "OSC fails for the given six-map IFS throughout the certified connected curve.",
+        "review_scope": "Computer-assisted parameter premises plus an elementary all-scale volume argument; independent review still required."
+      }
+    },
+    {
+      "label": "Assouad theorem parameter premises",
+      "passed": true,
+      "seconds": 1.694,
+      "details": {
+        "passed": true,
+        "block_pair": {
+          "passed": true,
+          "first_trace_interval": [
+            "2.71076256274960706036077804313621837808426258",
+            "2.7249986629385684652803473460930578326946152"
+          ],
+          "second_trace_interval": [
+            "2.71060085839749953649957072170501632664594661",
+            "2.72515951561220337786703516647834350453346646"
+          ],
+          "axis_cross_product_intervals": [
+            [
+              "0.202489645020750204039216367101500074661157424",
+              "0.214775665184452249302017120291570194260855834"
+            ],
+            [
+              "-0.369958698765458591582640043338539300931567549",
+              "-0.352691435563716037709756572942329519651490684"
+            ],
+            [
+              "-0.116968573738358139370088436384632571530744749",
+              "-0.0894154115452444560164805084114463627215956082"
+            ]
+          ],
+          "certified_nonzero_cross_components": [
+            0,
+            1,
+            2
+          ],
+          "angle_consequence": "Both principal rotation angles lie strictly between 0 and 60 degrees.",
+          "group_consequence": "The generated subgroup is dense in SO(3), by the closed-subgroup classification."
+        },
+        "local_pair": {
+          "passed": true,
+          "first_trace_interval": [
+            "2.73243346237871239103331654299947399708069608",
+            "2.73288091046293444237022061797479504852064389"
+          ],
+          "second_trace_interval": [
+            "2.73243346237871239103331654299947399708069608",
+            "2.73288091046293444237022061797479504852064389"
+          ],
+          "axis_cross_product_intervals": [
+            [
+              "-0.0000483990648311905975617950495829654770399167895",
+              "0.0000483990648311905975617950495829654770399167895"
+            ],
+            [
+              "0.0",
+              "0.0"
+            ],
+            [
+              "-0.864645283677260286158163526971935640873022601",
+              "-0.863766685142224108581155028546714185781935742"
+            ]
+          ],
+          "certified_nonzero_cross_components": [
+            2
+          ],
+          "angle_consequence": "Both principal rotation angles lie strictly between 0 and 60 degrees.",
+          "group_consequence": "The generated subgroup is dense in SO(3), by the closed-subgroup classification."
+        },
+        "analytic_deduction": {
+          "weak_separation_property": false,
+          "Assouad_dimension": 3,
+          "Hausdorff_dimension": "Still bounded as before; not determined exactly.",
+          "alternative_finite_similarity_IFS_with_WSP_possible": false,
+          "alternative_finite_similarity_IFS_with_OSC_possible": false,
+          "scope": "Every member of the connected curve, h in [.7070,.7072].",
+          "published_dimension_theorem": "Ignacio Garcia, Corollary 1.6(1), Assouad dimension and local structure of self-similar sets with overlaps in R^d."
+        }
+      }
+    },
+    {
+      "label": "Independent rotation and cancellation checks",
+      "passed": true,
+      "seconds": 0.393,
+      "details": {
+        "passed": true,
+        "rotation_interval_predicates_repeated_at_digits": 100,
+        "independent_matrix_exponential_entry_checks": 54,
+        "maximum_orthogonality_error": "4.28620271730853118330918830614502859794466248e-101",
+        "reference_block_rotation_angle_degrees": "30.8023334146351378813520799485490841154717457",
+        "reference_noncommutation_entry_maximum": "0.0961052083627134367458561556592753891999541256",
+        "noncommutative_cancellation_checks_passed": true,
+        "scope": "Finite implementation checks; infinite compactness and dimension arguments are stated separately in the report."
+      }
+    }
+  ],
+  "elapsed_seconds": 19.902,
+  "scope": "Reproduced numerical/symbolic/interval/integer checks. Published theorems and analytic deductions require separate mathematical review.",
+  "rendering_wrapper_check": {
+    "passed": true,
+    "forced_missing_original_font": true,
+    "fallback": "Matplotlib DejaVu Sans",
+    "generated_image_size": [
+      1200,
+      2790
+    ],
+    "platform_scope": "Linux test of missing-font fallback; Windows itself not observed."
+  }
+}

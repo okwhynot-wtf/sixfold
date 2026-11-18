@@ -1,0 +1,86 @@
+{
+  "validation": {
+    "orthogonality_residual": 4.505605817625891e-16,
+    "analytic_minimum_ball_gap_at_r_041": 0.029863020211075897,
+    "dimension_r_041": 2.0096043615114025,
+    "universal_separation_limit_at_height_1_sqrt2": 0.41421356237309515
+  },
+  "planar_rechecked_count": 157,
+  "planar_additional_disconnection_screens": 1,
+  "planar_deeper_rechecks": [
+    {
+      "r": 0.34500000000000003,
+      "theta_degrees": 14.0,
+      "depth": 6,
+      "outer_graph_components": 6,
+      "outer_graph_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.0031344896193990744,
+      "tail_disc_radius": 0.0008881623631427723,
+      "similarity_dimension": 1.6836508001277375
+    }
+  ],
+  "spatial_scan_count": 120,
+  "spatial_screen_excluded_count": 101,
+  "selected_spatial_cases": [
+    {
+      "name": "Lifted ring",
+      "r": 0.35682208977309,
+      "theta_degrees": 30.0,
+      "height": 0.22,
+      "tilt_degrees": 12.0,
+      "depth": 4,
+      "outer_graph_components": 6,
+      "possible_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.18258159115232986,
+      "similarity_dimension": 1.7386979387485113
+    },
+    {
+      "name": "Spatial gear",
+      "r": 0.41,
+      "theta_degrees": 30.0,
+      "height": 0.7071067811865475,
+      "tilt_degrees": 25.0,
+      "depth": 4,
+      "outer_graph_components": 6,
+      "possible_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.28908742756907707,
+      "similarity_dimension": 2.0096043615114025
+    },
+    {
+      "name": "Dense trial",
+      "r": 0.46,
+      "theta_degrees": 20.0,
+      "height": 0.7071067811865475,
+      "tilt_degrees": 30.0,
+      "depth": 4,
+      "outer_graph_components": 6,
+      "possible_edges": 0,
+      "minimum_pair_gap_lower_estimate": 0.01571928200722672,
+      "similarity_dimension": 2.3073960598216443
+    }
+  ],
+  "presets": [
+    {
+      "name": "Lifted ring",
+      "r": 0.35682208977309,
+      "theta_degrees": 30,
+      "height": 0.22,
+      "tilt_degrees": 12
+    },
+    {
+      "name": "Spatial gear",
+      "r": 0.41,
+      "theta_degrees": 30,
+      "height": 0.7071067811865475,
+      "tilt_degrees": 25
+    },
+    {
+      "name": "Dense trial",
+      "r": 0.46,
+      "theta_degrees": 20,
+      "height": 0.7071067811865475,
+      "tilt_degrees": 30
+    }
+  ],
+  "status": "Analytic separation proof for Spatial gear; other contact screens numerical only. Novelty unresolved."
+}
