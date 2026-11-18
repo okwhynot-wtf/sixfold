@@ -39,8 +39,10 @@ changes should be recorded in the [changelog](../CHANGELOG.md).
 Credit **okwhynot-wtf** and link to
 [the repository](https://github.com/okwhynot-wtf/sixfold).
 Code and original parameter/certificate data use the [MIT licence](../LICENSE).
-Writing and images use [CC BY 4.0](../CONTENT-LICENSE.md).
+Writing, images and films use [CC BY 4.0](../CONTENT-LICENSE.md).
 
-[CITATION.cff](../CITATION.cff) supplies citation metadata. For now, cite the
-commit used. The [release checklist](release.md) includes the Zenodo archive
-and version DOI.
+[CITATION.cff](../CITATION.cff) supplies citation metadata for the archived
+18 November 2026 version:
+[10.5281/zenodo.24336419](https://doi.org/10.5281/zenodo.24336419).
+The [archive page](release.md) identifies its Git commit, contents and the
+remaining media-deposit steps. Cite the version actually used.

@@ -1,0 +1,30 @@
+{
+  "record_id": 24336419,
+  "doi": "10.5281/zenodo.24336419",
+  "concept_doi": "10.5281/zenodo.24336418",
+  "title": "Sixfold: a family of self-similar spatial fractals",
+  "creator": "okwhynot-wtf",
+  "publication_date": "2026-11-18",
+  "version": "zenodo",
+  "github_tag": "zenodo",
+  "github_commit": "1c660bedf8cd3e52bad8e5d033535dcde6e06b6e",
+  "record_url": "https://zenodo.org/records/24336419",
+  "archive": {
+    "name": "okwhynot-wtf/sixfold-zenodo.zip",
+    "bytes": 216043950,
+    "zenodo_checksum": "md5:ba9d1784b65df8c8242157d6bf1feddf",
+    "file_count": 507,
+    "paths_match_tag": true,
+    "zip_commit_comment": "1c660bedf8cd3e52bad8e5d033535dcde6e06b6e",
+    "mp4_count": 0,
+    "jpeg_compositions": 100,
+    "png_masters": 100,
+    "touchdesigner_projects": [
+      "research/sixfold/Sixfold.toe"
+    ]
+  },
+  "verification_scope": "Zenodo metadata, HTTP byte-range ZIP directory and GitHub tag comparison. Full ZIP payload checksum was not recomputed.",
+  "record_license": "MIT",
+  "licence_scope_note": "Repository: MIT for software; CC BY 4.0 for writing, images and films. The Zenodo description should state that split.",
+  "pending": "Six original MP4s remain on the visuals-2026-11-18 GitHub release and are absent from this Zenodo deposit."
+}

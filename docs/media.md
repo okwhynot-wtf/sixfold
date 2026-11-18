@@ -107,5 +107,8 @@ its poster. A YouTube film loads when the visitor selects Play film.
 
 Record the source commit, render settings, output resolution and edits in
 the media credit. Preserve this edition when producing later collections.
-The visualisation release is a dated distribution snapshot; the Zenodo DOI
-archive remains a separate step on the [release checklist](release.md).
+The source, TouchDesigner project and all stills are now archived at DOI
+[10.5281/zenodo.24336419](https://doi.org/10.5281/zenodo.24336419).
+The six MP4 files remain on the GitHub visualisation release and are not
+included in that Zenodo ZIP. The [archive checklist](release.md) tracks
+their deposit and the remaining metadata updates.

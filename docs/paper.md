@@ -5,6 +5,12 @@ The paper should identify one archived version and refer to its definitions,
 proofs, certificates and reproduction commands. External mathematical results
 retain citations to their original publications.
 
+The first source snapshot is archived as version **zenodo**, DOI
+[10.5281/zenodo.24336419](https://doi.org/10.5281/zenodo.24336419), at Git commit
+**1c660bedf8cd3e52bad8e5d033535dcde6e06b6e**. It includes the research evidence
+and stills; the six MP4 films are separate GitHub downloads. See
+[archive scope and citation](release.md).
+
 | Proposed part | Repository source |
 | --- | --- |
 | Six maps and root-selection rule | [Definition](definition.md), [contact certificate](../research/fractal_handover/fractal_research_07/positive_contact_certificate.json) |
@@ -27,6 +33,7 @@ Finite checks are reproducible with the [runner](../scripts/verify.py).
 The surrounding analytic arguments require mathematical assessment. Track
 corrections in the repository and describe material changes in the changelog.
 
-The first settled release should archive the note and evidence together.
-Record its Git commit and Zenodo version DOI in the paper.
+Archive the completed technical note with the evidence it uses. If the paper
+uses changes after the first source snapshot, cite a subsequent archived
+version containing those changes. Record its Git commit and version DOI.
 The [release checklist](release.md) tracks that step.

@@ -1,7 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite Sixfold and the commit or archived version used. A Zenodo DOI is planned for the first archived release."
+message: "Cite this DOI for the archived 18 November 2026 release. For work using later changes, also identify the commit used."
 type: software
 title: "Sixfold: a family of self-similar spatial fractals"
+version: "zenodo"
+date-released: 2026-11-18
+doi: "10.5281/zenodo.24336419"
 authors:
   - name: "okwhynot-wtf"
 repository-code: "https://github.com/okwhynot-wtf/sixfold"

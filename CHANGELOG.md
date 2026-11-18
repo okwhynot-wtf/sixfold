@@ -1,5 +1,15 @@
 # Changelog
 
+## Zenodo citation — 18 November 2026
+
+- Linked the first archived source version, DOI 10.5281/zenodo.24336419,
+  and documented the all-versions DOI 10.5281/zenodo.24336418.
+- Matched the Zenodo ZIP directory and commit comment to the GitHub zenodo
+  tag; confirmed 100 JPEG compositions, 100 PNG masters and the .toe project.
+- Updated citation metadata, website links and paper-source guidance.
+- Recorded that the six MP4s are absent from this deposit and still require
+  archival, along with the record licence clarification and stale note.
+
 ## Visualisation edition 01 — 18 November 2026
 
 - Updated the TouchDesigner project, shaders, camera controls and GPU renderer.
