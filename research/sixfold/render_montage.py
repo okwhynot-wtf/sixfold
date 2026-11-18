@@ -42,6 +42,7 @@ def main():
     signature = hashlib.sha256(
         args.settings.read_bytes() + (HERE/"sculpture.frag").read_bytes()
         + (HERE/"render_film.py").read_bytes()
+        + (HERE/"gpu_renderer.py").read_bytes()
         + (HERE/"reference.glsl").read_bytes() + (HERE/"field.png").read_bytes()
         + (HERE/"contact_curve.png").read_bytes()
         + json.dumps([SHOTS, FPS, width, height]).encode()
@@ -77,12 +78,12 @@ def main():
     ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
     command = [ffmpeg, "-hide_banner", "-loglevel", "error", "-y"]
     for clip in clips:
-        command.extend(["-i", str(clip)])
+        command.extend(["-threads", "1", "-i", str(clip)])
     partial = args.output.with_suffix(".partial.mp4")
     command += [
         "-filter_complex_threads", "2", "-filter_complex", ";".join(filters),
         "-map", "[out]", "-an", "-frames:v", str(FPS*LENGTH),
-        "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-profile:v", "high",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-profile:v", "high", "-threads", "4",
         "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-r", str(FPS),
         "-metadata", "title=Sixfold - Endless Descent",
         "-metadata", f"comment={width}x{height} source, FFmpeg Lanczos scale to {out_width}x{out_height}",

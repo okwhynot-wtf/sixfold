@@ -1,0 +1,1753 @@
+{
+  "edition": "Visualisation edition 01",
+  "date": "2026-11-18",
+  "tag": "visuals-2026-11-18",
+  "release_url": "https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18",
+  "library": "research/sixfold/assets/2026-11-18-library",
+  "files": [
+    {
+      "path": "research/sixfold/build_curve.py",
+      "bytes": 1083,
+      "sha256": "b01c076c8e8b3a8a0ed2df711030da94307c149f3bdb3151f0eee3f3213af7b8"
+    },
+    {
+      "path": "research/sixfold/build_field.py",
+      "bytes": 2379,
+      "sha256": "2869cd377d314db5ca95fdb35ba90136897cc6ff1b648a43cc79e54d17aefa19"
+    },
+    {
+      "path": "research/sixfold/compare_films.py",
+      "bytes": 2013,
+      "sha256": "c33c69d906aee1e2353dd77ce3c22afa4fa5db12fd98efe54306bcdacadbd171"
+    },
+    {
+      "path": "research/sixfold/contact_curve.png",
+      "bytes": 7045,
+      "sha256": "0595715c0407d179af7030832e5074393bf96b258bbc05847c9d751d913b789c"
+    },
+    {
+      "path": "research/sixfold/field.png",
+      "bytes": 672749,
+      "sha256": "f2f6c861e9f3c289de0905df5ac81d67c09c3dd0ac002b12bd97443182ebcbfb"
+    },
+    {
+      "path": "research/sixfold/gpu_renderer.py",
+      "bytes": 4520,
+      "sha256": "6bd28ced144dd53720f3885f8d4df047530c07d63d2db6f0e029d8e0723cd9c0"
+    },
+    {
+      "path": "research/sixfold/install_touchdesigner.py",
+      "bytes": 9793,
+      "sha256": "66b6598579dcd729a00125d389c08b8aa6ba9bcd1828ddc53f2e9136115a8548"
+    },
+    {
+      "path": "research/sixfold/Metal-and-glass.png",
+      "bytes": 1107313,
+      "sha256": "c72fd5d4e9f09877ab91bc5b29b99340776a406ca7c9eeccae2688501c0a06ee"
+    },
+    {
+      "path": "research/sixfold/montage_colours.json",
+      "bytes": 424,
+      "sha256": "4e540b08a72edcce1f8ed1d065860655317a365708cdb3b93cded4af29085570"
+    },
+    {
+      "path": "research/sixfold/palettes.json",
+      "bytes": 5923,
+      "sha256": "91fd2c4c7d5d9e2438529e9314496b94cfdea49088a17c99673d8b7b7f428a99"
+    },
+    {
+      "path": "research/sixfold/README.md",
+      "bytes": 10066,
+      "sha256": "520623f93aeb0f0acb56dc55471aa5f0d66b0a620c441d8dbf62f21a415dc4b3"
+    },
+    {
+      "path": "research/sixfold/reference.glsl",
+      "bytes": 1352,
+      "sha256": "4fc3dab4a7103582cd8c5673bda67ec06965952140ed68eaed25a66b528343e6"
+    },
+    {
+      "path": "research/sixfold/render_assets.py",
+      "bytes": 19432,
+      "sha256": "47497b1c90d2875598b11558ff28ad03d7df1fb832d96bc65a2f08a425f822d6"
+    },
+    {
+      "path": "research/sixfold/render_film.py",
+      "bytes": 3663,
+      "sha256": "cdbae17fbedca27dd4e176d3dcb87e0b091503dd66d9304e66ea7662b2d95f7e"
+    },
+    {
+      "path": "research/sixfold/render_montage.py",
+      "bytes": 4512,
+      "sha256": "6e378ace67601a1dfc6b013f8013aa64e7b770eb722a7685718fa3c1cae2bcd9"
+    },
+    {
+      "path": "research/sixfold/sculpture.frag",
+      "bytes": 18407,
+      "sha256": "9a42c6df7ca90d621056a7cefbb1d9c6c7cf6a1f34ecd2a9320ab67e82672f56"
+    },
+    {
+      "path": "research/sixfold/Sixfold-studio.png",
+      "bytes": 313058,
+      "sha256": "73bf15f51a4e7be518647572ed8e8b1eff5d63beb6b8f0de0caf0585b21af2c5"
+    },
+    {
+      "path": "research/sixfold/Sixfold.png",
+      "bytes": 611395,
+      "sha256": "d43289fdde02d8b1e35d539fc8cf59b6c01ff2e25546be63cce80abf65c9f526"
+    },
+    {
+      "path": "research/sixfold/Sixfold.toe",
+      "bytes": 1034308,
+      "sha256": "2ab0133e5c7d63fe1c76950ea496cbce12197b86944f15681ad204371159e7b2"
+    },
+    {
+      "path": "research/sixfold/studio_actions.py",
+      "bytes": 5509,
+      "sha256": "a048d30e2193a21aaf51546bbd494eaabf6f985601763d11b3fe096d53a86f4e"
+    },
+    {
+      "path": "research/sixfold/Winding-light.png",
+      "bytes": 1040773,
+      "sha256": "ae0f903781b8d12967d37211a3e771a8f4d154b1db59b342c406e263eb52e5ba"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/catalogue.csv",
+      "bytes": 15579,
+      "sha256": "adc6043d7774498c65ad5227f921915a1c2950075f2480340a52349b400972d0"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/contact-sheets/all-100.jpg",
+      "bytes": 624637,
+      "sha256": "7ecf0653764738e3407bf09a4de1b5e5e13498dfea684376e3273ba838168149"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/contact-sheets/landscape.jpg",
+      "bytes": 420195,
+      "sha256": "2c4edad721550fb5602564d5a83c4d4001d42b2b61d3642621358c70abad71b3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/contact-sheets/portrait.jpg",
+      "bytes": 375518,
+      "sha256": "7ecacf26b9abe5733145e47e3684f809ad6c86229e67cc60659af21bbd9b3d5e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/contact-sheets/square.jpg",
+      "bytes": 612149,
+      "sha256": "ccca5a19ef30fc2011eb7060876c2d3da04c04fe0805a1bf0bf0327845eb82f2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/index.html",
+      "bytes": 62887,
+      "sha256": "4302e4358388e13917d14b1f2644b6692b02651fabc77c9cf584c3efab969855"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/001-original-sculpture-orbit.png",
+      "bytes": 454223,
+      "sha256": "b4f866467dd6c324b41db74f8b5ab1770388d33667865c4685b8db8f92eb3dcb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/002-orchid-endless-descent.png",
+      "bytes": 952132,
+      "sha256": "ba1750f661136070934428da90d22acfd9862821f2ee0e1cce40d8ccfb860ae9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/003-rose-tunnel-interior.png",
+      "bytes": 1679377,
+      "sha256": "c98a3857e7d8cdcf3d7a44481af1c738e36d9bf34c5ad29ed74c1e8f464d4633"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/004-violet-winding-light.png",
+      "bytes": 940378,
+      "sha256": "f9a3d176fe8471c2c706278b810e33b5be441bbb0fa7fb389f2092322e291db1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/005-ember-sculpture-orbit.png",
+      "bytes": 289594,
+      "sha256": "ee2423db22e85f90d8dc60dff41154ffa9bc6fc2d942719e9e03200c6fe79d20"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/006-moonstone-endless-descent.png",
+      "bytes": 945577,
+      "sha256": "3ac384a3e5ad2d16490a9eb314319b25829abc729c0236523b027ac68ed90ea9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/007-verdigris-twin-passages.png",
+      "bytes": 484701,
+      "sha256": "d94c8b5c5111e041d450aed44bf73410c8b417a4ce65362746c59de5da5e9952"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/008-glacier-endless-descent.png",
+      "bytes": 893426,
+      "sha256": "d9080d8798e6ff110a842a5c1de658718270550f6fb5253076d73c4bb3be5596"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/009-silver-sculpture-orbit.png",
+      "bytes": 453146,
+      "sha256": "d4b824e1363ffb7ef96d43b71c5992de11ea56d6aa2d3daeb9e869cf8a7b2810"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/010-cobalt-endless-descent.png",
+      "bytes": 971262,
+      "sha256": "bb918ca1ff607e6878b103f103f9f4507d5e212eeb8abbb1101234d73c873380"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/011-glacier-tunnel-interior.png",
+      "bytes": 1668837,
+      "sha256": "80cc9fbba033de4998fa5c912b897773d794d5c68448e3170f27ca5e49ddd1c9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/012-silver-winding-light.png",
+      "bytes": 998661,
+      "sha256": "cd8014aa2dcc703e604cd3e7c914e41930140ac65532212b9c86ef7945d7c6d4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/013-cobalt-sculpture-orbit.png",
+      "bytes": 321235,
+      "sha256": "cb3197f18f9cb8818a2542ce8a499c6e78d638fa708c40430b15084502fd142d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/014-original-endless-descent.png",
+      "bytes": 1099974,
+      "sha256": "eee0aaf2b4bac8ca3ecb78a99a03595cfcef844cb1fe99ec43da49625fccedd1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/015-orchid-twin-passages.png",
+      "bytes": 493800,
+      "sha256": "6a50f4a6edae6febbbb6b1ee499750a8f66cd2b269c1b02d50d20c5c4e7d58f7"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/016-rose-endless-descent.png",
+      "bytes": 1009770,
+      "sha256": "efeb01a89293245be821ee4b0b128fe0d6b23758d2d92dcb5144a8fad028782d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/017-violet-sculpture-orbit.png",
+      "bytes": 470443,
+      "sha256": "f1c798bc392899fec3f716bf532f48160077b82b071fdb08915fb851f26c4614"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/018-ember-endless-descent.png",
+      "bytes": 1004078,
+      "sha256": "0f03e0918ee81169e6dac69dfc932532acb960a7f1b23842e0a31551484aae58"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/019-moonstone-tunnel-interior.png",
+      "bytes": 1727416,
+      "sha256": "7dee675f9a522ae52d6bc7af2d1afd343b54ed816243fc2f3868d8a7342e4f75"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/020-verdigris-winding-light.png",
+      "bytes": 896832,
+      "sha256": "1b5ef2382b10007579e692f94b49f89c5e26e52295d524c2c651cdebf0acab83"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/021-ember-sculpture-orbit.png",
+      "bytes": 320443,
+      "sha256": "452bdaac760d551e03bfe56f43e33d8feaf073ab211f66c95fd8de6ec27690f2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/022-moonstone-endless-descent.png",
+      "bytes": 1046514,
+      "sha256": "2e7e905e4799e7c632b0821b54ba4a9852014b228be868a107cbc155148f071c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/023-verdigris-twin-passages.png",
+      "bytes": 484322,
+      "sha256": "fbd4518f6c7f70a3435136afc2a92f32115d4cf0d9393c66b4ada922acc590e3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/024-glacier-endless-descent.png",
+      "bytes": 1130274,
+      "sha256": "26f6f39a6fcf391201d227c1519aba32b3cf2c13dbb126f853e8bf6757d1c29a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/025-silver-sculpture-orbit.png",
+      "bytes": 457957,
+      "sha256": "eabaacf5c05fa46295572bda53997d69679891fe7e7a949fb7c79fe8cdcb2877"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/026-cobalt-endless-descent.png",
+      "bytes": 989815,
+      "sha256": "85628516bf4aa73175da6be9274a6a2fa2df2e1673ac7ef8e8ff96d77e0b861e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/027-original-tunnel-interior.png",
+      "bytes": 1743450,
+      "sha256": "89faaead8c8c35d924fa9f822b2b8ac32f3891b402abb54b79ac7c84e8b2d43b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/028-orchid-winding-light.png",
+      "bytes": 1054388,
+      "sha256": "691a0de37ecc3785bb44f0e745e4305397972f52eb80a39dbab4f47bd05ddc08"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/029-rose-sculpture-orbit.png",
+      "bytes": 295713,
+      "sha256": "6dddc2ea7a56931ca9074f4615bd5b98e8d5b3b60fda4b31c9d0c199a17507b5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/030-violet-endless-descent.png",
+      "bytes": 933324,
+      "sha256": "4e2aecc2777eb2bb265c1aaee6f7c0d246b852cb875717a3101d3b5033b92648"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/031-orchid-twin-passages.png",
+      "bytes": 493260,
+      "sha256": "9e2107eeb93223d5bb24c4b15049ab6f07aad63afa444672bcbc0c75bb499799"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/032-rose-endless-descent.png",
+      "bytes": 837295,
+      "sha256": "834b41d5b453de2315b8796467b3059715a7148238c74bbad68b9b2df367a0de"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/033-violet-sculpture-orbit.png",
+      "bytes": 454075,
+      "sha256": "fd7fc50eb31ef7b4c3b7622390504cd78f13565197877a8d1ffef30eaef7bbf9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/masters/034-ember-endless-descent.png",
+      "bytes": 942962,
+      "sha256": "3aa4d9d4a1c25bd58a7ba79fbaa9bed9145faf7969f31f5e82fcff42913b2454"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/posters/01-chromatic-descent.jpg",
+      "bytes": 262823,
+      "sha256": "c3d8879fad275278df316cbb49bd7f988a34205a88033d2b093d0a569125ff96"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/posters/02-through-the-passage.jpg",
+      "bytes": 505728,
+      "sha256": "4d24625214c21399c88c7c49cd9b5070963373bfeafea97791b23954f2bb4061"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/001-original-sculpture-orbit.jpg",
+      "bytes": 212062,
+      "sha256": "60c4001e521b901e2bd148e488065ab06528feb7c6dd58e89b232edfb435ce56"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/002-orchid-endless-descent.jpg",
+      "bytes": 344492,
+      "sha256": "9db0b6fb2b82ec2b968330339c3144f2d169e028ae59153011d7c6b226cc5e6b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/003-rose-tunnel-interior.jpg",
+      "bytes": 744479,
+      "sha256": "3cd5b963e2aa4aad28ce7561daf69de2b5e17ed92beb805846ccfae3a588be23"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/004-violet-winding-light.jpg",
+      "bytes": 343948,
+      "sha256": "56475f46fcf4d8277737ec5ac856adfac53dbb88e51fd2988aa2be49a91130d5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/005-ember-sculpture-orbit.jpg",
+      "bytes": 158973,
+      "sha256": "c591abd18a57976136584b1120ee6465a979528f3acd2b4d7c0a6cad0ae35bcb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/006-moonstone-endless-descent.jpg",
+      "bytes": 367738,
+      "sha256": "d3c9dca0c8b864bce68b8754c35f42868fe9b9d5d90fc8110a1c71ab6ccf5faa"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/007-verdigris-twin-passages.jpg",
+      "bytes": 228518,
+      "sha256": "7fd2c7a8ac1c37442567aa50986e7f059c049ca085bdec1aa3168c2e043552c5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/008-glacier-endless-descent.jpg",
+      "bytes": 341822,
+      "sha256": "1f5c29f9bdaab4f58da9db3ca8ccbc96d7dcf660eb481fe80da195cb6a0cc13b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/009-silver-sculpture-orbit.jpg",
+      "bytes": 197075,
+      "sha256": "0f4fa7430850f22bd2b81d0905009609f60771a9162e8cbd2ac8deb826357006"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/010-cobalt-endless-descent.jpg",
+      "bytes": 335120,
+      "sha256": "d179ba579bb42d0aa1d43fe0a32d6e760e3bd66670d50c5e3c44e8db2582d889"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/011-glacier-tunnel-interior.jpg",
+      "bytes": 672477,
+      "sha256": "b59477951cc10039798209554c9f032f5d188b136af9455e8f0de053ec7f2edf"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/012-silver-winding-light.jpg",
+      "bytes": 344616,
+      "sha256": "803c622c481ce328150fd740ec93959199be4f220ff06434f26ff3816775d950"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/013-cobalt-sculpture-orbit.jpg",
+      "bytes": 149136,
+      "sha256": "934373990946d1ba7d2ee60966f9d717a2cab356d2a8a963ed94df1ad49c6306"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/014-original-endless-descent.jpg",
+      "bytes": 424520,
+      "sha256": "7cc4723958e2d2ecb29a057c6fc29164fe6f5c9241d332e3d93341f005260030"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/015-orchid-twin-passages.jpg",
+      "bytes": 214728,
+      "sha256": "b72b5d751d8a2dbec51097f827b83daf3e54b3416f13081537f61c8ae6655dbe"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/016-rose-endless-descent.jpg",
+      "bytes": 398054,
+      "sha256": "78a21b0ca2b0cc19e803b7978569fbfb6f48eaca5a7bb5baae8d6a7613d96582"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/017-violet-sculpture-orbit.jpg",
+      "bytes": 208741,
+      "sha256": "b87b250da3dd7261bb951b9ab511d4f07b016574e317fba523501cd5bbb911ab"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/018-ember-endless-descent.jpg",
+      "bytes": 443319,
+      "sha256": "c74553402fee4234872498cd5f67d3b9ba2ad384f993d6483f186b14576fcf8f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/019-moonstone-tunnel-interior.jpg",
+      "bytes": 774710,
+      "sha256": "23383e7de3e49003e3e804747e6e6e54571810447c13b2b568f8fcfe45d536bf"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/020-verdigris-winding-light.jpg",
+      "bytes": 303011,
+      "sha256": "d6808a26ac4d1d92cb85754a60bc87005d35fd6f00c4c92dcc99305168e19e5c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/021-ember-sculpture-orbit.jpg",
+      "bytes": 178194,
+      "sha256": "7cdcd9314c11d1dbbe8b28bfa79b3600f8bc6479bcab857353e3f0b99bc3df59"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/022-moonstone-endless-descent.jpg",
+      "bytes": 411532,
+      "sha256": "2a4d4828928123c7dc47179c4042e985710c313e86a54bbdc25f1c9e9ff71aa5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/023-verdigris-twin-passages.jpg",
+      "bytes": 227523,
+      "sha256": "d1a369b011765c2fc65932a526058da912a53a88feee2355242f1bed02294331"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/024-glacier-endless-descent.jpg",
+      "bytes": 402761,
+      "sha256": "7db41101312160e94dbc2391bc524ce242f7bbc4ad1d0ea0fe7af8512fc56618"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/025-silver-sculpture-orbit.jpg",
+      "bytes": 198366,
+      "sha256": "db248967b8f3371bd0eaa050378ff14b545bd7608e4e48b906c3d6e40af29f84"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/026-cobalt-endless-descent.jpg",
+      "bytes": 347740,
+      "sha256": "63764975151ab5c4dceaa0e4bfbfc4a2fc76485584543fd1225220e3973fc5e5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/027-original-tunnel-interior.jpg",
+      "bytes": 820082,
+      "sha256": "63278fcf1c622a1b2769286476a8a754d22c3df2f170d35a9f100e6914e47719"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/028-orchid-winding-light.jpg",
+      "bytes": 361027,
+      "sha256": "46dda17fb502f8a36156194e3d58be26c3650983220c034e3fe99846f7d4afda"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/029-rose-sculpture-orbit.jpg",
+      "bytes": 152591,
+      "sha256": "f5934deba761f11ce899489a95753d2552cbfb3f8b9c4bcfc03c74981f97d620"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/030-violet-endless-descent.jpg",
+      "bytes": 333753,
+      "sha256": "6ef9fa864aa182feaadba9b5cd943beda651ec730069e62364e3b2baf369f106"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/031-orchid-twin-passages.jpg",
+      "bytes": 214500,
+      "sha256": "c7416fae1c873fb15045501b286ac01dafdc163d99fa6c6a18f77d98a60874e1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/032-rose-endless-descent.jpg",
+      "bytes": 358326,
+      "sha256": "849b641b0163632fcd178aca0d587dd4ece8819054417f86050337fdb7a8d0a3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/033-violet-sculpture-orbit.jpg",
+      "bytes": 208567,
+      "sha256": "17e3f9cfebcffcabfbd9298053446269f72c0107826a51d9f617d990b1ec7b0b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/stills/034-ember-endless-descent.jpg",
+      "bytes": 408588,
+      "sha256": "fcdf7db2612a2e15dd68d34012d8468a5cbdc1d036fc33ac24d2f9d1761a6d6e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/068-silver-sculpture-orbit.png",
+      "bytes": 442230,
+      "sha256": "36254052638fd90981ace0d7e467a48ab162d25f9c4c545e9cbdef8f094a56ec"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/069-cobalt-endless-descent.png",
+      "bytes": 1170215,
+      "sha256": "c2c0d0ca3fae09bd81e31e9ea05714759a0ff553014cc5c496ae4172ae798872"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/070-original-tunnel-interior.png",
+      "bytes": 1559868,
+      "sha256": "c1770e535a0768d0687934ea1d7e8b675b314cc82228ddc049099e40a43f9ab4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/071-orchid-winding-light.png",
+      "bytes": 1234430,
+      "sha256": "f39c250e669300ddecf2da014604805f80290347d2fa984208e3a500f2c721e6"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/072-rose-sculpture-orbit.png",
+      "bytes": 329637,
+      "sha256": "38c1c9d0685ecb69ce995ee9b34be0141adf7c8640e2c162d49b8618777b3347"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/073-violet-endless-descent.png",
+      "bytes": 1142431,
+      "sha256": "f5f4a1470d08e82789abeffdfc4a95068a50043852945a8849643fd708326eb1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/074-ember-twin-passages.png",
+      "bytes": 485223,
+      "sha256": "200ef222e3dc563d7902fd24017b74e6e504fd19166738665456831b46132ed2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/075-moonstone-endless-descent.png",
+      "bytes": 1240568,
+      "sha256": "571673d0a32ebbf64c86c059ff41a8cb33ec29da18379e81e5625b30151f7226"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/076-verdigris-sculpture-orbit.png",
+      "bytes": 454596,
+      "sha256": "b1c9d896bd8eb2997122e296ffffaa41245c1231dc70454483a3a7ada0c44b1c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/077-glacier-endless-descent.png",
+      "bytes": 1208908,
+      "sha256": "167cf44b02689fccd807074dfe88aec9d3d20f65ee738dd33ce6f1a23d45802e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/078-moonstone-tunnel-interior.png",
+      "bytes": 1690224,
+      "sha256": "629bd04f48100115aca84e80228009474e36f8cceac8b5abb3a61afcd6069d45"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/079-verdigris-winding-light.png",
+      "bytes": 1240736,
+      "sha256": "333d309f1ef57972b1e735ebe163451f3cd7c98b53529bb871b081235e3853ca"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/080-glacier-sculpture-orbit.png",
+      "bytes": 342116,
+      "sha256": "e141d11b8098a38aaee018f198f0d310197c4b415418e565cff668ed7690c715"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/081-silver-endless-descent.png",
+      "bytes": 1300158,
+      "sha256": "b124cb93bf0401dc142a7ddb2728a2ad1e1e3318dc1ddd59e657d5fa29fb0c3d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/082-cobalt-twin-passages.png",
+      "bytes": 489904,
+      "sha256": "3967e54c0e39107736c007bf1701c9548acd0bbed5bf1718961811e7dcd0f96f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/083-original-endless-descent.png",
+      "bytes": 1211099,
+      "sha256": "d05a9550476e12d0acdf432141e53ca9e4ef421ffaef4b1a28678cdede18025c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/084-orchid-sculpture-orbit.png",
+      "bytes": 459195,
+      "sha256": "3487640d74ef281810d79f256f57ead5b8a2ff2fa2c9c4f85b3fa4139320af2b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/085-rose-endless-descent.png",
+      "bytes": 1305424,
+      "sha256": "45dccb11445d2bea3a4145dd34fc44abfbf71cb322b6fce810d06910e543a9f1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/086-violet-tunnel-interior.png",
+      "bytes": 1712428,
+      "sha256": "7f9fd0e7281da496afbfaf03b61ea96073def18e8104e30c0a490a0973374630"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/087-ember-winding-light.png",
+      "bytes": 1093335,
+      "sha256": "10e451009ae183ea1588b6e2e525ff08d665c7653f3b1b114139efd792f0177c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/088-rose-sculpture-orbit.png",
+      "bytes": 322373,
+      "sha256": "a93176971514bd7623249a9aea3d4fee77ab93b18fe6f9c527bdfc04be3b2928"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/089-violet-endless-descent.png",
+      "bytes": 1255343,
+      "sha256": "4caff7051069f9fd129e8138f6080ad12a24b69c89c730f14ddb33636bf34912"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/090-ember-twin-passages.png",
+      "bytes": 486221,
+      "sha256": "d7339173d726a4b7becfcdb000e08649a445f03b25fb39875dc92fdf6c1cd843"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/091-moonstone-endless-descent.png",
+      "bytes": 1357079,
+      "sha256": "4992481c8979ad6e795f7418e2f49689977d3878782faeafa26c8e78f378f082"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/092-verdigris-sculpture-orbit.png",
+      "bytes": 414604,
+      "sha256": "d4ee507af5941e74b9a6e9b85ec5fe5bef6eec7c879c3e0eb49fa0e6c3b78589"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/093-glacier-endless-descent.png",
+      "bytes": 1248845,
+      "sha256": "dbcc58bb7bfb43645e3d4411ff63899ecd0440bef58974a999a7af1bc5d48b4f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/094-silver-tunnel-interior.png",
+      "bytes": 1614449,
+      "sha256": "ef17ae53164a5b38505ca49ab6254523f8eecd3876ec4aa1f5bc0987e20107fb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/095-cobalt-winding-light.png",
+      "bytes": 1265239,
+      "sha256": "16392139be616e63aca23709c29544703c7f0239fce36ac067de94a3714e3bcc"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/096-original-sculpture-orbit.png",
+      "bytes": 328654,
+      "sha256": "19484395425097dc14ef324e2a39b2d490df2710ade268fb830ffac8bcfa3ec2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/097-orchid-endless-descent.png",
+      "bytes": 1165952,
+      "sha256": "0972b00cc46e8ab90681f50c2677be959a6ba729cefd0aadea6dfb04c8428846"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/098-cobalt-twin-passages.png",
+      "bytes": 489972,
+      "sha256": "75583857c414e1f0eec55437372e16525e6b32cdbc02d0ab0c49405140fbbfe7"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/099-original-endless-descent.png",
+      "bytes": 1216453,
+      "sha256": "3852ef46dd3e6563c964e99611605eea1c579179ad52fa488316e50a3712ba90"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/masters/100-orchid-sculpture-orbit.png",
+      "bytes": 459466,
+      "sha256": "360ecab3513b1b58ad60c7adceb9002ff3a7aefa0685466bdb276944917521e5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/posters/01-chromatic-descent.jpg",
+      "bytes": 299798,
+      "sha256": "a1cf7872424e565ad8b11da332cb05db9afda780d0e25e497494481a77c7c8d2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/posters/02-through-the-passage.jpg",
+      "bytes": 459098,
+      "sha256": "f1ddde30e164331c2d1247c5df0dfdbc089a97f48c7d04c9fa8afe2512fc638b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/068-silver-sculpture-orbit.jpg",
+      "bytes": 193055,
+      "sha256": "1244c4eb70a63cdfd83476f9016e7f414d96bb00e3723be2acb9642c33155284"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/069-cobalt-endless-descent.jpg",
+      "bytes": 389664,
+      "sha256": "2708db840053cdb5a75f1eaeed432bedebc0f5dda70ce41bb9f265614da036d5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/070-original-tunnel-interior.jpg",
+      "bytes": 756034,
+      "sha256": "4b6e7281d53d704f30de083144df39d4c1b240465486414819e2cd1ab0f36199"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/071-orchid-winding-light.jpg",
+      "bytes": 400207,
+      "sha256": "fd04d84e8dea3edd2caed3ffb22793439e7419331776cb0016182abbcd19e8d3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/072-rose-sculpture-orbit.jpg",
+      "bytes": 168706,
+      "sha256": "ddacee5ef4e130d766e561f6b17e09661584ba0859d167e537e33d280d2e1eef"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/073-violet-endless-descent.jpg",
+      "bytes": 358179,
+      "sha256": "9d5f50c8c515ac9370de495da52e4d6689b272cf1730e05393ba60280026464d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/074-ember-twin-passages.jpg",
+      "bytes": 251644,
+      "sha256": "b327a5cfb236e4a984d10f63c4b88075209bbdd682cf853d52a5b02e53e8c4cd"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/075-moonstone-endless-descent.jpg",
+      "bytes": 438803,
+      "sha256": "51ac0cf8cc5db23632d59b362dd0139fb58db3661498a035e70a86166792fba9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/076-verdigris-sculpture-orbit.jpg",
+      "bytes": 211554,
+      "sha256": "0c3693a6b869d655d749566589fabd48724ae87a4274b2b49fb18baf2d314130"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/077-glacier-endless-descent.jpg",
+      "bytes": 359404,
+      "sha256": "91e075cb54df41d50042920376194acbd6e8198c6d6ee628f992b235d236229d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/078-moonstone-tunnel-interior.jpg",
+      "bytes": 796129,
+      "sha256": "c7d439ec4753d15d5c0a7623b48d3d102a393db808d5baa1c7d5af470dceb622"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/079-verdigris-winding-light.jpg",
+      "bytes": 399343,
+      "sha256": "ed6c3a1ce0ac861297236ca6597025e072d06ae25f5a0a43268a96c5e58f4fe4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/080-glacier-sculpture-orbit.jpg",
+      "bytes": 154258,
+      "sha256": "63739ef00cd330353f757db80d28af17c13f7a2196ea82d214e2dae5b536a2f3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/081-silver-endless-descent.jpg",
+      "bytes": 435908,
+      "sha256": "b32a893adbecb90a826e8644d73fce7861369c3eccb5557b7bf6627153952572"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/082-cobalt-twin-passages.jpg",
+      "bytes": 212484,
+      "sha256": "8e45bc79e7adbaa42a4e26cad6140cc1a9b42cceed0d96fc4dc9cf9ce2948836"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/083-original-endless-descent.jpg",
+      "bytes": 459464,
+      "sha256": "8fbb1f5b298bf2371f5a70fb90181a13cc2945bb623498f19ba705da4e4c98fa"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/084-orchid-sculpture-orbit.jpg",
+      "bytes": 198141,
+      "sha256": "f0003b282ed826354294ad57f119809d82b9563aed05590602a402aff3d4fa26"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/085-rose-endless-descent.jpg",
+      "bytes": 494825,
+      "sha256": "58ee656e8a072997b86a9398860ad981d7e93fc4348a473db0623f8e09b35a3f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/086-violet-tunnel-interior.jpg",
+      "bytes": 729201,
+      "sha256": "d35619133e3b8e347a85b75a08318242ec9d938d55289194bed6712a52a6483d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/087-ember-winding-light.jpg",
+      "bytes": 348458,
+      "sha256": "3f9c12be8506c77d6e3aca3d1ad83a41231fb3fbe498d074865b850c67eda939"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/088-rose-sculpture-orbit.jpg",
+      "bytes": 166529,
+      "sha256": "d54fda0caaa92dbcc56a69fd35483088f4330de635ab4d2bb8d31390d96ca026"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/089-violet-endless-descent.jpg",
+      "bytes": 399920,
+      "sha256": "294d5265756b6813ffba10e7be207d77aae5d7fdc8f2aec3c9b28d77b5af52c8"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/090-ember-twin-passages.jpg",
+      "bytes": 253051,
+      "sha256": "f10a829432744bc3c34afcf38b732069c215a8f4d8559d08b20adcc6e5c804cb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/091-moonstone-endless-descent.jpg",
+      "bytes": 439459,
+      "sha256": "364ff44935f83485942e09a9dc51447181e0ba495042f9b38f23a5ad0cce4033"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/092-verdigris-sculpture-orbit.jpg",
+      "bytes": 197748,
+      "sha256": "105e453f2e0344e3f3f9cc6d43748449aca63004017cd85cd82357487855f21e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/093-glacier-endless-descent.jpg",
+      "bytes": 420925,
+      "sha256": "48cadeab398ac50162996c3581c3a249193fca38ab6274e0a506d565599f1436"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/094-silver-tunnel-interior.jpg",
+      "bytes": 669842,
+      "sha256": "9e671a9c9fb59b109917da027110de570ee66a7eda3874387917929048a52311"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/095-cobalt-winding-light.jpg",
+      "bytes": 399318,
+      "sha256": "de70fbc5230856125d20afbfd73a8a315d8e0a4db60eeeb09ea7999cac2cae1b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/096-original-sculpture-orbit.jpg",
+      "bytes": 155310,
+      "sha256": "7ecd407a56fb4936c3394ef3c8b25045f81a10c4f2e1712d34cc443869912520"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/097-orchid-endless-descent.jpg",
+      "bytes": 372528,
+      "sha256": "78e51eaa42a30a631888b1755df418d7c42ddcb7e84cbccfed85c2f4479291a3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/098-cobalt-twin-passages.jpg",
+      "bytes": 212823,
+      "sha256": "6e60ea76f7abd28b6c598dfc354ba909e2f6b1fbede3b7cf032da8622166bd70"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/099-original-endless-descent.jpg",
+      "bytes": 468194,
+      "sha256": "a5f251cfdd81774a9c22f1caacd50ea61ea1cd094bd0cb21c471fd6a9c89ec34"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/stills/100-orchid-sculpture-orbit.jpg",
+      "bytes": 199737,
+      "sha256": "c9e4ffc589e76835e87ceb8b57a6e15a24548c0d2e0ed8bf459d46c2b4b0d6f0"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/progress.json",
+      "bytes": 193,
+      "sha256": "4f9cbcb8916edc7aad0e15547c268cc53457d26344203374d530fbeef2a9bf53"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/README.txt",
+      "bytes": 1465,
+      "sha256": "fdfc7f5305adcdc76f61a3fb171b7df66f61f9f57376cadaac97ad25030a730a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/source/manifest.json",
+      "bytes": 61838,
+      "sha256": "d42f192945e93983f19e4cef4f8a5ae33b859ec69f4a95723b9dc5f0a192d882"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/source/palettes.json",
+      "bytes": 5921,
+      "sha256": "750e48d27d95ac9986e048e0bf6d91363d1ae237f1a5627353818ec026f9146e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/source/validation.json",
+      "bytes": 1800,
+      "sha256": "8a03ba564ac800aa9ee845a82f1a80e45f136ad7fe1a39fca0b07ac31ffd6015"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/035-ember-sculpture-orbit.png",
+      "bytes": 1203678,
+      "sha256": "6ba91e29dabae0e95e69d28fd38cf4a0a465d8398c5a6d56747552c8683f063e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/036-moonstone-endless-descent.png",
+      "bytes": 2011527,
+      "sha256": "1d69f4ccca3ce570ab16bb498a464f65f9d4ecc7706d7b444d736d4f739fc539"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/037-verdigris-tunnel-interior.png",
+      "bytes": 2944164,
+      "sha256": "22cc562ca4c3687f98ac4935796af66f9dbe2eac8c01f7b238b6c671f9001088"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/038-glacier-winding-light.png",
+      "bytes": 1684632,
+      "sha256": "679c8308db68b8d994699d503ab55a4975fdf08a812c34ea0a1988f1d4590cf9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/039-silver-sculpture-orbit.png",
+      "bytes": 827621,
+      "sha256": "f40d420eb5524d3504a109d8ec3086d70274a8be0f26b93df310e7da36d88145"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/040-cobalt-endless-descent.png",
+      "bytes": 1961284,
+      "sha256": "9b4d0035251b821fc225f2c93b8e5a2ff5553863ba570737b778a878bd984336"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/041-original-twin-passages.png",
+      "bytes": 1320882,
+      "sha256": "3abbbfaa243e40331bc4757a95e4c4af1f2fe8eea769ba2372cf15de85bae3c5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/042-orchid-endless-descent.png",
+      "bytes": 1699813,
+      "sha256": "c26d08e3ab4d1154a3f4930b9c0dd0a9ac4eb9616b0f158590c7cd786e3cf25b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/043-rose-sculpture-orbit.png",
+      "bytes": 1273742,
+      "sha256": "b4616793ce4897a741b0e845471a0bdc2064c6d06711ab1a582ef647894b9f76"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/044-violet-endless-descent.png",
+      "bytes": 1951035,
+      "sha256": "dd7813834533c5e99f360f1f5db551c594c38aab882d694a4c3a5b8f23e51d6f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/045-orchid-tunnel-interior.png",
+      "bytes": 2990934,
+      "sha256": "7979bff71567863254421c96a66c230cad528524e068d022fbdefb7bea41b225"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/046-rose-winding-light.png",
+      "bytes": 2043208,
+      "sha256": "f5d27f1fdc14d246fc3adf7a2eac9810330032bfe37d3088093470995eeeea9f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/047-violet-sculpture-orbit.png",
+      "bytes": 901722,
+      "sha256": "4eeb79715614f10ff62cfa4c0fb7ba61de937b0c2c3d3f3aa34987bff985b4ce"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/048-ember-endless-descent.png",
+      "bytes": 1928089,
+      "sha256": "64e6f974f4a3721d75cdd049711bcf408aef4ff2767926a9d33a26b9be0e373b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/049-moonstone-twin-passages.png",
+      "bytes": 1370559,
+      "sha256": "0e47d6cc87f0596c89d9dc993540c38f86b90a43f46503abac1b9d4ab48b2be2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/050-verdigris-endless-descent.png",
+      "bytes": 2033485,
+      "sha256": "4a8ced3a2e120a255ede6aa442d856f64f61946816de68b26c176790b5f5dd11"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/051-glacier-sculpture-orbit.png",
+      "bytes": 1296703,
+      "sha256": "f3892e3900a9ceeae3329821b7d8faba38a699e2ba1ed641de6b09cf781dbaeb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/052-silver-endless-descent.png",
+      "bytes": 1900588,
+      "sha256": "afcd5dd6c54236b465c33b2916e497ef409142b082aa244aa02b0d81494ba1cf"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/053-cobalt-tunnel-interior.png",
+      "bytes": 2744298,
+      "sha256": "a64d8817288c528fcd3398af6ddc450b21fad8fb985a1deda0b09a6d249bd2e1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/054-original-winding-light.png",
+      "bytes": 1831656,
+      "sha256": "8339f7a4ec76c7e0853ec63b292dd1b8396cb35c4e127ea8942bc641c46667d9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/055-silver-sculpture-orbit.png",
+      "bytes": 903324,
+      "sha256": "ee4face6ea54dcb05f3c33b5b06dc9b137432143acf88b0a72ee18769665c107"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/056-cobalt-endless-descent.png",
+      "bytes": 1924594,
+      "sha256": "590baa2ab741ca0a8af8f0187e407af619c8bcf3bc690ae879180b109103362d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/057-original-twin-passages.png",
+      "bytes": 1321897,
+      "sha256": "83c150a12237184b006361e320e4d1020fd872b976a1bca1dc22979173047e29"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/058-orchid-endless-descent.png",
+      "bytes": 2018057,
+      "sha256": "394d873629105f1658f2d52dd826148b56835c16a482db777097251664ba8f63"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/059-rose-sculpture-orbit.png",
+      "bytes": 1182557,
+      "sha256": "5229fd614f7aacaba0622aa8d9cf8d4de60270210bad300e077f06b2dc16f845"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/060-violet-endless-descent.png",
+      "bytes": 2101826,
+      "sha256": "793dba301975a5c86d8bbcf5f9eb01c4df5c2b6404dc9299474cf3ae2411ebe3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/061-ember-tunnel-interior.png",
+      "bytes": 2935934,
+      "sha256": "824d93bcf4cf6aa925fb8691291a84e10d36b20003ca36a0e44b2b7f64a2f9d6"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/062-moonstone-winding-light.png",
+      "bytes": 1833197,
+      "sha256": "3c1a52fe27025cbe7b3832a2339f01dfbbe828ba2f4b5168746456750206e942"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/063-verdigris-sculpture-orbit.png",
+      "bytes": 851595,
+      "sha256": "3935f238d7a35296dc0546e2c121253c520cd25512ebd4412012dd08ab630ca2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/064-glacier-endless-descent.png",
+      "bytes": 1933553,
+      "sha256": "b2152972185365536255ee68e47d696bd3ea9ac3f58a71669a0c9d8f23715e73"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/065-moonstone-twin-passages.png",
+      "bytes": 1369206,
+      "sha256": "8884e78340355f5735733cb7f90fd8f7097b29a95085ae694ae94bc9da1efaa3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/066-verdigris-endless-descent.png",
+      "bytes": 1754372,
+      "sha256": "3158cead986948f3d73c24db616b9da5a8c0414447b6bdee3f497b9c46e8829a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/masters/067-glacier-sculpture-orbit.png",
+      "bytes": 1279520,
+      "sha256": "f70e8e22949278c064bf5923f85c50fc537b14b6837b2244dcbb6b5de1163540"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/posters/01-chromatic-descent.jpg",
+      "bytes": 444889,
+      "sha256": "8793a70352d90ad19d825eeb05072458ebdff200a472308b18fb330e2dc0529c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/posters/02-through-the-passage.jpg",
+      "bytes": 832127,
+      "sha256": "4213bac210dfe269c9c1928974f30050f1edc03dfbc8a8d78a79dcf522b7652a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/035-ember-sculpture-orbit.jpg",
+      "bytes": 562781,
+      "sha256": "cf35915e28072df7c11f1dd88fed72f8b681809feba39cbc16ec9aa03a79fa24"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/036-moonstone-endless-descent.jpg",
+      "bytes": 718024,
+      "sha256": "6f87e1e613b8104c841e42f239b1a0a7fa2b925466be8ea26d3d27bee9867dfb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/037-verdigris-tunnel-interior.jpg",
+      "bytes": 1149871,
+      "sha256": "28197a49d8303d86a1e4a2335e46c3be08c4144aeae4dd08e5fb8768e0547dfc"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/038-glacier-winding-light.jpg",
+      "bytes": 514321,
+      "sha256": "960b0fc83de7a29d14e5f1603652856be9df76ed8ab71dfb8b70175e6d85f717"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/039-silver-sculpture-orbit.jpg",
+      "bytes": 347285,
+      "sha256": "8c9e641398167ee9af370377840d262c69860a13fbdb47a02c4ad77c24452717"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/040-cobalt-endless-descent.jpg",
+      "bytes": 657182,
+      "sha256": "7c80a899582e0b581b3d486cbaa26c13dca1d708f304663986a5ba4e89ea2dd2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/041-original-twin-passages.jpg",
+      "bytes": 519655,
+      "sha256": "de1ab5c65f64d580b2e68b374e9b17e09f6a90aab583d61d872a314a675996f9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/042-orchid-endless-descent.jpg",
+      "bytes": 514305,
+      "sha256": "427691bf31bef7a653b538392034baf29ee8f91d2a1ddb6625c01edb64169a24"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/043-rose-sculpture-orbit.jpg",
+      "bytes": 558960,
+      "sha256": "4354839c9cab6a9b1652cad4269f48a934f3207d666f197f3b70eff9c5ba2d3a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/044-violet-endless-descent.jpg",
+      "bytes": 628802,
+      "sha256": "7ccf4a77df4652c1adf8c7ca34840734a22c45c45d77094f031461ceb762aee9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/045-orchid-tunnel-interior.jpg",
+      "bytes": 1305847,
+      "sha256": "e751343bd3c1f4565beda0bb0a3cc923ac6e50f4c751311b1fc5852c61625bd9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/046-rose-winding-light.jpg",
+      "bytes": 667439,
+      "sha256": "796dde1b9a5196ace8ddb53df1eac07687355be36bfb95614ccbd4901492dbcb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/047-violet-sculpture-orbit.jpg",
+      "bytes": 423739,
+      "sha256": "fa68e613132633ee6c32e69bc9e89480a2a61346b187f5dcb3fd3a2c52eb802b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/048-ember-endless-descent.jpg",
+      "bytes": 717714,
+      "sha256": "55ef052a325c2e2ce3b9c6449fb31bc89a289009215d4ebdfe3984a51d342cd9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/049-moonstone-twin-passages.jpg",
+      "bytes": 564958,
+      "sha256": "6aac60bda5fbe6e85d8d0cf534bb6864d3478dd20323408ad99a0a1a9051900f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/050-verdigris-endless-descent.jpg",
+      "bytes": 686902,
+      "sha256": "ceea1380f6780cc9f404d4d2294e1f6c2043a7aa593392e6e8b807fdd9e1f86e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/051-glacier-sculpture-orbit.jpg",
+      "bytes": 508555,
+      "sha256": "028b659e66cb677d47707cc9cf8d3fe9c4cc4ef8868be1d26b7d87ff39298db6"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/052-silver-endless-descent.jpg",
+      "bytes": 594681,
+      "sha256": "c3d32081f0cd40e278eb8949ec9b7fd52569ebeb13eb7ec99988ad2b69fa5f5e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/053-cobalt-tunnel-interior.jpg",
+      "bytes": 1141930,
+      "sha256": "b3d1e0a0aee79ec2f278633a4df67e8b3801403f3fbe2b52d657cedda9d75e2c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/054-original-winding-light.jpg",
+      "bytes": 615665,
+      "sha256": "a504a311d0ea3fedab223ca30f81e6eeb10573a52c363c0252668e4f42e9e514"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/055-silver-sculpture-orbit.jpg",
+      "bytes": 393411,
+      "sha256": "77e227341546bebcbb6e3e08de84604733482ccbbfa08c5f7f780358f63315ea"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/056-cobalt-endless-descent.jpg",
+      "bytes": 548648,
+      "sha256": "98b8be95c86a9e14f565150a087f6160427ceb0e2d8d2eb4a4540d405472a053"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/057-original-twin-passages.jpg",
+      "bytes": 519822,
+      "sha256": "3c4a69ccd6df0d7220af68805e2a847eaeca4bda8cbd91a03db9d41a4a21da65"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/058-orchid-endless-descent.jpg",
+      "bytes": 621538,
+      "sha256": "aba177a0fd2cd0bc6cd29385cd674dc216d6805311e2dd9ce0b906c0b8650b06"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/059-rose-sculpture-orbit.jpg",
+      "bytes": 509744,
+      "sha256": "526ef71ccba613289973548366fb2a2ad4d6041969f66ef8df330d99e805bfb5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/060-violet-endless-descent.jpg",
+      "bytes": 710811,
+      "sha256": "6a46ed1a78f5d2985bc2c648f5fa551706851c7849e4d4b2c82b7818d23e13ff"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/061-ember-tunnel-interior.jpg",
+      "bytes": 1452592,
+      "sha256": "9e9ae427f68546e05e37b2b524bac12986f626d414aff5f4a48415123edc3b56"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/062-moonstone-winding-light.jpg",
+      "bytes": 591852,
+      "sha256": "1ccd72e59b5c76278c2893542835e2107fbae8d110e98c6d6fc20e1d7999f558"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/063-verdigris-sculpture-orbit.jpg",
+      "bytes": 391818,
+      "sha256": "d5bda7447442e0c62e4a04a7a2c950118e542c12d17a35b7304bf39915981e56"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/064-glacier-endless-descent.jpg",
+      "bytes": 656365,
+      "sha256": "80411826136101a78efe8ef328efcbe99717e48a30568e1113186b7d32f4df88"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/065-moonstone-twin-passages.jpg",
+      "bytes": 564989,
+      "sha256": "cd5fcde9eb2f8976a45006bfcad0030106c9f960c612631a237e6bf92cc5274e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/066-verdigris-endless-descent.jpg",
+      "bytes": 545967,
+      "sha256": "e44564a73987d28dec5e7483b1dc41002f6395aefa95024d1e5aed20c9ef7a6a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/stills/067-glacier-sculpture-orbit.jpg",
+      "bytes": 498230,
+      "sha256": "1260d80445f77b15107069cd282fa6325dae7c3f642097b7439a9a0237705b08"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/001-original-sculpture-orbit.jpg",
+      "bytes": 16230,
+      "sha256": "a4e8e08bf768ac17a58259df018b469594a83620f1bc4f26e22b3002f678103c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/002-orchid-endless-descent.jpg",
+      "bytes": 28824,
+      "sha256": "9ef3c879a736be403c487480ef244964d0a66db966bd8a838f248b05253564b6"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/003-rose-tunnel-interior.jpg",
+      "bytes": 48145,
+      "sha256": "5870a82e61a427cfa3e23e3559ed74bf0e6e42668a23d164e73964c3b430926e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/004-violet-winding-light.jpg",
+      "bytes": 27814,
+      "sha256": "7aba6cf272be36a08d66594f6012c74403ecb146ead869b5952ea762b9f24b1f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/005-ember-sculpture-orbit.jpg",
+      "bytes": 11009,
+      "sha256": "00a579bcbfe2d467be2a96b010caf80977d8bed0b92eb62f4b05e23c06bd4029"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/006-moonstone-endless-descent.jpg",
+      "bytes": 31385,
+      "sha256": "f45aa413acf030c0720243f602c3c5335b3b1e22d66d903d78193732e3f6a8cd"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/007-verdigris-twin-passages.jpg",
+      "bytes": 17438,
+      "sha256": "123232aa828c2b612eef1a754f34c42aea90359587d146926ac775eee8011d45"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/008-glacier-endless-descent.jpg",
+      "bytes": 28272,
+      "sha256": "e91e0a5e11de365600d2a1d30009881d470425335734af32a261e6a6f2851d48"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/009-silver-sculpture-orbit.jpg",
+      "bytes": 15958,
+      "sha256": "36e65d70ee19ee8ff8cd997af187fc13a1761049c6d1f0fa71c2ec633951bd7d"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/010-cobalt-endless-descent.jpg",
+      "bytes": 29044,
+      "sha256": "98453f396938964fc7cc80af352f56a8b796ba17fbeb92edaa49341091fd92bc"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/011-glacier-tunnel-interior.jpg",
+      "bytes": 48732,
+      "sha256": "9140ba72e54e7505595854f5ecbab5c5a2d2678604f9759b8e3829db2ac28f2a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/012-silver-winding-light.jpg",
+      "bytes": 31007,
+      "sha256": "a527f1dda776281b58d58baa81a6c7e0afb52591fe8e5c592b3de4602ba665d8"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/013-cobalt-sculpture-orbit.jpg",
+      "bytes": 11796,
+      "sha256": "19538fa913f02d77fdeba7e6a0ad5293f1b0c4babe070149aad9eed0616bd268"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/014-original-endless-descent.jpg",
+      "bytes": 32126,
+      "sha256": "2c642f10e9cb13c0f41662f72d667fdcf460f2ac0f37ba34349fd0aa176f511f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/015-orchid-twin-passages.jpg",
+      "bytes": 17081,
+      "sha256": "c407351701647ba3a584caf025e2925f584f07d209589eedad74f4c2251608bd"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/016-rose-endless-descent.jpg",
+      "bytes": 33119,
+      "sha256": "36c8349ea6236f1384e66290b0f414ac04b00606a0d68bcd51742251304fae34"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/017-violet-sculpture-orbit.jpg",
+      "bytes": 15882,
+      "sha256": "c36bb020ffdc23ebd0c0ffeaef32ac0742fcb87b3ba70c22a1e82714f9714c6a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/018-ember-endless-descent.jpg",
+      "bytes": 32216,
+      "sha256": "bc63f436ed70a669b96109586e2d7b028fe74e34f36813d032cf30af336033e7"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/019-moonstone-tunnel-interior.jpg",
+      "bytes": 52818,
+      "sha256": "4cb5ac90713d30b9f58b26c49a56e64371a8a0692502e1e68bbfd687350a8bf0"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/020-verdigris-winding-light.jpg",
+      "bytes": 28034,
+      "sha256": "2178cd7a7a63fcf1abf9c3bcfd5f0810eb2beebdadb8f8e55254a73553d1334a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/021-ember-sculpture-orbit.jpg",
+      "bytes": 11890,
+      "sha256": "33c703538258c3573654ce70f2cbeaeb5f048cb18903c5e7c265d00de400fd69"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/022-moonstone-endless-descent.jpg",
+      "bytes": 34392,
+      "sha256": "b01658f9ee522e3afff79e84e6417d8d5e8fdbfc50e1d67a60b5ac51fe258e90"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/023-verdigris-twin-passages.jpg",
+      "bytes": 17422,
+      "sha256": "e40cf3a665e9aa058bdd56c619dc21de01549cb0bac609e1ae2ee48b0bf2bf20"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/024-glacier-endless-descent.jpg",
+      "bytes": 34285,
+      "sha256": "29a0c891cc46ef843c2ac1ac5e8dd83e2d3943fae71f33fa55c865c6e2238758"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/025-silver-sculpture-orbit.jpg",
+      "bytes": 16092,
+      "sha256": "af47d06c7fc723db7ce65bb82c950c27c53a038a23b34807c2be1994918e7637"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/026-cobalt-endless-descent.jpg",
+      "bytes": 30419,
+      "sha256": "16b32d65564f005e7b176509bbff3fe2c416283b6a236445899f8a02c40e89ba"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/027-original-tunnel-interior.jpg",
+      "bytes": 49713,
+      "sha256": "8079755253b65a1f564f51b1e9388f7b7006b2de0ae3e9c1b041ce3b2f6c40ba"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/028-orchid-winding-light.jpg",
+      "bytes": 30193,
+      "sha256": "d325f2b004792a555d3343f43186b6e856417d6d6b33a5e29bed8b47991ef6c4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/029-rose-sculpture-orbit.jpg",
+      "bytes": 11785,
+      "sha256": "d67247bd4369c5519e367cd2eeeb96c83098549a2e6d10893f45658af33205cf"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/030-violet-endless-descent.jpg",
+      "bytes": 28613,
+      "sha256": "86c32c9a0b28ede3f541abe77625be07e2c0db5035de0ebbeef7e104a8ae3412"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/031-orchid-twin-passages.jpg",
+      "bytes": 17191,
+      "sha256": "29e3b221b2dcdd1df591288d93575b9183c3d9da97ef69f8e07e8444b63fa299"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/032-rose-endless-descent.jpg",
+      "bytes": 27362,
+      "sha256": "a79d54560a91c66e2fc55617d66c53d61c47c972492fc7ea9e7036b4381c6798"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/033-violet-sculpture-orbit.jpg",
+      "bytes": 15899,
+      "sha256": "f1dfab4778b1e5abde0e934937b7c259c18ad5ab7c28f9034ba3a012b8757d3f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/034-ember-endless-descent.jpg",
+      "bytes": 29788,
+      "sha256": "fb2e14784ff4e3f654afb6754b59ba17bc004f1436b43804fef44d42b610d509"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/035-ember-sculpture-orbit.jpg",
+      "bytes": 29117,
+      "sha256": "78a703607593cd73e3c0017f45d28935dcda49acfdd8eac336c1b09b51a84339"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/036-moonstone-endless-descent.jpg",
+      "bytes": 45674,
+      "sha256": "f9079006199a5869e484c9db20ca761772154dc09e53bc78b626d1b93926100b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/037-verdigris-tunnel-interior.jpg",
+      "bytes": 62229,
+      "sha256": "bc769b974790c5de65610939cbf4b9ec68f3012da135668bc0543a8f300a9b73"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/038-glacier-winding-light.jpg",
+      "bytes": 41261,
+      "sha256": "92f8394fb461456358507584b84a4f241a9034b8e20dbf2c61094d0220356e76"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/039-silver-sculpture-orbit.jpg",
+      "bytes": 20270,
+      "sha256": "0f1af5b3c54acc0b255a124223b10a585a2c81bee6875b72bee44f4b5adb6174"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/040-cobalt-endless-descent.jpg",
+      "bytes": 43360,
+      "sha256": "94dba4aa2ff720de992daa581c7720d93117cda4aae8073637d16dca3061f789"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/041-original-twin-passages.jpg",
+      "bytes": 30616,
+      "sha256": "946086d4cc3dd2746beea915b38ecbad778fde6bd47f27b7b427c6a2f72765a0"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/042-orchid-endless-descent.jpg",
+      "bytes": 38139,
+      "sha256": "be459def6b336e18d70c9ea95d4e71df00ba92d47412a361e23aedd9a7f7ef35"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/043-rose-sculpture-orbit.jpg",
+      "bytes": 31048,
+      "sha256": "e6d1cb25ec753bba3b2f5e7f5b4cab29c0260b3e1ac391388666d61b6b5dc7b1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/044-violet-endless-descent.jpg",
+      "bytes": 42206,
+      "sha256": "ad61d8cc96678e310192e184f06e410b4b6db62486534953cfa1ae26d0ca8bad"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/045-orchid-tunnel-interior.jpg",
+      "bytes": 62569,
+      "sha256": "42c2c0f4d2b3e6a9834e0e94a2471ef528f68cad53534470c185ec95e7997540"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/046-rose-winding-light.jpg",
+      "bytes": 46309,
+      "sha256": "ce820a462b880c76fee6c46aeed3eeccf7807eeeb0dbc2d144c6847df18affdb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/047-violet-sculpture-orbit.jpg",
+      "bytes": 22582,
+      "sha256": "6b545727bc401cdad60a8ac1ea3046ce1aaac88dfc2219fa508786322e86a2ad"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/048-ember-endless-descent.jpg",
+      "bytes": 45210,
+      "sha256": "1aaafc9db8aa20a4beb1820b6f4d562452e307bd59cab44065dc8f3fa2bc0038"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/049-moonstone-twin-passages.jpg",
+      "bytes": 33298,
+      "sha256": "d2fbb4765f477f254e26edb71236f21b47902f118c250c4c4409fae3a576ecdb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/050-verdigris-endless-descent.jpg",
+      "bytes": 44911,
+      "sha256": "ff1aa58964c801b6bae5576878f2c7e76b6c3e6de2af4b0e4d54c5e9364a716e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/051-glacier-sculpture-orbit.jpg",
+      "bytes": 31043,
+      "sha256": "0181b30dd8867eef96e0fe9f682d3fb3f6010f3ee425829e027f67d574f6aba8"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/052-silver-endless-descent.jpg",
+      "bytes": 48460,
+      "sha256": "0bfd54e63be40d2d0fbd4c189d3ca71455eabe7393d314df2f36bbc82d1d00d8"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/053-cobalt-tunnel-interior.jpg",
+      "bytes": 51143,
+      "sha256": "be198124df44c5d24f4f055fa268afeb53a23322303b63571df842b063a70ece"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/054-original-winding-light.jpg",
+      "bytes": 41373,
+      "sha256": "d6bb7b26c83a8a9b23961e55183b98ed36df22f5701ba5b6aaea9c922487b505"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/055-silver-sculpture-orbit.jpg",
+      "bytes": 22542,
+      "sha256": "7a229fcb3f2e7fc52acffc5136e6e7687bfab2ff32ca24712c0b32fe73446f89"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/056-cobalt-endless-descent.jpg",
+      "bytes": 43126,
+      "sha256": "a7b430c608d567964e396161b43586c931a9de5d728e7ea7380e66fb60899ef2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/057-original-twin-passages.jpg",
+      "bytes": 30574,
+      "sha256": "a203018861ec66b0fd0405f004c9bc1646673571008bff1e1ecae8144dab1e26"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/058-orchid-endless-descent.jpg",
+      "bytes": 45319,
+      "sha256": "ee58c61ceb883076d1e23a6c20d930ccd928d37c09f4119de227c41cdb47dd75"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/059-rose-sculpture-orbit.jpg",
+      "bytes": 28475,
+      "sha256": "eada2f41e456215446599a71312232cabcaf4270da0ea52014686235e5c04717"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/060-violet-endless-descent.jpg",
+      "bytes": 43776,
+      "sha256": "09cbb9c387eae2a2d0a38204ac041aabfc84055b42b48cc4862c9539b826ccd6"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/061-ember-tunnel-interior.jpg",
+      "bytes": 57575,
+      "sha256": "3e102305eba21c6e11412355ed44950b7f1f22c2836d34f1065781a41d8dc2fe"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/062-moonstone-winding-light.jpg",
+      "bytes": 46267,
+      "sha256": "8553fea8b524190b9c863f90626f0be0883cdfdd7fa497dad34ae9e2dd0082a9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/063-verdigris-sculpture-orbit.jpg",
+      "bytes": 21872,
+      "sha256": "0f6643621fee28f6e7d74c41beac8b5dee96fd9ac976419586f68f1c503cefbb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/064-glacier-endless-descent.jpg",
+      "bytes": 44023,
+      "sha256": "0a77390a6a5da064d99e7aa7e1abdaac78e303262f09e527ce2ab2df6735b9e8"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/065-moonstone-twin-passages.jpg",
+      "bytes": 33556,
+      "sha256": "91dc95569962bb8cefddcf7690a201aa698c390007fb8ea8389a6474a36330f4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/066-verdigris-endless-descent.jpg",
+      "bytes": 41089,
+      "sha256": "f17195c98fc796090604cbc8b069628568208a9031d09d81d78a2291398efaf1"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/067-glacier-sculpture-orbit.jpg",
+      "bytes": 30197,
+      "sha256": "7912b865389ffeeccb6b5ba805e96379767914271aa716eb23c46a54e8b08866"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/068-silver-sculpture-orbit.jpg",
+      "bytes": 11743,
+      "sha256": "e941f5a3e54c1a43e072fa25c1fea40e9dfda45ff1b7b1d947594c64d1246882"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/069-cobalt-endless-descent.jpg",
+      "bytes": 27792,
+      "sha256": "c2259384bd3c7bc4c5c9717b5c71915aaf8d8b579251ea9ce3a7abc080962df9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/070-original-tunnel-interior.jpg",
+      "bytes": 31528,
+      "sha256": "9e285bfcba2d1b1f6b32e2f0529799ec9e27fd4ebd66da187dd16ad7c0040d3f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/071-orchid-winding-light.jpg",
+      "bytes": 27375,
+      "sha256": "eed382e7856b5ab65405821c68314c4152f43c947622366949fdb93c654554da"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/072-rose-sculpture-orbit.jpg",
+      "bytes": 9505,
+      "sha256": "9c2163c8f2755af2201659275cdbf24b1d669e196bae3c70dd120f5f9c7bb6a9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/073-violet-endless-descent.jpg",
+      "bytes": 25710,
+      "sha256": "59affe75bf9c5273d4405274a81da3d3ac80d4f186d2ef867d7d052f38a78ef5"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/074-ember-twin-passages.jpg",
+      "bytes": 12733,
+      "sha256": "0c8a2e2e315259578cb62cf95ff02c42b01eb9c49b0ef7120b9b80742cf00fe2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/075-moonstone-endless-descent.jpg",
+      "bytes": 28539,
+      "sha256": "1a46fcfdc01366d48bbb21572c5645d38b32d48aeb44e8b9f8c01b97bdc9a1cc"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/076-verdigris-sculpture-orbit.jpg",
+      "bytes": 12225,
+      "sha256": "301318c26fc44a53d69b571fc48702d0ee07a2701e8e47f0144dc7f9e7cc7cbe"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/077-glacier-endless-descent.jpg",
+      "bytes": 28938,
+      "sha256": "45277de22e9076c6baf3b8c6b269a63edc4a6c3f9c27c713b72e66f8b22900ca"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/078-moonstone-tunnel-interior.jpg",
+      "bytes": 36329,
+      "sha256": "15bf348d657091ea4ff12706f25391f6ac73bbc65b5958041b76bae34ae115d7"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/079-verdigris-winding-light.jpg",
+      "bytes": 29930,
+      "sha256": "06ea2eff4e5b5bdc4571bb1cd19926f3113a53d39b3db6be957b557ed3352059"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/080-glacier-sculpture-orbit.jpg",
+      "bytes": 9605,
+      "sha256": "4dd6ea5dd69a8a9c8fde5bd32ba7a901a1f2cf7cec7cb2426bee34d326c2c9a0"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/081-silver-endless-descent.jpg",
+      "bytes": 30181,
+      "sha256": "467e095b92d141e25ef6b2aa45344f9cef14f59d7a0eaa527c51e14443c0e8f9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/082-cobalt-twin-passages.jpg",
+      "bytes": 12768,
+      "sha256": "7f60a903b727be7722267019064ef1f1b278248604d10e956d47e16877d6a6f2"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/083-original-endless-descent.jpg",
+      "bytes": 30342,
+      "sha256": "d2c128dd201f951a46d43895681eb13a908907f47c7504c904d255d0f2057503"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/084-orchid-sculpture-orbit.jpg",
+      "bytes": 11909,
+      "sha256": "01e665388da571e1c6ac2ddb694f5f2a142b302decc63fd08b40503c4208d43f"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/085-rose-endless-descent.jpg",
+      "bytes": 32522,
+      "sha256": "bfa8483260348af4fa86149d59b1e61a4865332dcad06303085f46a09e8f067b"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/086-violet-tunnel-interior.jpg",
+      "bytes": 35234,
+      "sha256": "cb0f3379190b86eb73439730936da43d9b2b1c2d64b233c7dc2ff4f21dc27b70"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/087-ember-winding-light.jpg",
+      "bytes": 25869,
+      "sha256": "16e76ed6d2f2b7dedd4f09c9568ccab090a6c227c68fb226acc060a0d8323582"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/088-rose-sculpture-orbit.jpg",
+      "bytes": 9333,
+      "sha256": "ee7f6f6649b33947ce379ff7a2dba111bf2681f8cb7932f7e75f5f65a89f2fb9"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/089-violet-endless-descent.jpg",
+      "bytes": 28204,
+      "sha256": "bb9e817348c30383fa9837890bf8caaf0991d41bf30ad68f544fdc9f64fc4a0e"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/090-ember-twin-passages.jpg",
+      "bytes": 12822,
+      "sha256": "ccccfa780b4db3972879e13801364a95be6b6123f93ac12f8c90248eb4aee4fd"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/091-moonstone-endless-descent.jpg",
+      "bytes": 32693,
+      "sha256": "1aaad2669182f92de661dc72b3db9c24f476478cdc5f5eafa272f2c9c0dea47c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/092-verdigris-sculpture-orbit.jpg",
+      "bytes": 11490,
+      "sha256": "9c3b0dc7baeb3139017959a770cd8f189507def111e35b0072120c7b077b6c83"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/093-glacier-endless-descent.jpg",
+      "bytes": 30282,
+      "sha256": "546fc9fbfb61374329e5092513f1c045bc8ba8ecb89fe2b17c7f34bb15d1f412"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/094-silver-tunnel-interior.jpg",
+      "bytes": 35532,
+      "sha256": "871fc5876e9779e59276380b33f0230314b34400d67ee72938c60dd08625073c"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/095-cobalt-winding-light.jpg",
+      "bytes": 28651,
+      "sha256": "e2446aad8f247950c9a40ca743ea7e1a85cc090815c464c615b0fde628b47460"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/096-original-sculpture-orbit.jpg",
+      "bytes": 9101,
+      "sha256": "926bd2e22f2c65a78c8ce1cb3d576542d7c1266d6c0f5fc1ca8855f9f3364dd3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/097-orchid-endless-descent.jpg",
+      "bytes": 26771,
+      "sha256": "1ed8816985cc222c202ba6cae61a724b62412a0267f37045b40c88b904545371"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/098-cobalt-twin-passages.jpg",
+      "bytes": 12663,
+      "sha256": "2428966e22d22cb3d1c059277c0bd779e2528b088aa8faf3b316b324da79dbeb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/099-original-endless-descent.jpg",
+      "bytes": 28489,
+      "sha256": "03194e8029fe53caeb0f942c28bc6cdc98b0c48a31a3bb5c9cacc7d0e1b32ac4"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/thumbnails/100-orchid-sculpture-orbit.jpg",
+      "bytes": 12031,
+      "sha256": "77e23a648e00156a30f3b1be413a44db96ae20333d0fd14879afe805e2a2b406"
+    }
+  ],
+  "films": [
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/videos/01-chromatic-descent.mp4",
+      "asset": "Sixfold-landscape-01-chromatic-descent.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-landscape-01-chromatic-descent.mp4",
+      "bytes": 69323200,
+      "sha256": "4090453e67e46fb4807a334b9d95ebe4f93fb27601ca6b5cbec83c21187f9beb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/landscape/videos/02-through-the-passage.mp4",
+      "asset": "Sixfold-landscape-02-through-the-passage.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-landscape-02-through-the-passage.mp4",
+      "bytes": 123315199,
+      "sha256": "b07b8c3ac89f45958e77e1a36c7eb92b50b90c6cbcd4b80d5ea39201d6836b61"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/videos/01-chromatic-descent.mp4",
+      "asset": "Sixfold-portrait-01-chromatic-descent.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-portrait-01-chromatic-descent.mp4",
+      "bytes": 62886815,
+      "sha256": "c13279f954aeedf6f4f6d8188f4b195fdd26f342a7bdfa5060e7c137d5541bdb"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/portrait/videos/02-through-the-passage.mp4",
+      "asset": "Sixfold-portrait-02-through-the-passage.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-portrait-02-through-the-passage.mp4",
+      "bytes": 100122014,
+      "sha256": "1bc99ff87a0e28b756095cc487228b47e953a4ec8e5c0d14c10b4d8df427f18a"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/videos/01-chromatic-descent.mp4",
+      "asset": "Sixfold-square-01-chromatic-descent.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-square-01-chromatic-descent.mp4",
+      "bytes": 101105411,
+      "sha256": "aed943a521ec46c5c28cfd2dadbd7691da4df63e2ffc4d02d831de1bd834d5a3"
+    },
+    {
+      "path": "research/sixfold/assets/2026-11-18-library/square/videos/02-through-the-passage.mp4",
+      "asset": "Sixfold-square-02-through-the-passage.mp4",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-square-02-through-the-passage.mp4",
+      "bytes": 163807084,
+      "sha256": "86102e30f8b115bc7039293bf24fd4e93573c687444a37a8ed2741a5c595cfa8"
+    }
+  ],
+  "touchdesigner_packaging": {
+    "saved_build": "2025.33230",
+    "original_sha256": "3f58a0bea3777a63da39781fa6a400c15cecc6ce7ade1fbc13540061e9810b5a",
+    "changes": [
+      "Removed the development MCP webserver component.",
+      "Changed two locked texture source paths to relative filenames.",
+      "Removed machine-specific component storage; exporter uses project.folder."
+    ],
+    "locked_texture_data_preserved": true
+  }
+}

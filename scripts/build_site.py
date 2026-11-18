@@ -12,6 +12,8 @@ import markdown
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
 REPOSITORY = "https://github.com/okwhynot-wtf/sixfold/blob/main/"
+VISUALS = json.loads((ROOT / "verification/visuals-edition-01.json").read_text(encoding="utf-8"))
+GALLERY = ROOT / VISUALS["library"]
 PAGES = [
     ("definition", "Definition"),
     ("results", "Results & evidence"),
@@ -37,6 +39,8 @@ def rewrite_links(content, source):
             destination = path.stem + ".html"
         elif path.is_relative_to(ROOT / "site/assets"):
             destination = "assets/" + path.relative_to(ROOT / "site/assets").as_posix()
+        elif path.is_relative_to(GALLERY):
+            destination = "gallery/" + path.relative_to(GALLERY).as_posix()
         else:
             destination = REPOSITORY + quote(path.relative_to(ROOT).as_posix())
         if url.fragment:
@@ -68,12 +72,13 @@ def film_markup(media):
     youtube_id = media["youtube_id"]
     if video_url and youtube_id:
         raise ValueError("Choose either video_url or youtube_id.")
-    poster = '<img src="assets/sixfold.png" alt="Six interlocking lobes of the reference fractal in copper and teal" width="1280" height="720" fetchpriority="high">'
+    poster_url = html.escape(media.get("poster", "assets/sixfold.png"), quote=True)
+    poster = f'<img src="{poster_url}" alt="Sixfold in copper and teal" width="1280" height="720" fetchpriority="high">'
     if video_url:
         parsed = urlsplit(video_url)
         if parsed.scheme != "https" or not parsed.netloc:
             raise ValueError("video_url must be a public HTTPS URL.")
-        return ('<video controls playsinline preload="none" poster="assets/sixfold.png">'
+        return (f'<video controls playsinline preload="none" aria-label="Chromatic descent, a silent Sixfold film" poster="{poster_url}">'
                 f'<source src="{html.escape(video_url, quote=True)}" type="video/mp4">'
                 'Your browser does not support this video.</video>')
     if youtube_id:
@@ -83,9 +88,28 @@ def film_markup(media):
     return poster
 
 
+def build_gallery():
+    target = OUTPUT / "gallery"
+    shutil.copytree(GALLERY, target, dirs_exist_ok=True, ignore=shutil.ignore_patterns("*.mp4", "*.partial"))
+    page = (GALLERY / "index.html").read_text(encoding="utf-8")
+    page = page.replace("Sixfold — Select your favourites", "Sixfold — Films & gallery")
+    page = page.replace('<div class="eyebrow">', '<p><a href="../index.html">← Sixfold home</a> · <a href="#films">Watch the films</a> · <a href="' + VISUALS['release_url'] + '">Download this edition</a></p><div class="eyebrow">', 1)
+    page = page.replace('Mark favourites, then download your selection or send the image numbers.', 'Mark favourites and save a list of your selections. Images and films are available to reuse with credit to okwhynot-wtf under CC BY 4.0.')
+    page = page.replace('<h2>Motion studies</h2>', '<h2 id="films">Motion studies</h2>')
+    for film in VISUALS['films']:
+        local_path = Path(film['path']).relative_to(Path(VISUALS['library'])).as_posix()
+        if page.count('src="' + local_path + '"') != 1:
+            raise ValueError(f"Expected one video reference for {local_path}")
+        page = page.replace('src="' + local_path + '"', 'src="' + html.escape(film['url'], quote=True) + '"')
+    page = page.replace('<video controls ', '<video controls playsinline ')
+    page = page.replace('<footer>', '<footer><p>By <a href="https://github.com/okwhynot-wtf">okwhynot-wtf</a>, with GPT assistance. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="../media.html">Rendering and credits</a></p>')
+    (target / 'index.html').write_text(page, encoding='utf-8')
+
+
 def main():
     OUTPUT.mkdir(exist_ok=True)
     shutil.copytree(ROOT / "site/assets", OUTPUT / "assets", dirs_exist_ok=True)
+    build_gallery()
     (OUTPUT / ".nojekyll").write_text("", encoding="utf-8")
     media = json.loads((ROOT / "site/media.json").read_text(encoding="utf-8"))
     home = (ROOT / "site/templates/home.html").read_text(encoding="utf-8")
@@ -118,7 +142,7 @@ def main():
         (OUTPUT / f"{slug}.html").write_text(render_page(
             f"{label} — Sixfold", f"Sixfold research documentation. {label}.",
             body, document=True), encoding="utf-8")
-    print(f"Built homepage and {len(PAGES)} research pages in {OUTPUT}.")
+    print(f"Built homepage, gallery and {len(PAGES)} research pages in {OUTPUT}.")
     print("All documentation source links resolve.")
 
 

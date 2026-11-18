@@ -23,6 +23,11 @@ def install_studio(b, folder, shader, output):
         preset.menuLabels = [p["label"] for p in data.values()]
         preset.default = preset.val = "original"
         colour.appendPulse("Resetcolours", label="Reset to palette")
+    preset=b.par.Palette
+    selected=preset.eval()
+    preset.menuNames=list(data)
+    preset.menuLabels=[p["label"] for p in data.values()]
+    preset.val=selected
     names = [f"Lobe{i+1}" for i in range(6)] + ["Backdrop", "Trace"]
     rgb_defaults = data["original"]["lobes"] + [data["original"][k] for k in ("backdrop","trace")]
     labels = [f"Lobe {i+1}" for i in range(6)] + ["Background", "Winding light"]
@@ -132,8 +137,11 @@ def install(folder):
         exposure.min, exposure.max, exposure.clampMin = .2, 3., True
         exposure.default = exposure.val = 1.
     camera = base.par.Camera
-    camera.menuNames = ["tour", "passages", "descent", "winding"]
-    camera.menuLabels = ["Tour", "Twin passages", "Endless descent", "Winding light"]
+    selected_camera=camera.eval()
+    camera.menuNames = ["tour", "passages", "descent", "winding", "tunnel", "orbit"]
+    camera.menuLabels = ["Tour", "Twin passages", "Endless descent", "Winding light", "Tunnel flight", "Sculpture orbit"]
+    if selected_camera in camera.menuNames:
+        camera.val=selected_camera
     if base.pars("Material"):
         base.par.Material.destroy()
     def data_texture(name, filename, dimensions):

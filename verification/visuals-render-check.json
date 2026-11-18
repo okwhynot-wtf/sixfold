@@ -1,0 +1,98 @@
+{
+  "source_recipe_signature_matches": true,
+  "environment": {
+    "python": "3.12.9",
+    "platform": "win32",
+    "packages": {
+      "Pillow": "13.0.0",
+      "moderngl": "5.13.0",
+      "glcontext": "3.1.0",
+      "imageio-ffmpeg": "0.8.1"
+    },
+    "gpu": {
+      "GL_VENDOR": "Intel",
+      "GL_RENDERER": "Intel(R) UHD Graphics",
+      "GL_VERSION": "4.3.0 - Build 32.0.101.6790"
+    }
+  },
+  "renders": [
+    {
+      "id": "S001",
+      "pixel_identical_to_master": true
+    },
+    {
+      "id": "S003",
+      "pixel_identical_to_master": true
+    }
+  ],
+  "films": [
+    {
+      "asset": "Sixfold-landscape-01-chromatic-descent.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0,
+      "duration": 48.0,
+      "full_decode": "PASS"
+    },
+    {
+      "asset": "Sixfold-landscape-02-through-the-passage.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0,
+      "duration": 36.0,
+      "full_decode": "PASS"
+    },
+    {
+      "asset": "Sixfold-portrait-01-chromatic-descent.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30.0,
+      "duration": 48.0,
+      "full_decode": "PASS"
+    },
+    {
+      "asset": "Sixfold-portrait-02-through-the-passage.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 30.0,
+      "duration": 36.0,
+      "full_decode": "PASS"
+    },
+    {
+      "asset": "Sixfold-square-01-chromatic-descent.mp4",
+      "size": [
+        1920,
+        1920
+      ],
+      "fps": 30.0,
+      "duration": 48.0,
+      "full_decode": "PASS"
+    },
+    {
+      "asset": "Sixfold-square-02-through-the-passage.mp4",
+      "size": [
+        1920,
+        1920
+      ],
+      "fps": 30.0,
+      "duration": 36.0,
+      "full_decode": "PASS"
+    }
+  ],
+  "six_camera_modes_rendered": true,
+  "touchdesigner": {
+    "build": "2025.33230",
+    "portable_project_expanded": true,
+    "project_window_opened": true,
+    "interactive_render_check": "Inconclusive: window capture blank; inspection tool reported insufficient memory resources.",
+    "interactive_export_check": "Not performed"
+  }
+}

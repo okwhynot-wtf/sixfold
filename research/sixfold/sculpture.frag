@@ -7,6 +7,11 @@ const vec4 uFinish = vec4(0.);
 uniform vec4 uFinish; // Archived glass and paired studies.
 #endif
 uniform vec4 uLobe0, uLobe1, uLobe2, uLobe3, uLobe4, uLobe5, uBackdrop, uTrace;
+#ifdef SIXFOLD_COMPOSE
+uniform vec4 uComposition; // magnification, framing offset xy, image roll
+#else
+const vec4 uComposition=vec4(1.,0.,0.,0.);
+#endif
 const float PI = 3.14159265359;
 const float extent = 2.22;
 
@@ -89,6 +94,8 @@ float shadow(vec3 pos, vec3 light) {
 Hit traceScene(vec3 origin, vec3 ray, float shell) {
     Hit hit = Hit(12.,vec3(0),mat3(1),1.,vec3(0),ivec4(0));
     float r2=ratio*ratio, r3=r2*ratio, r4=r3*ratio;
+    bool interior=uView.y>3.5 && uView.y<4.5;
+    float r5=r4*ratio, r6=r5*ratio;
     // Traverse the entire four-level tree, culling a branch only when its
     // enclosing ball misses this ray. Neighbouring copies retain equal detail.
     for (int i=0; i<6; ++i) {
@@ -105,7 +112,23 @@ Hit traceScene(vec3 origin, vec3 ray, float shell) {
                 if (dot(axis,axis)>pow(2.26*r3,2.)) continue;
                 mat3 q3=q2*Q[k];
                 for (int m=0; m<6; ++m) {
-                    traceCopy(origin,ray,sub+r3*q3*T[m],q3*Q[m],r4,ivec4(i,j,k,m),shell,hit);
+                    vec3 p4=sub+r3*q3*T[m];
+                    mat3 q4=q3*Q[m];
+                    if (!interior) {
+                        traceCopy(origin,ray,p4,q4,r4,ivec4(i,j,k,m),shell,hit);
+                        continue;
+                    }
+                    // Two extra levels keep nearby tunnel walls finely resolved.
+                    axis=cross(origin-p4,ray);
+                    if (dot(axis,axis)>pow(2.26*r4,2.)) continue;
+                    for(int a=0;a<6;++a) {
+                        vec3 p5=p4+r4*q4*T[a];
+                        axis=cross(origin-p5,ray);
+                        if(dot(axis,axis)>pow(2.26*r5,2.)) continue;
+                        mat3 q5=q4*Q[a];
+                        for(int b=0;b<6;++b)
+                            traceCopy(origin,ray,p5+r5*q5*T[b],q5*Q[b],r6,ivec4(i,j,k,m),shell,hit);
+                    }
                 }
             }
         }
@@ -223,8 +246,12 @@ vec3 study(vec2 uv, float recursiveDepth, bool useGlass) {
     float descent = 2.75*(1.-smoothstep(0.,.28,abs(phase-.65)));
     if (uView.y>.5 && uView.y<1.5) { axial=1.; descent=0.; }
     if (uView.y>1.5) { axial=0.; descent=recursiveDepth; }
+    bool flight=uView.y>3.5 && uView.y<4.5;
+    bool orbit=uView.y>4.5;
+    if (orbit) { axial=0.; descent=0.; }
     float azimuth = -.98 + .46*sin(w+.2);
     float elevation = .37+.15*cos(w);
+    if (orbit) { azimuth=-.98+w; elevation=.30+.24*sin(w+.6); }
     vec3 portrait = vec3(cos(azimuth)*cos(elevation),sin(azimuth)*cos(elevation),sin(elevation));
     vec3 sight = normalize(mix(portrait, normalize(vec3(-1.,0.,1.)), axial));
     vec3 baseline = normalize(mix(vec3(1.,.38,.04),normalize(vec3(1.,0.,1.)),axial));
@@ -241,6 +268,23 @@ vec3 study(vec2 uv, float recursiveDepth, bool useGlass) {
     vec3 ray = -sight;
     vec3 origin = centre+frame*scale*(right*plane.x+up*plane.y)+sight*5.;
     float shell=clamp(.0050*scale/(ratio*ratio*ratio*ratio),.036,.11);
+    if (flight) {
+        // Phase-09's certified straight passage through the upper lobe.
+        // The camera stays on the clear line, then looks back after emerging.
+        vec3 axis=normalize(vec3(-1.,0.,1.));
+        origin=T[0]+axis*(1.65-2.90*phase);
+        float lookBack=PI*smoothstep(.48,.82,phase);
+        vec3 forward=rotateY(lookBack)*(-axis);
+        right=normalize(cross(forward,vec3(0.,1.,0.)));
+        up=cross(right,forward);
+        float roll=.10*sin(PI*phase);
+        vec3 r=right*cos(roll)+up*sin(roll);
+        up=up*cos(roll)-right*sin(roll); right=r;
+        float lens=mix(.86,.66,smoothstep(.55,1.3,uView.w));
+        ray=normalize(forward+2.*lens*(right*plane.x+up*plane.y));
+        sight=-ray;
+        centre=T[0]; scale=ratio; descent=.95; shell=.12;
+    }
     Hit hit=traceScene(origin,ray,shell);
     // A low, broad pool of reflected light. Empty passages show this same field.
     vec2 vignette=(uv-vec2(.44,.54))*vec2(1.22,1.);
@@ -271,6 +315,12 @@ vec3 study(vec2 uv, float recursiveDepth, bool useGlass) {
     float ndl=max(0.,dot(n,key));
     float ao=exp(-.85*density);
     float broadLight=clamp(.47+.35*slope,.07,1.15);
+    if (flight) {
+        // A broad camera light keeps the interior's relief legible.
+        mask=mix(mask,1.,.60);
+        ao=mix(ao,1.,.35);
+        broadLight=max(broadLight,.50);
+    }
     // Softbox reflection on a satin metallic surface.
     vec3 halfKey=normalize(key+sight);
     float spec=pow(max(dot(n,halfKey),0.),14.);
@@ -339,6 +389,9 @@ vec3 windingLight(vec2 uv, vec3 surface) {
 }
 
 vec3 render(vec2 uv) {
+    vec2 composed=(uv-.5)/max(.4,uComposition.x);
+    float cr=cos(uComposition.w), sr=sin(uComposition.w);
+    uv=mat2(cr,-sr,sr,cr)*composed+.5+uComposition.yz;
     bool useGlass=uFinish.x>.5;
     if(uFinish.x>1.5) {
         useGlass=uv.x>=.5;
@@ -347,7 +400,7 @@ vec3 render(vec2 uv) {
         uv.x=fract(2.*uv.x)*.5+.25;
         uv=(uv-.5)*max(1.,2.13/uView.w)+.5;
     }
-    if (uView.y<1.5) return study(uv,0.,useGlass);
+    if (uView.y<1.5 || uView.y>3.5) return study(uv,0.,useGlass);
     // Both samples use the same logarithmic camera path. Rebase into G0's
     // coordinates each generation and dissolve the wider context at the seam.
     float turn=fract(4.*uView.x);
