@@ -35,26 +35,33 @@ and its ZIP comment identifies the same Git commit. It includes:
 - All 100 JPEG compositions and 100 PNG masters, plus thumbnails, posters,
   contact sheets, catalogue and render recipes.
 
-**The six MP4 films are not in this Zenodo archive.** They are available from
+**MP4 films are intentionally hosted separately from this Zenodo archive.** They are available from
 the [visualisation release](https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18)
-and can be retrieved and checked with the recorded downloader. They still
-need to be deposited for a complete DOI-backed media archive.
+with SHA-256 inventories. The six edition-01 films can be retrieved and
+checked with the recorded downloader; the two additional homepage films
+have a [separate inventory](../verification/homepage-films.json).
+The DOI covers the source and still-image snapshot, not the MP4 attachments.
 
 The [archive inspection receipt](../verification/zenodo-24336419.json)
 records the metadata and ZIP-directory comparison. This inspection did not
 download the entire ZIP or recompute its payload checksum.
 
-## Remaining archive work
+## Archive status
 
 - [x] Publish the tagged source snapshot on Zenodo.
 - [x] Confirm the author, title, version DOI and all-versions DOI.
 - [x] Check the ZIP file list against the tagged repository.
 - [x] Add the version DOI to the website and CITATION.cff.
-- [ ] Deposit all six original MP4s and verify their recorded SHA-256 hashes.
-- [ ] Clarify the licence split in the Zenodo description: MIT for code and
-  project files; CC BY 4.0 for writing, images and films. The record currently
-  lists MIT as its licence.
-- [ ] Update Zenodo's imported note that still says a DOI is planned.
+- [x] Keep MP4 films on GitHub Releases, with checksums, by the author's choice.
+- [x] Clarify the licence split in the Zenodo description: MIT for code,
+  project files and original certificate data; CC BY 4.0 for writing,
+  images and films. The software record retains its MIT licence label.
+- [x] Replace Zenodo's imported note with the actual DOI, source commit
+  and external-film hosting scope.
+
+The [metadata correction receipt](../verification/zenodo-metadata-update.json)
+records the verified description and note, unchanged DOI and unchanged ZIP
+size and recorded checksum. The original inspection receipt is preserved.
 
 ## Toward the paper
 

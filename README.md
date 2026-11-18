@@ -61,8 +61,9 @@ then rebuild or push to the main branch for GitHub Pages deployment.
     uv run --isolated --python 3.12 --with-requirements site-requirements.txt python scripts/build_site.py
     python -m http.server 8765 --directory _site
 
-The homepage features Chromatic descent. The gallery includes all 100 JPEGs,
-lossless PNG masters and six films. Film binaries are GitHub Release attachments;
+The homepage features the 1:54 Endless descent montage, Winding light,
+Chromatic descent and Through the passage. The gallery includes all 100 JPEGs,
+lossless PNG masters and six edition-01 film exports. Film binaries are GitHub Release attachments;
 the current TouchDesigner project, rendering source and still library are in
 the repository. See [media instructions](docs/media.md) for the tested environment,
 checksums and commands to download the films into the offline gallery.
@@ -75,5 +76,5 @@ Writing, images and films use [CC BY 4.0](CONTENT-LICENSE.md).
 18 November 2026 release, version **zenodo**:
 [10.5281/zenodo.24336419](https://doi.org/10.5281/zenodo.24336419).
 That archive contains the source, TouchDesigner project, all 100 JPEG
-compositions and their PNG masters. The six MP4s remain separate GitHub
+compositions and their PNG masters. MP4s intentionally remain separate GitHub
 Release downloads. See [archive scope and remaining steps](docs/release.md).

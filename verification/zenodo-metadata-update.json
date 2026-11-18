@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-11-18T09:36:54.854881+00:00",
+  "record_url": "https://zenodo.org/records/24336419",
+  "doi": "10.5281/zenodo.24336419",
+  "concept_doi": "10.5281/zenodo.24336418",
+  "description": "<p>An exactly specified six-map spatial fractal family, with computer-assisted investigations of contact, dimension and independent loops, reproducible verification code, and visualisation source.</p>\n<p>Licensing: code, TouchDesigner project files and original certificate data are licensed under MIT. Writing, images and films are licensed under Creative Commons Attribution 4.0 (CC BY 4.0). See LICENSE and CONTENT-LICENSE.md in the repository for the respective scopes.</p>\n<p>Created by okwhynot-wtf with substantial assistance from OpenAI GPT models through ChatGPT and Codex, disclosed in the repository documentation.</p>",
+  "notes": "<p>Cite DOI 10.5281/zenodo.24336419 for this archived version (GitHub tag: zenodo; commit: 1c660bedf8cd3e52bad8e5d033535dcde6e06b6e). For later work, also identify the commit or archived version used. The ZIP contains the research, code, TouchDesigner project and still images. MP4 films are intentionally hosted separately on the GitHub visualisation release at https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18 and are not included in this Zenodo deposit.</p>",
+  "record_license": {
+    "id": "mit-license"
+  },
+  "files": [
+    {
+      "key": "okwhynot-wtf/sixfold-zenodo.zip",
+      "size": 216043950,
+      "checksum": "md5:ba9d1784b65df8c8242157d6bf1feddf"
+    }
+  ],
+  "scope": "Public API confirms the edited metadata, unchanged DOI, file size and recorded checksum. No files were added to or removed from Zenodo; full ZIP checksum was not recomputed."
+}

@@ -25,3 +25,12 @@ document.querySelectorAll("nav a").forEach((link) => {
     link.setAttribute("aria-current", "page");
   }
 });
+
+const films = document.querySelectorAll("video");
+films.forEach((film) => {
+  film.addEventListener("play", () => {
+    films.forEach((other) => {
+      if (other !== film) other.pause();
+    });
+  });
+});

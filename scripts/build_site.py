@@ -69,16 +69,17 @@ def render_page(title, description, content, document=False):
 
 def film_markup(media):
     video_url = media["video_url"]
-    youtube_id = media["youtube_id"]
+    youtube_id = media.get("youtube_id", "")
     if video_url and youtube_id:
         raise ValueError("Choose either video_url or youtube_id.")
     poster_url = html.escape(media.get("poster", "assets/sixfold.png"), quote=True)
-    poster = f'<img src="{poster_url}" alt="Sixfold in copper and teal" width="1280" height="720" fetchpriority="high">'
+    title = html.escape(media["title"], quote=True)
+    poster = f'<img src="{poster_url}" alt="{title}" width="1280" height="720">'
     if video_url:
         parsed = urlsplit(video_url)
         if parsed.scheme != "https" or not parsed.netloc:
             raise ValueError("video_url must be a public HTTPS URL.")
-        return (f'<video controls playsinline preload="none" aria-label="Chromatic descent, a silent Sixfold film" poster="{poster_url}">'
+        return (f'<video controls playsinline preload="none" aria-label="{title}, a silent Sixfold film" poster="{poster_url}" width="1280" height="720">'
                 f'<source src="{html.escape(video_url, quote=True)}" type="video/mp4">'
                 'Your browser does not support this video.</video>')
     if youtube_id:
@@ -113,8 +114,16 @@ def main():
     (OUTPUT / ".nojekyll").write_text("", encoding="utf-8")
     media = json.loads((ROOT / "site/media.json").read_text(encoding="utf-8"))
     home = (ROOT / "site/templates/home.html").read_text(encoding="utf-8")
-    home = home.replace("{{film}}", film_markup(media))
-    home = home.replace("{{caption}}", html.escape(media["caption"]))
+    for key in ("hero", "loops"):
+        home = home.replace("{{" + key + "_film}}", film_markup(media[key]))
+        home = home.replace("{{" + key + "_caption}}", html.escape(media[key]["caption"]))
+    studies = "".join(
+        '<figure><div class="film-frame">' + film_markup(film) + '</div>'
+        '<figcaption><h3>' + html.escape(film["title"]) + '</h3><p>'
+        + html.escape(film["caption"]) + '</p></figcaption></figure>'
+        for film in media["studies"]
+    )
+    home = home.replace("{{studies}}", studies)
     (OUTPUT / "index.html").write_text(render_page(
         "Sixfold — a family of self-similar spatial fractals",
         "Explore a six-copy spatial fractal through its exact definition, reproducible research and copper-and-teal visualisations.",

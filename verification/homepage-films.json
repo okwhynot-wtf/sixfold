@@ -1,0 +1,38 @@
+{
+  "published_date": "2026-11-18",
+  "scope": "Supplementary existing exports added to the visualisation GitHub release. Not part of the original edition-01 inventory or Zenodo ZIP.",
+  "author": "okwhynot-wtf",
+  "license": "CC-BY-4.0",
+  "documented_source_commit": "1c660bedf8cd3e52bad8e5d033535dcde6e06b6e",
+  "validation_scope": "SHA-256 computed from supplied MP4s; complete decode with FFmpeg 9.0.2. The two exports were not freshly re-rendered in this pass.",
+  "films": [
+    {
+      "name": "Winding-light.mp4",
+      "bytes": 31901578,
+      "sha256": "b4dc46530e08b2a10e1445d68b247a598a6e86d0c2fe9cfb8baf438d00b2e807",
+      "duration_seconds": 32,
+      "fps": 24,
+      "width": 1280,
+      "height": 720,
+      "source_recipe": "research/sixfold/render_film.py: mode 3, 32 seconds, 24 fps; see research/sixfold/README.md",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Winding-light.mp4",
+      "codec": "h264",
+      "full_decode_passed": true,
+      "reencoded_for_publication": false
+    },
+    {
+      "name": "Sixfold-Endless-Descent-1080p-revised.mp4",
+      "bytes": 214713387,
+      "sha256": "595ccdd9f4edb37679efb74cabfe471df4f5b19e33c1ce5b5a584c459c93cf28",
+      "duration_seconds": 114,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "source_recipe": "research/sixfold/render_montage.py with montage_colours.json; revised 114-second edit; native 1280x720, 1.5x Lanczos enlargement",
+      "url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-Endless-Descent-1080p-revised.mp4",
+      "codec": "h264",
+      "full_decode_passed": true,
+      "reencoded_for_publication": false
+    }
+  ]
+}

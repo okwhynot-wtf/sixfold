@@ -7,12 +7,17 @@ contains all **100 compositions and six films**: 34 landscape stills, 33 square
 stills and 33 portrait stills, plus two films in each format. Each still has
 a full-size JPEG and a lossless native PNG master.
 
-The homepage features **Chromatic descent**, a 48-second loop through evolving
-colours. **Through the passage** is a 36-second journey along the certified
-phase-09 passage, turning back toward the sculpture. All six films are silent.
+The homepage opens with **Endless descent**, a 1:54 montage of the sculpture,
+passages, descent and illuminated loops. **Winding light**, the 32-second
+illuminated-loop study, replaces the still in “Loops within loops”.
+Two further players show **Chromatic descent** (48 seconds) and
+**Through the passage** (36 seconds), a journey along the certified phase-09
+passage that turns back toward the sculpture. All films are silent. Playback
+starts on request, and starting another homepage film pauses the previous one.
 
 [Download the visualisation edition](https://github.com/okwhynot-wtf/sixfold/releases/tag/visuals-2026-11-18).
-The six original MP4s are release attachments. The release's source archive
+The six edition-01 MP4s and two additional homepage MP4s are release attachments.
+The release's source archive
 includes the TouchDesigner project, rendering source, all stills and masters,
 posters, contact sheets, catalogue and render recipes.
 
@@ -32,13 +37,21 @@ to this project and the licence, and identify any changes.
 | Square | 1280 × 1280 | 1920 × 1920 |
 | Portrait | 720 × 1280 | 1080 × 1920 |
 
-Films are H.264 at 30 fps. Stills average four subpixel samples and films
+Edition-01 films are H.264 at 30 fps. Stills average four subpixel samples and films
 average two. FFmpeg performs 1.5× Lanczos enlargement; it adds no geometric
 detail. The [catalogue](../research/sixfold/assets/2026-11-18-library/catalogue.csv)
 maps S001–S100 to compositions. The [manifest](../research/sixfold/assets/2026-11-18-library/source/manifest.json)
 and [palettes](../research/sixfold/assets/2026-11-18-library/source/palettes.json)
 record the settings. SHA-256 hashes for the source, assets and films are in
 the [publication inventory](../verification/visuals-edition-01.json).
+
+The additional **Winding light** film is 1280 × 720 at 24 fps, 32 seconds.
+The revised **Endless descent** montage is 1920 × 1080 at 30 fps, 114 seconds,
+enlarged from a 1280 × 720 render. Its edit removes six seconds from the
+stationary twin-passage view. These two existing exports were added without
+re-encoding. Both passed full FFmpeg decoding; their exact bytes, SHA-256
+hashes and source references are in the [homepage-film inventory](../verification/homepage-films.json).
+That supplement does not change the original edition-01 inventory or tag.
 
 ## What the rendering shows
 
@@ -95,11 +108,13 @@ a separate TouchDesigner 2025.33230 process. Its window capture was blank
 and the inspection tool reported a memory-resource error, so interactive
 studio rendering and export were not verified in this packaging pass.
 
-## Change the featured film
+## Change the homepage films
 
-Edit [site/media.json](../site/media.json). Set **video_url** to a public HTTPS
-MP4 URL, or **youtube_id** to the selected YouTube video's ID. Use one field
-at a time and update **caption**.
+Edit [site/media.json](../site/media.json): **hero** selects the opening film,
+**loops** selects the repeated-loops film, and **studies** lists the additional
+players. For each, set **video_url** to a public HTTPS MP4 URL, or
+**youtube_id** to a YouTube video ID. Use one field at a time and update
+**title**, **poster** and **caption**.
 
 Rebuild or push to the main branch. The homepage uses the still when both
 fields are empty. A direct film has playback controls and uses the still as
@@ -109,6 +124,6 @@ Record the source commit, render settings, output resolution and edits in
 the media credit. Preserve this edition when producing later collections.
 The source, TouchDesigner project and all stills are now archived at DOI
 [10.5281/zenodo.24336419](https://doi.org/10.5281/zenodo.24336419).
-The six MP4 files remain on the GitHub visualisation release and are not
-included in that Zenodo ZIP. The [archive checklist](release.md) tracks
-their deposit and the remaining metadata updates.
+MP4 files intentionally remain on the GitHub visualisation release and are
+not included in that Zenodo ZIP. The [archive status](release.md) describes
+this scope and the completed metadata corrections.

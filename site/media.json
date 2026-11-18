@@ -1,6 +1,28 @@
 {
-  "caption": "Chromatic descent — a 48-second loop through evolving colours. Silent. Visualisation edition 01.",
-  "youtube_id": "",
-  "poster": "gallery/landscape/posters/01-chromatic-descent.jpg",
-  "video_url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-landscape-01-chromatic-descent.mp4"
+  "hero": {
+    "title": "Endless descent",
+    "caption": "Endless descent · 1:54 · A tour of the sculpture, its passages and its repeating geometry. Silent.",
+    "poster": "assets/sixfold.png",
+    "video_url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-Endless-Descent-1080p-revised.mp4"
+  },
+  "loops": {
+    "title": "Winding light",
+    "caption": "Winding light · 0:32 · An illuminated guide follows the repeated loops. Silent.",
+    "poster": "assets/winding-light.png",
+    "video_url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Winding-light.mp4"
+  },
+  "studies": [
+    {
+      "title": "Chromatic descent",
+      "caption": "0:48 · A continuous descent through evolving colours. Silent.",
+      "poster": "gallery/landscape/posters/01-chromatic-descent.jpg",
+      "video_url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-landscape-01-chromatic-descent.mp4"
+    },
+    {
+      "title": "Through the passage",
+      "caption": "0:36 · A tunnel journey that turns back toward the sculpture. Silent.",
+      "poster": "gallery/landscape/posters/02-through-the-passage.jpg",
+      "video_url": "https://github.com/okwhynot-wtf/sixfold/releases/download/visuals-2026-11-18/Sixfold-landscape-02-through-the-passage.mp4"
+    }
+  ]
 }

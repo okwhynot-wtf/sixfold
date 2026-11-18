@@ -1,5 +1,18 @@
 # Changelog
 
+## Homepage films and archive metadata — 18 November 2026
+
+- Featured the revised 1:54 Endless descent montage at the top of the homepage
+  and the 32-second Winding light film in the repeated-loops section.
+- Added Chromatic descent and Through the passage as two additional homepage
+  players, with manual playback and one film playing at a time.
+- Added the two existing exports as supplementary GitHub Release attachments,
+  with a separate checksum and decode receipt; preserved the original tags,
+  edition-01 inventory and Zenodo ZIP.
+- Corrected the public Zenodo description and stale DOI note. Recorded the
+  author's choice to host MP4s separately on GitHub rather than deposit them
+  on Zenodo.
+
 ## Zenodo citation — 18 November 2026
 
 - Linked the first archived source version, DOI 10.5281/zenodo.24336419,
