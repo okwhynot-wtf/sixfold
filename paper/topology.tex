@@ -1,9 +1,15 @@
 \section{Passages and loops in the full attractor}\label{sec:loops}
 Throughout this section $h\in I_h$. Homology means integral \emph{singular}
 homology. A loop is a continuous map from the circle and need not be an
-embedded polygon or a smooth curve. We use winding and linking homomorphisms
-on the complement of a line or a polygonal wire; these are defined for
-arbitrary continuous loops and depend only on their homology classes.
+embedded polygon or a smooth curve. For an oriented line or a planar
+rectangular wire $D$ disjoint from $K$, inclusion induces
+\[
+\lambda_D:H_1(K;\Z)\longrightarrow H_1(\R^3\setminus D;\Z)\cong\Z.
+\]
+The sign of the last identification is set by the orientation of $D$.
+We call this winding for a line and linking for a closed wire, writing
+$\lk(\gamma,D)=\lambda_D([\gamma])$ in the latter case. This homological
+definition applies to continuous loops without any rectifiability assumption.
 
 \subsection{A central passage and its winding loop}
 \begin{proposition}\label{prop:central}
@@ -14,7 +20,7 @@ There is a loop $\gamma$ in $K$ with winding number one about its axis.
 In the depth-eight grid calculation restricted to $G_0(K)$, the minimum
 integer $x$-coordinate is $3,049,454$ and the minimum squared horizontal
 radius is $97,951,509,407,090$. Put
-$\epsilon=0.00055+2.14(0.476186)^8$. Every attractor point in this piece is
+$\epsilon=0.00055+2.14(0.476186)^8$, as in~\eqref{eq:gridtail}. Every attractor point in this piece is
 within $\epsilon$ of an appropriate grid centre. Since each centre has
 positive $x$, its distance to the half-plane
 $H=\{(x,0,z):x\le0\}$ equals its horizontal radius. The exact squared-distance
@@ -78,7 +84,7 @@ homomorphisms read off the coefficients in any relation between the classes.
 lobes marked A and B. The rings show a guaranteed clear radius $0.105$;
 the drawn paths are finite approximations to the loops used in the argument.
 The line directions differ from the original inherited tilted axes discussed
-in Section~\ref{sec:bore}.}
+in Appendix~\ref{sec:bore}.}
 \label{fig:two}
 \end{figure}
 
@@ -158,7 +164,8 @@ c_m=b_m-\sum_{n<m}c_n\lk(\beta_n,D_m).
 \]
 Concatenate $\beta_m^{c_m}$ on successive time intervals of lengths
 $2^{-m-1}$ and end at $p_*$. Each $c_m$ is finite, although the sequence
-may be unbounded. The diameters of the based loops tend to zero, so the
+may be unbounded. Repeating a loop changes its traversal but not its image.
+The diameters of the based loops tend to zero, so the
 infinite concatenation is continuous at its endpoint.
 For any fixed $m$, the entire tail after stage $m$ lies in
 $B(p_*,0.11r^{4m})$, disjoint from $D_m$ by~\eqref{eq:wires}.
@@ -174,42 +181,8 @@ homeomorphism with the Hawaiian earring. Infinite concatenations of shrinking
 loops are classical \cite[Example 1.25]{hatcher}; the geometry in
 \eqref{eq:wires} is what validates their use in this overlapping spatial set.
 
-\subsection{The original tilted bore: obstruction at positive radius}\label{sec:bore}
-The original upper child's inherited central axis is the line through
-$t=(1,0,h)$ with unit direction $v=(\sin\alpha,0,\cos\alpha)$.
-For a point $P=(x,y,z)$ define inward travel and perpendicular distance by
-\[
-T(P)=-v\cdot(P-t),\qquad
-D(P)^2=[\cos\alpha(x-1)-\sin\alpha(z-h)]^2+y^2.
-\]
-For bore radius $0.0058$, the first intrusion is
-$\min\{T(P):P\in K,\ D(P)\le0.0058\}$.
-The certificate encloses it in $[1.325115,1.325120]$ at the reference and
-in $[1.320,1.330]$ uniformly on the family. Lobes 1 and 5 intrude in the
-upper bore; central inversion gives lobes 4 and 2 for the lower bore.
-At the reference, the first occupied axis cross-section is near
-$(0.33814,0,-0.44088)$.
-
-An actual point with address $1404022400020420424\,0^\infty$ is inside the
-reference bore, near $(0.340917,0.004592,-0.442484)$. Its mirror supplies
-the other intrusion. This proves nonemptiness of the compact minimisation
-set. The lower travel bound follows by discarding word balls from
-\eqref{eq:tail} that lie outside the bore or beyond the proposed threshold;
-all remaining reference branches close by depth 16. A separate addressed
-witness supplies the uniform upper bound.
-
-\begin{figure}[tb]
-\centering\includegraphics[width=\linewidth]{../research/fractal_research_10_topology/straight_axis_locator.png}
-\caption{Obstruction of the inherited tilted bores at radius $0.0058$.
-The enlarged cross-section marks actual addressed fractal points in lobes
-1 and 5. Occupation of a positive-radius bore does not establish an exact
-intersection with its centreline.}
-\label{fig:bore}
-\end{figure}
-
-Whether the zero-width inherited axis meets $K$ remains open. Extremely close
-addressed points and surviving branches of a finite search do not prove an
-exact hit. The clear lines~\eqref{eq:axes} and Theorem~\ref{thm:homology} do
-not depend on resolving this question. Here a ``tunnel'' denotes a certified
-passage in the complement accompanied by a detected loop; it does not assume
-a smooth wall or a solid body with a well-defined genus.
+The straight passages in Proposition~\ref{prop:two} are chosen to detect
+loops in the full attractor. They are not the original inherited tilted
+axes of the two child copies. Appendix~\ref{sec:bore} locates an obstruction
+to those inherited bores at positive radius and states the remaining
+zero-width incidence question.

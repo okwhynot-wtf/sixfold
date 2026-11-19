@@ -1,13 +1,15 @@
-# Sixfold paper: working draft 0.1
+# Sixfold paper: working draft 0.2
 
 **Sixfold: a contact-defined family of spatial self-similar sets**
 
-Author: **okwhynot-wtf**. Dated 18 November 2026. Independent mathematical review is pending.
+Author: **okwhynot-wtf**. Second draft dated 19 November 2026. Independent mathematical review is pending.
 
 - [Read the PDF](../output/pdf/sixfold-draft.pdf).
-- [Main LaTeX source](sixfold-draft.tex), with [topology](topology.tex), [discussion and evidence map](discussion.tex), and [references](references.tex).
+- [Main LaTeX source](sixfold-draft.tex), with [topology](topology.tex), [discussion](discussion.tex), and [references](references.tex).
+- Appendices: [reference algebraic proof](reference-proof.tex), [inherited bore](bore.tex), and [evidence map](evidence.tex).
+- [Revision history](revisions.md): substantive changes from the first draft, which remains available in Git history.
 - [Claim and review register](claims.md): scope, finite evidence, analytic step and outstanding review for each result.
-- [Fresh verification receipt](verification.json): all six groups passed on 18 November 2026; this does not independently validate the mathematical deductions.
+- [Verification receipt](verification.json): all six groups passed on 18 November 2026. The scientific source files are unchanged in draft 0.2; the receipt does not independently validate the mathematical deductions.
 - [Draft checks](draft-check.json): PDF, references, source links and visual inspection record.
 - [Literature check notes](literature-check.md): sources checked for this draft, including an additional common-fixed-point precedent.
 
@@ -31,9 +33,9 @@ The source evidence is archived at [10.5281/zenodo.24336419](https://doi.org/10.
 
 ## Next editorial steps
 
-1. Read the abstract, introduction, originality section and open problems for the intended emphasis.
+1. Read the abstract, early results table, originality section and open problems for the intended emphasis.
 2. Arrange independent review of the five mathematical proof interfaces listed in [claims.md](claims.md), then record corrections alongside their evidence.
-3. Consider moving the reference elimination to a longer appendix or supplement if a venue prefers a shorter construction paper. The rational-tilt example already provides a compact exact-dimension proof.
+3. Decide whether a chosen venue wants the detailed reference elimination and bore investigation, now in appendices, as a separate supplement. The main text presents the shorter rational-tilt dimension proof.
 4. Improve figure typography for the chosen venue if needed; the present three figures are clearly labelled finite visualisations from the repository.
 5. Select a venue, apply its formatting and AI-disclosure requirements, and replace the working-draft status only after review.
 6. Archive the finished manuscript with the exact repository version it uses; update the version DOI and citation metadata at that point.

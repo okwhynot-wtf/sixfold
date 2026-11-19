@@ -2,6 +2,8 @@
 
 Checked 18 November 2026, supplementing the [17 November repository search](../research/fractal_research_11_prior_art/PRIOR_ART.md). This is a focused verification of theorem statements and the nearest known comparisons, not an exhaustive search or a priority certificate.
 
+For draft 0.2 on 19 November, Badger–Vellis Theorem 1.1 was read directly in [arXiv:1910.08850v3](https://arxiv.org/abs/1910.08850v3) and added to the bibliography: a connected IFS attractor in a complete metric space admits paths between any pair of points, without OSC. The draft also supplies its own elementary connectedness proof. Hochman's Corollary 1.7 was rechecked against the algebraicity, irreducibility and no-exact-overlap premises. This revision does not represent a new exhaustive prior-art search.
+
 ## External theorems used
 
 | Source | What was checked / how used |

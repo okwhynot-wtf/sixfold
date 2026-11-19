@@ -1,16 +1,21 @@
 # Paper draft and source map
 
-The first working manuscript is **Sixfold: a contact-defined family of spatial
-self-similar sets**, by **okwhynot-wtf**, dated 18 November 2026.
+The second working manuscript is **Sixfold: a contact-defined family of spatial
+self-similar sets**, by **okwhynot-wtf**, dated 19 November 2026.
 
-**[Read draft 0.1 (PDF)](../output/pdf/sixfold-draft.pdf)** ·
+**[Read draft 0.2 (PDF)](../output/pdf/sixfold-draft.pdf)** ·
 **[Editable source and build instructions](../paper/README.md)** ·
 **[Claims and review priorities](../paper/claims.md)**
 
 The draft gives the exact family definition, the computer-assisted dimension
 and linking arguments, a bounded originality assessment, and explicit open
-problems. All six verification groups passed on a fresh run recorded in the
-[draft receipt](../paper/verification.json). The analytic deductions still await
+problems. The second draft adds an early results table, develops the proof
+steps more explicitly, and moves the longer algebraic calculation and bore
+study to appendices. See the [revision history](../paper/revisions.md).
+
+All six verification groups passed on 18 November, as recorded in the
+[draft receipt](../paper/verification.json); the scientific inputs are unchanged.
+The analytic deductions still await
 independent mathematical review. The [literature check notes](../paper/literature-check.md)
 record the additional common-fixed-point precedent found while drafting.
 

@@ -1,0 +1,62 @@
+\section{Reference algebraicity and rotation-word distinction}\label{app:reference}
+We complete the reference-member argument from Section~\ref{sec:exact}.
+For $h_0^2=1/2$, the columns defined there give the polynomial equations
+\begin{equation}\label{eq:elimination}
+a\cdot(b\times d)=0,\qquad
+2(a\times b)_y^2-(a\times d)_y^2=0.
+\end{equation}
+Removing integer content and the factors $(1+u^2)^{17}$ and
+$(1+u^2)^{16}$, respectively, leaves bidegrees $(22,14)$ and $(30,32)$ in
+$(r,u)$. Their resultant in $r$ has degree $1094$, with factor degrees and
+multiplicities
+\[
+(1,46),\quad(2,126),\quad(182,2),\quad(432,1).
+\]
+Interval evaluation in the reference box excludes the first three factors.
+The stored degree-432 polynomial $f$ is checked by reconstructing the
+resultant and multiplying its factors. Its irreducibility over $\mathbb Q$
+is certified by squarefree, degree-preserving reductions at $7,13,37,43$:
+the possible factor-degree subset sums common to all four are only $0,432$.
+Thus $f$ is the minimal polynomial of the reference tilt $u$.
+The first equation in~\eqref{eq:elimination} then proves $r$ algebraic:
+its nonzero coefficients in $u$ have degree at most $14$, so cannot vanish
+at a root of degree $432$.
+
+An exact Gaussian-integer Rouch\'e check isolates a root $\zeta$ of $f$ in
+the disk of radius $10^{-10}$ about
+\[
+-0.028547283375+1.138685386817\,i.
+\]
+After substituting the centre plus $10^{-10}w$, the linear term exceeds the
+sum of all other terms by a factor greater than $100$ on $|w|=1$.
+It follows that there is exactly one root in this disk. Irreducibility makes
+it an algebraic conjugate of the real reference $u$.
+
+Here is the all-length step. Regard the three oriented axes as spaced by
+$120^\circ$, with each generator having positive angle $\alpha$.
+Any identity between their real rotation words transfers to $\zeta$, because
+the scaled-coordinate matrices are rational over $\mathbb Q(u)$ and their
+denominators do not vanish there. Use the projective lifts
+\[
+L_a(z)=I-iz(a\cdot\boldsymbol\sigma),
+\]
+where $\boldsymbol\sigma$ are the Pauli matrices. Conjugation on traceless
+matrices implements the complexified Rodrigues rotation; this identity is
+checked symbolically. Equal rotation words thus give equal projective
+transformations on $\mathbb{CP}^1$.
+
+On its unit-sphere model, the eigenlines are $+a,-a$. The ratio of minus to
+plus eigen-coordinates of a point at spherical angle $\delta$ from $+a$ has
+modulus $\tan(\delta/2)$. Applying $L_a(\zeta)$ multiplies this modulus by
+\[
+\left|\frac{1+i\zeta}{1-i\zeta}\right|<0.067
+< (2-\sqrt3)^2=\tan^2(15^\circ).
+\]
+Take the three disjoint closed caps of radius $30^\circ$ about the positive
+axes. Each point in their union is at least $30^\circ$ from every negative
+axis. Therefore each generator sends the whole union into the interior of
+its own cap. The image identifies the first letter of a nonempty word.
+Cancellation and induction distinguish all equal-length words.
+Section~\ref{sec:signs} now proves absence of exact overlaps in the six-map
+system. Hochman's theorem yields the reference dimension.
+

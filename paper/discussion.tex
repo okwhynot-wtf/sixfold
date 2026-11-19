@@ -4,7 +4,12 @@ sources rechecked and supplemented on 18 November 2026. It covers the
 Sierpi\'nski octahedron, polyhedral gaskets, rotated and kaleidoscopic IFSs,
 periodic contacts, connected systems without separation, and mathematical-art
 sources. This is a bounded literature comparison, not an exhaustive priority
-search or a classification of equivalent IFS presentations.
+search or a classification of equivalent IFS presentations. We distinguish
+three questions: whether the defining map systems agree after a global
+similarity and relabelling; whether the attractors are bi-Lipschitz equivalent;
+and whether they are homeomorphic. A difference in maps need not imply a
+difference in limit sets. A difference in Hausdorff dimension excludes a
+bi-Lipschitz equivalence but does not exclude a homeomorphism.
 
 \subsection{Spatial and visual relatives}
 The regular Sierpi\'nski octahedron studied by Kunnen and Schlicker
@@ -82,19 +87,22 @@ hypotheses for this explicit spatial contact family.
 \subsection{What can reasonably be claimed}
 Within the sources examined, we have not identified the family specified
 by~\eqref{eq:maps}--\eqref{eq:contact} with its certified root branch and the
-same package of dimension and linking results. The most defensible claim
-is therefore:
+same package of dimension and linking results. The contribution can be
+stated as follows:
 \begin{quote}
 We describe an explicitly specified periodic-contact family of spatial
 self-similar sets and provide reproducible computer-assisted arguments for
 its dimensional, separation and homological properties.
 \end{quote}
-This is a claim about the construction and the analysis presented here.
-It is not a claim of being the first twisted octahedral fractal, the first
-connected overlapping spatial fractal, or a new topological type. Two
-certified different dimensions establish at least two bi-Lipschitz classes
-within this family. Pairwise inequivalence of all its members, and historical
-priority for the exact construction, remain unresolved.
+The candidate originality lies in the specified maps and contact branch,
+the two explicit algebraic dimension calculations, and the certificates
+showing that detecting wires survive all overlapping pieces. General
+overlap theory and shrinking-loop methods are credited to their sources.
+Two certified different dimensions establish at least two bi-Lipschitz
+classes within this family. Historical priority for the exact construction,
+pairwise inequivalence throughout the curve and any new topological type
+remain unresolved. The present results remain mathematically useful if an
+older visual construction is subsequently found to describe the same set.
 
 \section{Open problems and review priorities}\label{sec:open}
 \paragraph{Dimension across the parameter curve.}
@@ -181,32 +189,3 @@ writing and images are CC BY 4.0. Third-party works retain their own terms
 and are cited rather than incorporated as project-owned material. The films
 are supplementary visual communication, not prerequisites for reproducing
 the mathematical definition or proofs.
-
-\appendix
-\section{Evidence map and proof dependencies}\label{app:evidence}
-All links below identify files at the archived evidence commit. The
-historical reports describe successive states of the work: an earlier
-``open'' statement may be superseded by a later report. For current scope,
-use the statements of this draft together with the claim register.
-
-\begin{longtable}{@{}p{.22\linewidth}p{.73\linewidth}@{}}
-\toprule Claim & Archived source and finite component\\\midrule\endhead
-Exact family & \repo{research/fractal_handover/fractal_research_04/RESEARCH_04.md}{Phase 04 report}; \repo{research/fractal_handover/fractal_research_04/verify_positive_contact.py}{contact verifier}. Root rectangles, interval Jacobian and symmetry identities.\\[5pt]
-Uniform bounds & \repo{research/fractal_handover/fractal_research_05/RESEARCH_05.md}{Phase 05 report}; \repo{research/fractal_handover/fractal_research_05/verify_dimension.py}{dimension verifier}. Integer centres, error bounds, stored word subsets and exact separation tests.\\[5pt]
-Pair contacts / OSC & \repo{research/fractal_handover/fractal_research_06/RESEARCH_06.md}{Phase 06 report}; \repo{research/fractal_handover/fractal_research_06/verify_obstruction.py}{obstruction verifier}. Reflection crossing and opposing-ball separation.\\[5pt]
-WSP / Assouad & \repo{research/fractal_handover/fractal_research_07/RESEARCH_07.md}{Phase 07 report}. Rotation-angle and distinct-axis enclosures, with compact-group and theorem-application arguments.\\[5pt]
-Two exact dimensions & \repo{research/fractal_research_08/RESEARCH_08.md}{Phase 08 report}; \repo{research/fractal_research_08/verify_reference.py}{reference verifier}; \repo{research/fractal_research_08/verify_member.py}{rational-tilt verifier}; \repo{research/fractal_research_08/reference_tilt_polynomial.json}{degree-432 coefficient data}.\\[5pt]
-Central loop & \repo{research/fractal_research_08/verify_tunnel.py}{Central-passage verifier} and the Phase 08 winding argument.\\[5pt]
-Two independent loops & \repo{research/fractal_research_09/RESEARCH_09.md}{Phase 09 report}; \repo{research/fractal_research_09/verify_tunnels.py}{passage verifier}; \repo{research/fractal_research_09/tunnel_certificate.json}{certificate}. Whole-set clearances and projected half-plane margins.\\[5pt]
-Shrinking loops / bore & \repo{research/fractal_research_10_topology/RESEARCH_10.md}{Phase 10 report}; \repo{research/fractal_research_10_topology/verify.py}{topology verifier}; \repo{research/fractal_research_10_topology/certificate.json}{certificate}. Addressed points, exhaustive branch exclusions and four wire bounds.\\[5pt]
-Prior-art comparison & \repo{research/fractal_research_11_prior_art/PRIOR_ART.md}{Original comparison report}; external sources below. Section~\ref{sec:originality} adds the B\'ar\'any--Verma comparison and corrects/checks bibliography metadata.\\\bottomrule
-\end{longtable}
-
-The main dependencies are: root isolation $\to$ periodic contacts $\to$
-connectedness; packing and cylinder bounds $\to$ uniform dimension and
-clearances; common contact plus rotation certificates $\to$ WSP failure
-$\to$ Assouad dimension; algebraicity and word distinction $\to$ the two
-exact Hausdorff dimensions; path connectedness plus clearances $\to$ winding
-loops $\to$ full-set detecting wires $\to$ the homology quotient.
-No argument uses a finite rendering as evidence of an exact contact,
-nonintersection or homology class.

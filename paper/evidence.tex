@@ -1,0 +1,27 @@
+\section{Evidence map and proof dependencies}\label{app:evidence}
+All links below identify files at the archived evidence commit. The
+historical reports describe successive states of the work: an earlier
+``open'' statement may be superseded by a later report. For current scope,
+use the statements of this draft together with the claim register.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.22\linewidth}>{\raggedright\arraybackslash}p{.73\linewidth}@{}}
+\toprule Claim & Archived source and finite component\\\midrule\endhead
+Exact family & \repo{research/fractal_handover/fractal_research_04/RESEARCH_04.md}{Phase 04 report}; \repo{research/fractal_handover/fractal_research_04/verify_positive_contact.py}{contact verifier}. Root rectangles, interval Jacobian and symmetry identities.\\[5pt]
+Uniform bounds & \repo{research/fractal_handover/fractal_research_05/RESEARCH_05.md}{Phase 05 report}; \repo{research/fractal_handover/fractal_research_05/verify_dimension.py}{dimension verifier}. Integer centres, error bounds, stored word subsets and exact separation tests.\\[5pt]
+Pair contacts / OSC & \repo{research/fractal_handover/fractal_research_06/RESEARCH_06.md}{Phase 06 report}; \repo{research/fractal_handover/fractal_research_06/verify_obstruction.py}{obstruction verifier}. Reflection crossing and opposing-ball separation.\\[5pt]
+WSP / Assouad & \repo{research/fractal_handover/fractal_research_07/RESEARCH_07.md}{Phase 07 report}. Rotation-angle and distinct-axis enclosures, with compact-group and theorem-application arguments.\\[5pt]
+Two exact dimensions & \repo{research/fractal_research_08/RESEARCH_08.md}{Phase 08 report}; \repo{research/fractal_research_08/verify_reference.py}{reference verifier}; \repo{research/fractal_research_08/verify_member.py}{rational-tilt verifier}; \repo{research/fractal_research_08/reference_tilt_polynomial.json}{degree-432 coefficient data}.\\[5pt]
+Central loop & \repo{research/fractal_research_08/verify_tunnel.py}{Central-passage verifier} and the Phase 08 winding argument.\\[5pt]
+Two independent loops & \repo{research/fractal_research_09/RESEARCH_09.md}{Phase 09 report}; \repo{research/fractal_research_09/verify_tunnels.py}{passage verifier}; \repo{research/fractal_research_09/tunnel_certificate.json}{certificate}. Whole-set clearances and projected half-plane margins.\\[5pt]
+Shrinking loops / bore & \repo{research/fractal_research_10_topology/RESEARCH_10.md}{Phase 10 report}; \repo{research/fractal_research_10_topology/verify.py}{topology verifier}; \repo{research/fractal_research_10_topology/certificate.json}{certificate}. Addressed points, exhaustive branch exclusions and four wire bounds.\\[5pt]
+Prior-art comparison & \repo{research/fractal_research_11_prior_art/PRIOR_ART.md}{Original comparison report}; external sources below. Section~\ref{sec:originality} includes the additional B\'ar\'any--Verma comparison.\\\bottomrule
+\end{longtable}
+
+The main dependencies are: root isolation $\to$ periodic contacts $\to$
+connectedness; packing and cylinder bounds $\to$ uniform dimension and
+clearances; common contact plus rotation certificates $\to$ WSP failure
+$\to$ Assouad dimension; algebraicity and word distinction $\to$ the two
+exact Hausdorff dimensions; path connectedness plus clearances $\to$ winding
+loops $\to$ full-set detecting wires $\to$ the homology quotient.
+No argument uses a finite rendering as evidence of an exact contact,
+nonintersection or homology class.

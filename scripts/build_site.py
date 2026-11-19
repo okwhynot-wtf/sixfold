@@ -12,6 +12,7 @@ import markdown
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
 REPOSITORY = "https://github.com/okwhynot-wtf/sixfold/blob/main/"
+PAPER_PDF = ROOT / "output/pdf/sixfold-draft.pdf"
 VISUALS = json.loads((ROOT / "verification/visuals-edition-01.json").read_text(encoding="utf-8"))
 GALLERY = ROOT / VISUALS["library"]
 PAGES = [
@@ -20,7 +21,7 @@ PAGES = [
     ("related", "Published relatives"),
     ("reproduce", "Reproduce"),
     ("media", "Images & films"),
-    ("paper", "Paper source map"),
+    ("paper", "Paper draft"),
     ("provenance", "Credits & AI"),
     ("release", "Release & DOI"),
 ]
@@ -37,6 +38,8 @@ def rewrite_links(content, source):
             raise ValueError(f"Broken source link in {source.name}: {value}")
         if path.parent == ROOT / "docs":
             destination = path.stem + ".html"
+        elif path == PAPER_PDF:
+            destination = "paper/sixfold-draft.pdf"
         elif path.is_relative_to(ROOT / "site/assets"):
             destination = "assets/" + path.relative_to(ROOT / "site/assets").as_posix()
         elif path.is_relative_to(GALLERY):
@@ -109,6 +112,8 @@ def build_gallery():
 
 def main():
     OUTPUT.mkdir(exist_ok=True)
+    (OUTPUT / "paper").mkdir(exist_ok=True)
+    shutil.copy2(PAPER_PDF, OUTPUT / "paper/sixfold-draft.pdf")
     shutil.copytree(ROOT / "site/assets", OUTPUT / "assets", dirs_exist_ok=True)
     build_gallery()
     (OUTPUT / ".nojekyll").write_text("", encoding="utf-8")

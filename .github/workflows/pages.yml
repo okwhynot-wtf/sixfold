@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - "docs/**"
+      - "paper/**"
+      - "output/pdf/**"
       - "site/**"
       - "scripts/build_site.py"
       - "site-requirements.txt"

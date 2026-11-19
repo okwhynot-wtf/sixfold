@@ -1,13 +1,13 @@
-# Claim and review register — draft 0.1
+# Claim and review register — draft 0.2
 
-Status as of 18 November 2026. “Computer-assisted claim” means the cited implemented checks pass and a mathematical deduction is supplied. It does **not** mean independent peer review or proof-assistant formalisation. Every row below still needs independent mathematical review; the last column identifies the relevant step.
+Status as of 19 November 2026. Draft 0.2 clarifies the arguments and retains the original claims and scientific inputs. “Computer-assisted claim” means the cited implemented checks pass and a mathematical deduction is supplied. It does **not** mean independent peer review or proof-assistant formalisation. Every row below still needs independent mathematical review; the last column identifies the relevant step.
 
 All research links point to unchanged local files also present in evidence commit `1c660bedf8cd3e52bad8e5d033535dcde6e06b6e`, [archived DOI](https://doi.org/10.5281/zenodo.24336419). The [new run receipt](verification.json) is separate from that older deposit.
 
 | ID / claim | Parameter scope | Evidence and current status | Analytic step / review focus |
 | --- | --- | --- | --- |
 | C01. Exact root and continuous contact branch | Every height in [0.7070, 0.7072]; tighter root at 1/√2 | [Phase 04](../research/fractal_handover/fractal_research_04/RESEARCH_04.md), contact certificate and interval verifier. Computer-assisted claim. | Invertibility of preconditioner; inclusion and contraction on stated rectangles; consistency of large uniqueness box and smaller enclosure; continuous dependence. |
-| C02. Connectedness and path connectedness | Whole interval | [Phase 04](../research/fractal_handover/fractal_research_04/RESEARCH_04.md); exact symmetry transports common periodic point. | Hata intersection-graph criterion and path-connectedness theorem. The point contact is between infinite attractors. |
+| C02. Connectedness and path connectedness | Whole interval | [Phase 04](../research/fractal_handover/fractal_research_04/RESEARCH_04.md); exact symmetry transports common periodic point. | Draft 0.2 includes a direct nested-connected-set proof. Path connectedness follows from Hata or Badger–Vellis Theorem 1.1 without OSC. The point contact is between infinite attractors. |
 | C03. Octahedral first-level intersection graph | Whole interval | [Phase 06](../research/fractal_handover/fractal_research_06/RESEARCH_06.md), reflection-crossing inequalities, opposing-ball gap. Computer-assisted claim. | Crossing argument inside a connected piece; full coverage of 15 unordered pairs. Does not classify the intersections themselves. |
 | C04. 2.1970 < Hausdorff dimension < 2.4150 | Whole interval | [Phase 05](../research/fractal_handover/fractal_research_05/RESEARCH_05.md), depth-eight packing, integer separation and tail estimates. Computer-assisted claim. | Strong separation of selected subsystem, its containment in K, and correct uniform parameter bounds. |
 | C05. OSC failure for these six maps | Whole interval | [Phase 06](../research/fractal_handover/fractal_research_06/RESEARCH_06.md), equal-scale block maps sharing a fixed point. | Disjoint open-ball images and volume contradiction at every block depth. |

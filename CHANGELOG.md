@@ -1,5 +1,15 @@
 # Changelog
 
+## Paper draft 0.2 — 19 November 2026
+
+- Added an early results-and-scope table, revised the abstract and originality
+  discussion, and moved the reference calculation and bore study to appendices.
+- Expanded the connectedness, cylinder-tail, word-distinction and homology
+  arguments, with a direct path-connectedness theorem citation.
+- Retained the original scientific claims, certificates and passing verification
+  receipt; refreshed document checks and recorded the changes in the paper history.
+- Published the working manuscript and served its PDF directly from the paper page.
+
 ## Paper draft 0.1 — 18 November 2026
 
 - Drafted an editable LaTeX manuscript and PDF with the exact definition,
